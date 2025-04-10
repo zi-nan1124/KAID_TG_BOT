@@ -1,0 +1,774 @@
+[2025-04-09 23:40:56] [SolanaWalletExplorer][__init__]: 初始化 Explorer，地址: 9HCTuTPEiQvkUtLmTZvK6uch4E3pDynwJTbNw6jLhp9z
+[2025-04-09 23:40:57] [SolanaWalletExplorer][get_account_info]: 获取账户信息成功
+[2025-04-09 23:40:57] [SolanaWalletExplorer][calculate_profit_by_7_day]: 开始计算过去7天内钱包的盈利情况
+[2025-04-09 23:40:57] [SolanaSlotFinder][__init__]: ✅ SolanaSlotFinder 初始化成功，节点: https://lingering-wispy-voice.solana-mainnet.quiknode.pro/6e5fc0da5f61cc165757bcd9c453ab31ba36419a/
+[2025-04-09 23:40:57] [SolanaSlotFinder][find_slot_by_timestamp]: 🔍 查找目标时间戳对应的 slot: 1743579657 ± 10000
+[2025-04-09 23:40:57] [SolanaSlotFinder][estimate_slot_by_avg_speed]: 📐 基于平均出块速度估算目标 slot: 1743579657
+[2025-04-09 23:40:57] [SolanaSlotFinder][estimate_slot_by_avg_speed]: 📊 平均出块速度: 2.5105 slots/s
+[2025-04-09 23:40:57] [SolanaSlotFinder][estimate_slot_by_avg_speed]: 🧮 估算 slot: 330761765
+[2025-04-09 23:40:58] [SolanaSlotFinder][find_slot_by_timestamp]: Slot     → [ Left: 330761765  | Mid: 330766765  | Right: 330771765  ]
+[2025-04-09 23:40:58] [SolanaSlotFinder][find_slot_by_timestamp]: Time     → [ Left: 2025-04-02 07:22:04 | Mid: 2025-04-02 07:55:16 | Right: 2025-04-02 08:28:34 ]
+[2025-04-09 23:40:58] [SolanaSlotFinder][find_slot_by_timestamp]: Target   →           2025-04-02 07:40:57
+[2025-04-09 23:40:58] [SolanaSlotFinder][find_slot_by_timestamp]: 误差(秒) → [ Left: 1133 | Mid: 859 | Right: 2857 ]
+[2025-04-09 23:40:58] [SolanaSlotFinder][find_slot_by_timestamp]: ✅ 更新最接近 Slot: 330766765 (误差 859 s)
+[2025-04-09 23:40:59] [SolanaSlotFinder][find_slot_by_timestamp]: Slot     → [ Left: 330761765  | Mid: 330764264  | Right: 330766764  ]
+[2025-04-09 23:40:59] [SolanaSlotFinder][find_slot_by_timestamp]: Time     → [ Left: 2025-04-02 07:22:04 | Mid: 2025-04-02 07:38:41 | Right: 2025-04-02 07:55:16 ]
+[2025-04-09 23:40:59] [SolanaSlotFinder][find_slot_by_timestamp]: Target   →           2025-04-02 07:40:57
+[2025-04-09 23:40:59] [SolanaSlotFinder][find_slot_by_timestamp]: 误差(秒) → [ Left: 1133 | Mid: 136 | Right: 859 ]
+[2025-04-09 23:40:59] [SolanaSlotFinder][find_slot_by_timestamp]: ✅ 更新最接近 Slot: 330764264 (误差 136 s)
+[2025-04-09 23:40:59] [SolanaSlotFinder][find_slot_by_timestamp]: 🛑 误差已满足条件 (136 <= 500)，提前返回
+[2025-04-09 23:40:59] [SolanaSlotFinder][find_slot_by_timestamp]: 🌟 搜索完成！Slot = 330764264, 时间: 2025-04-02 07:38:41, 误差: 136 s
+[2025-04-09 23:40:59] [SolanaWalletExplorer][get_signatures_by_7days]: 7天前的时间戳为 1743579657，对应 Slot 为 330764264
+[2025-04-09 23:40:59] [SolanaWalletExplorer][get_signatures_by_7days]: 请求交易签名: limit=1000, before=None
+[2025-04-09 23:41:00] [SolanaWalletExplorer][get_signatures_by_7days]: 本次获取 1000 条，成功 993 条
+[2025-04-09 23:41:00] [SolanaWalletExplorer][get_signatures_by_7days]: 最旧交易 slot=323329899 < 7天前 slot=330764264，终止递归
+[2025-04-09 23:41:00] [SolanaWalletExplorer][get_signatures_by_7days]: 最终保留过去7天内的成功交易: 65 条
+[2025-04-09 23:41:00] [SolanaWalletExplorer][decode_transaction]: 开始解析 65 条交易签名
+[2025-04-09 23:41:00] [TransactionListDecoder][decode]: 开始全流程解析...
+[2025-04-09 23:41:00] [TransactionListDecoder][parse_signatures]: 开始解析签名...
+[2025-04-09 23:43:08] [SolanaWalletExplorer][__init__]: 初始化 Explorer，地址: GCvHhEUYQwTJ8jyf8Lc4bv8jBXyZU4LMMsZCobwEPzvM
+[2025-04-09 23:43:08] [SolanaWalletExplorer][__init__]: 初始化 Explorer，地址: JD25qVdtd65FoiXNmR89JjmoJdYk9sjYQeSTZAALFiMy
+[2025-04-09 23:43:08] [SolanaWalletExplorer][calculate_profit_by_7_day]: 开始计算过去7天内钱包的盈利情况
+[2025-04-09 23:43:08] [SolanaWalletExplorer][calculate_profit_by_7_day]: 开始计算过去7天内钱包的盈利情况
+[2025-04-09 23:43:08] [SolanaWalletExplorer][calculate_profit_by_7_day]: 开始计算过去7天内钱包的盈利情况
+[2025-04-09 23:43:08] [SolanaSlotFinder][__init__]: ✅ SolanaSlotFinder 初始化成功，节点: https://lingering-wispy-voice.solana-mainnet.quiknode.pro/6e5fc0da5f61cc165757bcd9c453ab31ba36419a/
+[2025-04-09 23:43:08] [SolanaSlotFinder][__init__]: ✅ SolanaSlotFinder 初始化成功，节点: https://lingering-wispy-voice.solana-mainnet.quiknode.pro/6e5fc0da5f61cc165757bcd9c453ab31ba36419a/
+[2025-04-09 23:43:08] [SolanaSlotFinder][__init__]: ✅ SolanaSlotFinder 初始化成功，节点: https://lingering-wispy-voice.solana-mainnet.quiknode.pro/6e5fc0da5f61cc165757bcd9c453ab31ba36419a/
+[2025-04-09 23:43:08] [SolanaSlotFinder][find_slot_by_timestamp]: 🔍 查找目标时间戳对应的 slot: 1743579788 ± 10000
+[2025-04-09 23:43:08] [SolanaSlotFinder][find_slot_by_timestamp]: 🔍 查找目标时间戳对应的 slot: 1743579788 ± 10000
+[2025-04-09 23:43:08] [SolanaSlotFinder][find_slot_by_timestamp]: 🔍 查找目标时间戳对应的 slot: 1743579788 ± 10000
+[2025-04-09 23:43:08] [SolanaSlotFinder][estimate_slot_by_avg_speed]: 📐 基于平均出块速度估算目标 slot: 1743579788
+[2025-04-09 23:43:08] [SolanaSlotFinder][estimate_slot_by_avg_speed]: 📐 基于平均出块速度估算目标 slot: 1743579788
+[2025-04-09 23:43:08] [SolanaSlotFinder][estimate_slot_by_avg_speed]: 📐 基于平均出块速度估算目标 slot: 1743579788
+[2025-04-09 23:43:09] [SolanaSlotFinder][estimate_slot_by_avg_speed]: 📊 平均出块速度: 2.5115 slots/s
+[2025-04-09 23:43:09] [SolanaSlotFinder][estimate_slot_by_avg_speed]: 🧮 估算 slot: 330761459
+[2025-04-09 23:43:09] [SolanaSlotFinder][estimate_slot_by_avg_speed]: 📊 平均出块速度: 2.5107 slots/s
+[2025-04-09 23:43:09] [SolanaSlotFinder][estimate_slot_by_avg_speed]: 🧮 估算 slot: 330761987
+[2025-04-09 23:43:09] [SolanaSlotFinder][estimate_slot_by_avg_speed]: 📊 平均出块速度: 2.5107 slots/s
+[2025-04-09 23:43:09] [SolanaSlotFinder][estimate_slot_by_avg_speed]: 🧮 估算 slot: 330761987
+[2025-04-09 23:43:10] [SolanaSlotFinder][find_slot_by_timestamp]: Slot     → [ Left: 330761459  | Mid: 330766459  | Right: 330771459  ]
+[2025-04-09 23:43:10] [SolanaSlotFinder][find_slot_by_timestamp]: Time     → [ Left: 2025-04-02 07:20:03 | Mid: 2025-04-02 07:53:13 | Right: 2025-04-02 08:26:35 ]
+[2025-04-09 23:43:10] [SolanaSlotFinder][find_slot_by_timestamp]: Target   →           2025-04-02 07:43:08
+[2025-04-09 23:43:10] [SolanaSlotFinder][find_slot_by_timestamp]: 误差(秒) → [ Left: 1385 | Mid: 605 | Right: 2607 ]
+[2025-04-09 23:43:10] [SolanaSlotFinder][find_slot_by_timestamp]: ✅ 更新最接近 Slot: 330766459 (误差 605 s)
+[2025-04-09 23:43:10] [SolanaSlotFinder][find_slot_by_timestamp]: Slot     → [ Left: 330761987  | Mid: 330766987  | Right: 330771987  ]
+[2025-04-09 23:43:10] [SolanaSlotFinder][find_slot_by_timestamp]: Time     → [ Left: 2025-04-02 07:23:33 | Mid: 2025-04-02 07:56:45 | Right: 2025-04-02 08:30:02 ]
+[2025-04-09 23:43:10] [SolanaSlotFinder][find_slot_by_timestamp]: Target   →           2025-04-02 07:43:08
+[2025-04-09 23:43:10] [SolanaSlotFinder][find_slot_by_timestamp]: 误差(秒) → [ Left: 1175 | Mid: 817 | Right: 2814 ]
+[2025-04-09 23:43:10] [SolanaSlotFinder][find_slot_by_timestamp]: ✅ 更新最接近 Slot: 330766987 (误差 817 s)
+[2025-04-09 23:43:10] [SolanaSlotFinder][find_slot_by_timestamp]: Slot     → [ Left: 330761987  | Mid: 330766987  | Right: 330771987  ]
+[2025-04-09 23:43:10] [SolanaSlotFinder][find_slot_by_timestamp]: Time     → [ Left: 2025-04-02 07:23:33 | Mid: 2025-04-02 07:56:45 | Right: 2025-04-02 08:30:02 ]
+[2025-04-09 23:43:10] [SolanaSlotFinder][find_slot_by_timestamp]: Target   →           2025-04-02 07:43:08
+[2025-04-09 23:43:10] [SolanaSlotFinder][find_slot_by_timestamp]: 误差(秒) → [ Left: 1175 | Mid: 817 | Right: 2814 ]
+[2025-04-09 23:43:10] [SolanaSlotFinder][find_slot_by_timestamp]: ✅ 更新最接近 Slot: 330766987 (误差 817 s)
+[2025-04-09 23:43:11] [SolanaSlotFinder][find_slot_by_timestamp]: Slot     → [ Left: 330761459  | Mid: 330763958  | Right: 330766458  ]
+[2025-04-09 23:43:11] [SolanaSlotFinder][find_slot_by_timestamp]: Time     → [ Left: 2025-04-02 07:20:03 | Mid: 2025-04-02 07:36:37 | Right: 2025-04-02 07:53:13 ]
+[2025-04-09 23:43:11] [SolanaSlotFinder][find_slot_by_timestamp]: Target   →           2025-04-02 07:43:08
+[2025-04-09 23:43:11] [SolanaSlotFinder][find_slot_by_timestamp]: 误差(秒) → [ Left: 1385 | Mid: 391 | Right: 605 ]
+[2025-04-09 23:43:11] [SolanaSlotFinder][find_slot_by_timestamp]: ✅ 更新最接近 Slot: 330763958 (误差 391 s)
+[2025-04-09 23:43:11] [SolanaSlotFinder][find_slot_by_timestamp]: 🛑 误差已满足条件 (391 <= 500)，提前返回
+[2025-04-09 23:43:11] [SolanaSlotFinder][find_slot_by_timestamp]: Slot     → [ Left: 330761987  | Mid: 330764486  | Right: 330766986  ]
+[2025-04-09 23:43:11] [SolanaSlotFinder][find_slot_by_timestamp]: Time     → [ Left: 2025-04-02 07:23:33 | Mid: 2025-04-02 07:40:09 | Right: 2025-04-02 07:56:44 ]
+[2025-04-09 23:43:11] [SolanaSlotFinder][find_slot_by_timestamp]: Target   →           2025-04-02 07:43:08
+[2025-04-09 23:43:11] [SolanaSlotFinder][find_slot_by_timestamp]: 误差(秒) → [ Left: 1175 | Mid: 179 | Right: 816 ]
+[2025-04-09 23:43:11] [SolanaSlotFinder][find_slot_by_timestamp]: ✅ 更新最接近 Slot: 330764486 (误差 179 s)
+[2025-04-09 23:43:11] [SolanaSlotFinder][find_slot_by_timestamp]: 🛑 误差已满足条件 (179 <= 500)，提前返回
+[2025-04-09 23:43:11] [SolanaSlotFinder][find_slot_by_timestamp]: Slot     → [ Left: 330761987  | Mid: 330764486  | Right: 330766986  ]
+[2025-04-09 23:43:11] [SolanaSlotFinder][find_slot_by_timestamp]: Time     → [ Left: 2025-04-02 07:23:33 | Mid: 2025-04-02 07:40:09 | Right: 2025-04-02 07:56:44 ]
+[2025-04-09 23:43:11] [SolanaSlotFinder][find_slot_by_timestamp]: Target   →           2025-04-02 07:43:08
+[2025-04-09 23:43:11] [SolanaSlotFinder][find_slot_by_timestamp]: 误差(秒) → [ Left: 1175 | Mid: 179 | Right: 816 ]
+[2025-04-09 23:43:11] [SolanaSlotFinder][find_slot_by_timestamp]: ✅ 更新最接近 Slot: 330764486 (误差 179 s)
+[2025-04-09 23:43:11] [SolanaSlotFinder][find_slot_by_timestamp]: 🛑 误差已满足条件 (179 <= 500)，提前返回
+[2025-04-10 00:07:24] [<module>]: 正在连接 Solana 节点
+[2025-04-10 00:07:24] [<module>] [WARNING]: 请求失败，可能是网络问题
+[2025-04-10 00:13:16] [SolanaWalletExplorer][__init__]: 初始化 Explorer，地址: 9HCTuTPEiQvkUtLmTZvK6uch4E3pDynwJTbNw6jLhp9z
+[2025-04-10 00:13:17] [SolanaWalletExplorer][get_account_info]: 获取账户信息成功
+[2025-04-10 00:13:17] [SolanaWalletExplorer][calculate_profit_by_7_day]: 开始计算过去7天内钱包的盈利情况
+[2025-04-10 00:13:17] [SolanaSlotFinder][__init__]: ✅ SolanaSlotFinder 初始化成功，节点: https://lingering-wispy-voice.solana-mainnet.quiknode.pro/6e5fc0da5f61cc165757bcd9c453ab31ba36419a/
+[2025-04-10 00:13:17] [SolanaWalletExplorer][calculate_profit_by_7_day] [ERROR]: 计算盈利时出错: type object 'datetime.datetime' has no attribute 'datetime'
+[2025-04-10 00:14:04] [SolanaWalletExplorer][__init__]: 初始化 Explorer，地址: 9HCTuTPEiQvkUtLmTZvK6uch4E3pDynwJTbNw6jLhp9z
+[2025-04-10 00:14:05] [SolanaWalletExplorer][get_account_info]: 获取账户信息成功
+[2025-04-10 00:14:05] [SolanaWalletExplorer][calculate_profit_by_7_day]: 开始计算过去7天内钱包的盈利情况
+[2025-04-10 00:14:05] [SolanaSlotFinder][__init__]: ✅ SolanaSlotFinder 初始化成功，节点: https://lingering-wispy-voice.solana-mainnet.quiknode.pro/6e5fc0da5f61cc165757bcd9c453ab31ba36419a/
+[2025-04-10 00:14:05] [SolanaWalletExplorer][calculate_profit_by_7_day] [ERROR]: 计算盈利时出错: type object 'datetime.datetime' has no attribute 'timedelta'
+[2025-04-10 00:15:33] [SolanaWalletExplorer][__init__]: 初始化 Explorer，地址: 9HCTuTPEiQvkUtLmTZvK6uch4E3pDynwJTbNw6jLhp9z
+[2025-04-10 00:15:34] [SolanaWalletExplorer][get_account_info]: 获取账户信息成功
+[2025-04-10 00:15:34] [SolanaWalletExplorer][calculate_profit_by_7_day]: 开始计算过去7天内钱包的盈利情况
+[2025-04-10 00:15:34] [SolanaSlotFinder][__init__]: ✅ SolanaSlotFinder 初始化成功，节点: https://lingering-wispy-voice.solana-mainnet.quiknode.pro/6e5fc0da5f61cc165757bcd9c453ab31ba36419a/
+[2025-04-10 00:15:34] [SolanaWalletExplorer][calculate_profit_by_7_day] [ERROR]: 计算盈利时出错: type object 'datetime.datetime' has no attribute 'datetime'
+[2025-04-10 00:15:50] [SolanaWalletExplorer][__init__]: 初始化 Explorer，地址: 9HCTuTPEiQvkUtLmTZvK6uch4E3pDynwJTbNw6jLhp9z
+[2025-04-10 00:15:50] [SolanaWalletExplorer][get_account_info]: 获取账户信息成功
+[2025-04-10 00:15:50] [SolanaWalletExplorer][calculate_profit_by_7_day]: 开始计算过去7天内钱包的盈利情况
+[2025-04-10 00:15:50] [SolanaSlotFinder][__init__]: ✅ SolanaSlotFinder 初始化成功，节点: https://lingering-wispy-voice.solana-mainnet.quiknode.pro/6e5fc0da5f61cc165757bcd9c453ab31ba36419a/
+[2025-04-10 00:15:50] [SolanaWalletExplorer][calculate_profit_by_7_day] [ERROR]: 计算盈利时出错: type object 'datetime.datetime' has no attribute 'datetime'
+[2025-04-10 00:16:11] [SolanaWalletExplorer][__init__]: 初始化 Explorer，地址: 9HCTuTPEiQvkUtLmTZvK6uch4E3pDynwJTbNw6jLhp9z
+[2025-04-10 00:16:12] [SolanaWalletExplorer][get_account_info]: 获取账户信息成功
+[2025-04-10 00:16:12] [SolanaWalletExplorer][calculate_profit_by_7_day]: 开始计算过去7天内钱包的盈利情况
+[2025-04-10 00:16:12] [SolanaSlotFinder][__init__]: ✅ SolanaSlotFinder 初始化成功，节点: https://lingering-wispy-voice.solana-mainnet.quiknode.pro/6e5fc0da5f61cc165757bcd9c453ab31ba36419a/
+[2025-04-10 00:16:12] [SolanaSlotFinder][find_slot_by_timestamp]: 🔍 查找目标时间戳对应的 slot: 1743581772 ± 10000
+[2025-04-10 00:16:12] [SolanaSlotFinder][estimate_slot_by_avg_speed]: 📐 基于平均出块速度估算目标 slot: 1743581772
+[2025-04-10 00:16:12] [SolanaSlotFinder][estimate_slot_by_avg_speed]: 📊 平均出块速度: 2.5117 slots/s
+[2025-04-10 00:16:12] [SolanaSlotFinder][estimate_slot_by_avg_speed]: 🧮 估算 slot: 330766318
+[2025-04-10 00:16:13] [SolanaSlotFinder][find_slot_by_timestamp]: Slot     → [ Left: 330766318  | Mid: 330771318  | Right: 330776318  ]
+[2025-04-10 00:16:13] [SolanaSlotFinder][find_slot_by_timestamp]: Time     → [ Left: 2025-04-02 07:52:17 | Mid: 2025-04-02 08:25:38 | Right: 2025-04-02 08:58:47 ]
+[2025-04-10 00:16:13] [SolanaSlotFinder][find_slot_by_timestamp]: Target   →           2025-04-02 08:16:12
+[2025-04-10 00:16:13] [SolanaSlotFinder][find_slot_by_timestamp]: 误差(秒) → [ Left: 1435 | Mid: 566 | Right: 2555 ]
+[2025-04-10 00:16:13] [SolanaSlotFinder][find_slot_by_timestamp]: ✅ 更新最接近 Slot: 330771318 (误差 566 s)
+[2025-04-10 00:19:00] [SolanaWalletExplorer][__init__]: 初始化 Explorer，地址: 9HCTuTPEiQvkUtLmTZvK6uch4E3pDynwJTbNw6jLhp9z
+[2025-04-10 00:19:00] [SolanaWalletExplorer][get_account_info]: 获取账户信息成功
+[2025-04-10 00:19:00] [SolanaWalletExplorer][calculate_profit_by_7_day]: 开始计算过去7天内钱包的盈利情况
+[2025-04-10 00:19:00] [SolanaSlotFinder][__init__]: ✅ SolanaSlotFinder 初始化成功，节点: https://lingering-wispy-voice.solana-mainnet.quiknode.pro/6e5fc0da5f61cc165757bcd9c453ab31ba36419a/
+[2025-04-10 00:19:00] [SolanaSlotFinder][find_slot_by_timestamp]: 🔍 查找目标时间戳对应的 slot: 1743581940 ± 10000
+[2025-04-10 00:19:00] [SolanaSlotFinder][estimate_slot_by_avg_speed]: 📐 基于平均出块速度估算目标 slot: 1743581940
+[2025-04-10 00:19:01] [SolanaSlotFinder][estimate_slot_by_avg_speed]: 📊 平均出块速度: 2.5118 slots/s
+[2025-04-10 00:19:01] [SolanaSlotFinder][estimate_slot_by_avg_speed]: 🧮 估算 slot: 330766638
+[2025-04-10 00:19:02] [SolanaSlotFinder][find_slot_by_timestamp]: Slot     → [ Left: 330766638  | Mid: 330771638  | Right: 330776638  ]
+[2025-04-10 00:19:02] [SolanaSlotFinder][find_slot_by_timestamp]: Time     → [ Left: 2025-04-02 07:54:26 | Mid: 2025-04-02 08:27:45 | Right: 2025-04-02 09:00:56 ]
+[2025-04-10 00:19:02] [SolanaSlotFinder][find_slot_by_timestamp]: Target   →           2025-04-02 08:19:00
+[2025-04-10 00:19:02] [SolanaSlotFinder][find_slot_by_timestamp]: 误差(秒) → [ Left: 1474 | Mid: 525 | Right: 2516 ]
+[2025-04-10 00:19:02] [SolanaSlotFinder][find_slot_by_timestamp]: ✅ 更新最接近 Slot: 330771638 (误差 525 s)
+[2025-04-10 00:19:03] [SolanaSlotFinder][find_slot_by_timestamp]: Slot     → [ Left: 330766638  | Mid: 330769137  | Right: 330771637  ]
+[2025-04-10 00:19:03] [SolanaSlotFinder][find_slot_by_timestamp]: Time     → [ Left: 2025-04-02 07:54:26 | Mid: 2025-04-02 08:11:03 | Right: 2025-04-02 08:27:45 ]
+[2025-04-10 00:19:03] [SolanaSlotFinder][find_slot_by_timestamp]: Target   →           2025-04-02 08:19:00
+[2025-04-10 00:19:03] [SolanaSlotFinder][find_slot_by_timestamp]: 误差(秒) → [ Left: 1474 | Mid: 477 | Right: 525 ]
+[2025-04-10 00:19:03] [SolanaSlotFinder][find_slot_by_timestamp]: ✅ 更新最接近 Slot: 330769137 (误差 477 s)
+[2025-04-10 00:19:03] [SolanaSlotFinder][find_slot_by_timestamp]: 🛑 误差已满足条件 (477 <= 500)，提前返回
+[2025-04-10 00:19:03] [SolanaSlotFinder][find_slot_by_timestamp]: 🌟 搜索完成！Slot = 330769137, 时间: 2025-04-02 08:11:03, 误差: 477 s
+[2025-04-10 00:19:03] [SolanaWalletExplorer][get_signatures_by_7days]: 7天前的时间戳为 1743581940，对应 Slot 为 330769137
+[2025-04-10 00:19:03] [SolanaWalletExplorer][get_signatures_by_7days]: 请求交易签名: limit=1000, before=None
+[2025-04-10 00:19:10] [SolanaWalletExplorer][__init__]: 初始化 Explorer，地址: 9HCTuTPEiQvkUtLmTZvK6uch4E3pDynwJTbNw6jLhp9z
+[2025-04-10 00:19:10] [SolanaWalletExplorer][get_account_info]: 获取账户信息成功
+[2025-04-10 00:19:10] [SolanaWalletExplorer][calculate_profit_by_7_day]: 开始计算过去7天内钱包的盈利情况
+[2025-04-10 00:19:10] [SolanaSlotFinder][__init__]: ✅ SolanaSlotFinder 初始化成功，节点: https://lingering-wispy-voice.solana-mainnet.quiknode.pro/6e5fc0da5f61cc165757bcd9c453ab31ba36419a/
+[2025-04-10 00:19:10] [SolanaSlotFinder][find_slot_by_timestamp]: 🔍 查找目标时间戳对应的 slot: 1743581950 ± 10000
+[2025-04-10 00:19:10] [SolanaSlotFinder][estimate_slot_by_avg_speed]: 📐 基于平均出块速度估算目标 slot: 1743581950
+[2025-04-10 00:19:11] [SolanaSlotFinder][estimate_slot_by_avg_speed]: 📊 平均出块速度: 2.5120 slots/s
+[2025-04-10 00:19:11] [SolanaSlotFinder][estimate_slot_by_avg_speed]: 🧮 估算 slot: 330766553
+[2025-04-10 00:19:12] [SolanaSlotFinder][find_slot_by_timestamp]: Slot     → [ Left: 330766553  | Mid: 330771553  | Right: 330776553  ]
+[2025-04-10 00:19:12] [SolanaSlotFinder][find_slot_by_timestamp]: Time     → [ Left: 2025-04-02 07:53:51 | Mid: 2025-04-02 08:27:12 | Right: 2025-04-02 09:00:21 ]
+[2025-04-10 00:19:12] [SolanaSlotFinder][find_slot_by_timestamp]: Target   →           2025-04-02 08:19:10
+[2025-04-10 00:19:12] [SolanaSlotFinder][find_slot_by_timestamp]: 误差(秒) → [ Left: 1519 | Mid: 482 | Right: 2471 ]
+[2025-04-10 00:19:12] [SolanaSlotFinder][find_slot_by_timestamp]: ✅ 更新最接近 Slot: 330771553 (误差 482 s)
+[2025-04-10 00:19:12] [SolanaSlotFinder][find_slot_by_timestamp]: 🛑 误差已满足条件 (482 <= 500)，提前返回
+[2025-04-10 00:19:12] [SolanaSlotFinder][find_slot_by_timestamp]: 🌟 搜索完成！Slot = 330771553, 时间: 2025-04-02 08:27:12, 误差: 482 s
+[2025-04-10 00:19:12] [SolanaWalletExplorer][get_signatures_by_7days]: 7天前的时间戳为 1743581950，对应 Slot 为 330771553
+[2025-04-10 00:19:12] [SolanaWalletExplorer][get_signatures_by_7days]: 请求交易签名: limit=1000, before=None
+[2025-04-10 00:19:13] [SolanaWalletExplorer][get_signatures_by_7days]: 本次获取 1000 条，成功 993 条
+[2025-04-10 00:19:13] [SolanaWalletExplorer][get_signatures_by_7days]: 最旧交易 slot=323332782 < 7天前 slot=330771553，终止递归
+[2025-04-10 00:19:13] [SolanaWalletExplorer][get_signatures_by_7days]: 最终保留过去7天内的成功交易: 70 条
+[2025-04-10 00:19:13] [SolanaWalletExplorer][decode_transaction]: 开始解析 70 条交易签名
+[2025-04-10 00:19:13] [TransactionListDecoder][decode]: 开始全流程解析...
+[2025-04-10 00:19:13] [TransactionListDecoder][parse_signatures]: 开始解析签名...
+[2025-04-10 00:19:17] [TransactionListDecoder][parse_signatures]: 共解析交易 70 条，其中 PUMP 类型 14 条，其它类型 56 条
+[2025-04-10 00:19:17] [TransactionListDecoder][async_fetch_pump_tx_json]: 开始异步获取 PUMP 交易 JSON 数据（加权 RPC 调度）...
+[2025-04-10 00:19:18] [TransactionListDecoder][fetch_one_tx]: 成功获取交易 3SQREDV4J5QJiELT6RmN8iNct8nHvG45iBxVFKgfa93wNRrDWJh4RWghPmZKRepQ9VCt11dHFjhFKXKJpYSWmUS2 via https://lingering-wispy-voice.solana-mainnet.quiknode.pro/6e5fc0da5f61cc165757bcd9c453ab31ba36419a/
+[2025-04-10 00:19:18] [TransactionListDecoder][fetch_one_tx]: 成功获取交易 JACHDJx1tgQeeZX8H7MD84CLcuGpyYSpoTu2Gpg9KvmF24AMLUGN16JpWaUkbT4HpWSKe8nZiuTqM3dseWxjwAB via https://lingering-wispy-voice.solana-mainnet.quiknode.pro/6e5fc0da5f61cc165757bcd9c453ab31ba36419a/
+[2025-04-10 00:19:18] [TransactionListDecoder][fetch_one_tx]: 成功获取交易 34CVo61BnyfnDbNCdeDC2XKK6WESVVCoqvcJVLZvRUAEG2WfSZBZBtv2yziVV365YvaXuvHKU2MMkmwWUwDfgGTL via https://lingering-wispy-voice.solana-mainnet.quiknode.pro/6e5fc0da5f61cc165757bcd9c453ab31ba36419a/
+[2025-04-10 00:19:18] [TransactionListDecoder][fetch_one_tx]: 成功获取交易 4AEw6pbU7pG9mLDM85F6Ju7y2USY8RscUmqJFjSqRH8rpDS3scgoPxW66DiVgEHRBFAJQpohxoCcruT3JAmpKHpg via https://lingering-wispy-voice.solana-mainnet.quiknode.pro/6e5fc0da5f61cc165757bcd9c453ab31ba36419a/
+[2025-04-10 00:19:18] [TransactionListDecoder][fetch_one_tx]: 成功获取交易 52G4PhhficWnkumQoDDzxP82K9Nd61AoTBCxKpmuEKwiJa8uQdpxYtX7yyZ6rd7KjHenCFUxsSVbsaXgD9eyvFPd via https://lingering-wispy-voice.solana-mainnet.quiknode.pro/6e5fc0da5f61cc165757bcd9c453ab31ba36419a/
+[2025-04-10 00:19:18] [TransactionListDecoder][fetch_one_tx]: 成功获取交易 3vqgf6vQiHW2DJpm7qUYJPo2R4hHyJxUwt3tr1XNDur914pckhGFQTjKYaHWJYzL8xxusLtNATY7xnKkhCkD4vWk via https://lingering-fragrant-hexagon.solana-mainnet.quiknode.pro/e27d3b258cfb3d3c3f808767fe98ed8fa189e38e/
+[2025-04-10 00:19:18] [TransactionListDecoder][fetch_one_tx]: 成功获取交易 5CmfzvdMp4PPaWmdad8jVC734AuGrz5EojP2kC58vt5bQV9wz9qPXHrwxwqwgTrPBsjMprKA6Kw4B22XMtfMYakC via https://lingering-wispy-voice.solana-mainnet.quiknode.pro/6e5fc0da5f61cc165757bcd9c453ab31ba36419a/
+[2025-04-10 00:19:18] [TransactionListDecoder][fetch_one_tx]: 成功获取交易 3cFjBGxkNAKg4zfH3RjAfib1qsvgjdFSyzoPzyotpxcSzWWgh6ZfyDYXYg4TasZMx8Wx1W41oHgrejV42NiqdCRE via https://lingering-wispy-voice.solana-mainnet.quiknode.pro/6e5fc0da5f61cc165757bcd9c453ab31ba36419a/
+[2025-04-10 00:19:18] [TransactionListDecoder][fetch_one_tx]: 成功获取交易 MZiGeHGb1KZSdmNQFkXnKVjBVWhePM9MT2tMyq9CYqMT3kJsDGYSMZ4s4vowNS6s7mcvh3uR9rhPKNcAF19vBka via https://lingering-fragrant-hexagon.solana-mainnet.quiknode.pro/e27d3b258cfb3d3c3f808767fe98ed8fa189e38e/
+[2025-04-10 00:19:19] [TransactionListDecoder][fetch_one_tx]: 成功获取交易 4v3rbubK2XcRxiZjwKTqp66j7zY43xxVsTmwJrvpDoRiEWwxwiJvrVjWpCZ1JbR6Zfv5Uw1hZDvxjPyNpGSHyCXE via https://wild-boldest-rain.solana-mainnet.quiknode.pro/b95f33839916945a42159c53ceab4d7468a51a69/
+[2025-04-10 00:19:19] [TransactionListDecoder][fetch_one_tx]: 成功获取交易 5mLo5uCE5zC4rUQfKMCpMEPLiCFKKB9hZfVi7yyXFSjK1iEHQfP2CWuhqiHqoYEnkuAts1CZSFivU4iJaz3c66ZN via https://lingering-wispy-voice.solana-mainnet.quiknode.pro/6e5fc0da5f61cc165757bcd9c453ab31ba36419a/
+[2025-04-10 00:19:19] [TransactionListDecoder][fetch_one_tx]: 成功获取交易 448BUM2oUQKC1RshRYo4QL1ZcYPxvn8RAbJAQ1rG6uaFRNvCpm9BCkQYsX6QbCJ9Trt3si1jCXPSxHUyZgTvEShc via https://lingering-wispy-voice.solana-mainnet.quiknode.pro/6e5fc0da5f61cc165757bcd9c453ab31ba36419a/
+[2025-04-10 00:19:19] [TransactionListDecoder][fetch_one_tx]: 成功获取交易 63BGJCjo4N8NA56KBiGXJv2Uu14usgUQfhimpUR7kJkAGMFzufb3ZhqUZH2x6h9hPAthDemWBxcNAmfHUKmUvxi via https://wild-boldest-rain.solana-mainnet.quiknode.pro/b95f33839916945a42159c53ceab4d7468a51a69/
+[2025-04-10 00:19:23] [TransactionListDecoder][fetch_one_tx]: 成功获取交易 3G8tcCeVBDr7M4Bo2ABeLdgPY26x1prbgTAfL171LFGiiaeoiMJ8gwpouFeFM9C8KbFXCvnQto1r7DrUGuT4uff9 via https://lingering-wispy-voice.solana-mainnet.quiknode.pro/6e5fc0da5f61cc165757bcd9c453ab31ba36419a/
+[2025-04-10 00:19:23] [TransactionListDecoder][decode_pump_multithreaded]: 开始多进程解析 PUMP 交易...
+[2025-04-10 00:19:24] [TransactionListDecoder][decode_pump_multithreaded]: 成功解析 14 条 PUMP 交易
+[2025-04-10 00:19:24] [TransactionListDecoder][merge_results]: 开始合并结果...
+[2025-04-10 00:19:24] [TransactionListDecoder][decode]: 全部解析完成，合并后共 70 条记录
+[2025-04-10 00:19:24] [WalletProfitCalculater][_update_sol_price]: SOL 当前价格设置为 107.0524 USD
+[2025-04-10 00:19:25] [TokenPriceFetcher][fetch_wallet_token_list]: 钱包 9HCTuTPEiQvkUtLmTZvK6uch4E3pDynwJTbNw6jLhp9z 持有 415 个 Token
+[2025-04-10 00:19:25] [TokenPriceFetcher][fetch_prices]: 开始获取价格，共 8 个地址
+[2025-04-10 00:19:25] [TokenPriceFetcher][fetch_prices]: 正在处理第 1 批（8 个地址）
+[2025-04-10 00:19:26] [TokenPriceFetcher][fetch_prices]: 价格获取完成，成功获取 8 条记录
+[2025-04-10 00:19:26] [SolanaWalletExplorer][calculate_profit_by_7_day]: 步骤1 - 获取签名 耗时: 2.51 秒
+[2025-04-10 00:19:26] [SolanaWalletExplorer][calculate_profit_by_7_day]: 步骤2 - 解码交易 耗时: 11.20 秒
+[2025-04-10 00:19:26] [SolanaWalletExplorer][calculate_profit_by_7_day]: 步骤3 - 盈利计算 耗时: 2.22 秒
+[2025-04-10 00:19:26] [SolanaWalletExplorer][calculate_profit_by_7_day]: 总耗时: 15.93 秒
+[2025-04-10 00:21:01] [SolanaWalletExplorer][__init__]: 初始化 Explorer，地址: 9HCTuTPEiQvkUtLmTZvK6uch4E3pDynwJTbNw6jLhp9z
+[2025-04-10 00:21:02] [SolanaWalletExplorer][get_account_info]: 获取账户信息成功
+[2025-04-10 00:21:02] [SolanaWalletExplorer][calculate_profit_by_7_day]: 开始计算过去7天内钱包的盈利情况
+[2025-04-10 00:21:02] [SolanaSlotFinder][__init__]: ✅ SolanaSlotFinder 初始化成功，节点: https://lingering-wispy-voice.solana-mainnet.quiknode.pro/6e5fc0da5f61cc165757bcd9c453ab31ba36419a/
+[2025-04-10 00:21:02] [SolanaSlotFinder][find_slot_by_timestamp]: 🔍 查找目标时间戳对应的 slot: 1743582062 ± 10000
+[2025-04-10 00:21:02] [SolanaSlotFinder][estimate_slot_by_avg_speed]: 📐 基于平均出块速度估算目标 slot: 1743582062
+[2025-04-10 00:21:02] [SolanaSlotFinder][estimate_slot_by_avg_speed]: 📊 平均出块速度: 2.5132 slots/s
+[2025-04-10 00:21:02] [SolanaSlotFinder][estimate_slot_by_avg_speed]: 🧮 估算 slot: 330766104
+[2025-04-10 00:21:03] [SolanaSlotFinder][find_slot_by_timestamp]: Slot     → [ Left: 330766104  | Mid: 330771104  | Right: 330776104  ]
+[2025-04-10 00:21:03] [SolanaSlotFinder][find_slot_by_timestamp]: Time     → [ Left: 2025-04-02 07:50:50 | Mid: 2025-04-02 08:24:13 | Right: 2025-04-02 08:57:22 ]
+[2025-04-10 00:21:03] [SolanaSlotFinder][find_slot_by_timestamp]: Target   →           2025-04-02 08:21:02
+[2025-04-10 00:21:03] [SolanaSlotFinder][find_slot_by_timestamp]: 误差(秒) → [ Left: 1812 | Mid: 191 | Right: 2180 ]
+[2025-04-10 00:21:03] [SolanaSlotFinder][find_slot_by_timestamp]: ✅ 更新最接近 Slot: 330771104 (误差 191 s)
+[2025-04-10 00:21:03] [SolanaSlotFinder][find_slot_by_timestamp]: 🛑 误差已满足条件 (191 <= 500)，提前返回
+[2025-04-10 00:21:34] [SolanaSlotFinder][__init__]: ✅ SolanaSlotFinder 初始化成功，节点: https://wild-boldest-rain.solana-mainnet.quiknode.pro/b95f33839916945a42159c53ceab4d7468a51a69/
+[2025-04-10 00:21:47] [SolanaSlotFinder][__init__]: ✅ SolanaSlotFinder 初始化成功，节点: https://wild-boldest-rain.solana-mainnet.quiknode.pro/b95f33839916945a42159c53ceab4d7468a51a69/
+[2025-04-10 00:21:47] [SolanaSlotFinder][find_slot_by_timestamp]: 🔍 查找目标时间戳对应的 slot: 1740585600 ± 10000
+[2025-04-10 00:21:47] [SolanaSlotFinder][estimate_slot_by_avg_speed]: 📐 基于平均出块速度估算目标 slot: 1740585600
+[2025-04-10 00:21:47] [SolanaSlotFinder][estimate_slot_by_avg_speed]: 📊 平均出块速度: 2.5132 slots/s
+[2025-04-10 00:21:47] [SolanaSlotFinder][estimate_slot_by_avg_speed]: 🧮 估算 slot: 323235494
+[2025-04-10 00:21:48] [SolanaSlotFinder][find_slot_by_timestamp]: Slot     → [ Left: 323235494  | Mid: 323240494  | Right: 323245494  ]
+[2025-04-10 00:21:48] [SolanaSlotFinder][find_slot_by_timestamp]: Time     → [ Left: 2025-02-26 14:42:07 | Mid: 2025-02-26 15:15:05 | Right: 2025-02-26 15:48:14 ]
+[2025-04-10 00:21:48] [SolanaSlotFinder][find_slot_by_timestamp]: Target   →           2025-02-26 16:00:00
+[2025-04-10 00:21:48] [SolanaSlotFinder][find_slot_by_timestamp]: 误差(秒) → [ Left: 4673 | Mid: 2695 | Right: 706 ]
+[2025-04-10 00:21:48] [SolanaSlotFinder][find_slot_by_timestamp]: ✅ 更新最接近 Slot: 323240494 (误差 2695 s)
+[2025-04-10 00:21:49] [SolanaSlotFinder][find_slot_by_timestamp]: Slot     → [ Left: 323240495  | Mid: 323242994  | Right: 323245494  ]
+[2025-04-10 00:21:49] [SolanaSlotFinder][find_slot_by_timestamp]: Time     → [ Left: 2025-02-26 15:15:06 | Mid: 2025-02-26 15:31:37 | Right: 2025-02-26 15:48:14 ]
+[2025-04-10 00:21:49] [SolanaSlotFinder][find_slot_by_timestamp]: Target   →           2025-02-26 16:00:00
+[2025-04-10 00:21:49] [SolanaSlotFinder][find_slot_by_timestamp]: 误差(秒) → [ Left: 2694 | Mid: 1703 | Right: 706 ]
+[2025-04-10 00:21:49] [SolanaSlotFinder][find_slot_by_timestamp]: ✅ 更新最接近 Slot: 323242994 (误差 1703 s)
+[2025-04-10 00:22:11] [TokenPriceFetcher][fetch_prices]: 开始获取价格，共 2 个地址
+[2025-04-10 00:22:11] [TokenPriceFetcher][fetch_prices]: 正在处理第 1 批（2 个地址）
+[2025-04-10 00:22:12] [TokenPriceFetcher][fetch_prices]: 价格获取完成，成功获取 2 条记录
+[2025-04-10 00:22:13] [<module>]: 当前 SOL 价格为: 106.9872 USD
+[2025-04-10 00:22:14] [TokenPriceFetcher][fetch_wallet_token_list]: 钱包 DW1DdpQ9JGY4up2yRSg8gKeH9ZwG9xXvywgA6GfWo99a 持有 97 个 Token
+[2025-04-10 00:22:14] [<module>]: 钱包 DW1DdpQ9JGY4up2yRSg8gKeH9ZwG9xXvywgA6GfWo99a 持仓预览：
+                               token_address      token_balance
+ So11111111111111111111111111111111111111111     1.949728475000
+7gBzPKpgGXiuhcHP8CdkA9WvcQDemoBjvz1tfpygZyov  1856.300000000000
+ MZtYjk1ZK2ukFqQ9XTnDWaxBmNt8677z4F65YHRmYoJ 11790.175830000000
+839r5jorLEZaoAnf563XtHiL5453PvQjYUD6sWXjeLrs  3288.000000000000
+GjRpXGKnnkq3CYLeippUSKJ7U534nB4itGncSTtrXd9R  4019.217400000000
+[2025-04-10 00:22:56] [SolanaWalletExplorer][__init__]: 初始化 Explorer，地址: GCvHhEUYQwTJ8jyf8Lc4bv8jBXyZU4LMMsZCobwEPzvM
+[2025-04-10 00:22:56] [SolanaWalletExplorer][__init__]: 初始化 Explorer，地址: GNnzdXxX5B8QHwBwPNuC5EwZPsa8iUVV4YEd4Bg4hRVC
+[2025-04-10 00:22:56] [SolanaWalletExplorer][calculate_profit_by_7_day]: 开始计算过去7天内钱包的盈利情况
+Gxgwp55h
+[2025-04-10 00:22:56] [SolanaWalletExplorer][calculate_profit_by_7_day]: 开始计算过去7天内钱包的盈利情况
+[2025-04-10 00:22:56] [SolanaWalletExplorer][calculate_profit_by_7_day]: 开始计算过去7天内钱包的盈利情况
+[2025-04-10 00:22:56] [SolanaSlotFinder][__init__]: ✅ SolanaSlotFinder 初始化成功，节点: https://lingering-wispy-voice.solana-mainnet.quiknode.pro/6e5fc0da5f61cc165757bcd9c453ab31ba36419a/
+[2025-04-10 00:22:56] [SolanaSlotFinder][find_slot_by_timestamp]: 🔍 查找目标时间戳对应的 slot: 1743582176 ± 10000
+[2025-04-10 00:22:56] [SolanaSlotFinder][find_slot_by_timestamp]: 🔍 查找目标时间戳对应的 slot: 1743582176 ± 10000
+[2025-04-10 00:22:56] [SolanaSlotFinder][estimate_slot_by_avg_speed]: 📐 基于平均出块速度估算目标 slot: 1743582176
+[2025-04-10 00:22:56] [SolanaSlotFinder][__init__]: ✅ SolanaSlotFinder 初始化成功，节点: https://lingering-wispy-voice.solana-mainnet.quiknode.pro/6e5fc0da5f61cc165757bcd9c453ab31ba36419a/
+[2025-04-10 00:22:56] [SolanaSlotFinder][estimate_slot_by_avg_speed]: 📐 基于平均出块速度估算目标 slot: 1743582176
+[2025-04-10 00:22:56] [SolanaSlotFinder][find_slot_by_timestamp]: 🔍 查找目标时间戳对应的 slot: 1743582176 ± 10000
+[2025-04-10 00:22:56] [SolanaSlotFinder][estimate_slot_by_avg_speed]: 📐 基于平均出块速度估算目标 slot: 1743582176
+[2025-04-10 00:22:56] [SolanaSlotFinder][estimate_slot_by_avg_speed]: 📊 平均出块速度: 2.5132 slots/s
+[2025-04-10 00:22:56] [SolanaSlotFinder][estimate_slot_by_avg_speed]: 🧮 估算 slot: 330766392
+[2025-04-10 00:22:56] [SolanaSlotFinder][estimate_slot_by_avg_speed]: 📊 平均出块速度: 2.5130 slots/s
+[2025-04-10 00:22:56] [SolanaSlotFinder][estimate_slot_by_avg_speed]: 📊 平均出块速度: 2.5130 slots/s
+[2025-04-10 00:22:56] [SolanaSlotFinder][estimate_slot_by_avg_speed]: 🧮 估算 slot: 330766498
+[2025-04-10 00:22:58] [SolanaSlotFinder][find_slot_by_timestamp]: Slot     → [ Left: 330766392  | Mid: 330771392  | Right: 330776392  ]
+[2025-04-10 00:22:58] [SolanaSlotFinder][find_slot_by_timestamp]: Time     → [ Left: 2025-04-02 07:52:47 | Mid: 2025-04-02 08:26:08 | Right: 2025-04-02 08:59:17 ]
+[2025-04-10 00:22:58] [SolanaSlotFinder][find_slot_by_timestamp]: Target   →           2025-04-02 08:22:56
+[2025-04-10 00:22:58] [SolanaSlotFinder][find_slot_by_timestamp]: 误差(秒) → [ Left: 1809 | Mid: 192 | Right: 2181 ]
+[2025-04-10 00:22:58] [SolanaSlotFinder][find_slot_by_timestamp]: ✅ 更新最接近 Slot: 330771392 (误差 192 s)
+[2025-04-10 00:22:58] [SolanaSlotFinder][find_slot_by_timestamp]: 🛑 误差已满足条件 (192 <= 500)，提前返回
+[2025-04-10 00:22:58] [SolanaSlotFinder][find_slot_by_timestamp]: Slot     → [ Left: 330766498  | Mid: 330771498  | Right: 330776498  ]
+[2025-04-10 00:22:58] [SolanaSlotFinder][find_slot_by_timestamp]: Time     → [ Left: 2025-04-02 07:53:29 | Mid: 2025-04-02 08:26:50 | Right: 2025-04-02 09:00:00 ]
+[2025-04-10 00:22:58] [SolanaSlotFinder][find_slot_by_timestamp]: Target   →           2025-04-02 08:22:56
+[2025-04-10 00:22:58] [SolanaSlotFinder][find_slot_by_timestamp]: 误差(秒) → [ Left: 1767 | Mid: 234 | Right: 2224 ]
+[2025-04-10 00:22:58] [SolanaSlotFinder][find_slot_by_timestamp]: ✅ 更新最接近 Slot: 330771498 (误差 234 s)
+[2025-04-10 00:22:58] [SolanaSlotFinder][find_slot_by_timestamp]: 🛑 误差已满足条件 (234 <= 500)，提前返回
+[2025-04-10 00:22:58] [SolanaSlotFinder][find_slot_by_timestamp]: Slot     → [ Left: 330766498  | Mid: 330771498  | Right: 330776498  ]
+[2025-04-10 00:22:58] [SolanaSlotFinder][find_slot_by_timestamp]: Time     → [ Left: 2025-04-02 07:53:29 | Mid: 2025-04-02 08:26:50 | Right: 2025-04-02 09:00:00 ]
+[2025-04-10 00:22:58] [SolanaSlotFinder][find_slot_by_timestamp]: Target   →           2025-04-02 08:22:56
+[2025-04-10 00:22:58] [SolanaSlotFinder][find_slot_by_timestamp]: 误差(秒) → [ Left: 1767 | Mid: 234 | Right: 2224 ]
+[2025-04-10 00:22:58] [SolanaSlotFinder][find_slot_by_timestamp]: ✅ 更新最接近 Slot: 330771498 (误差 234 s)
+[2025-04-10 00:22:58] [SolanaSlotFinder][find_slot_by_timestamp]: 🛑 误差已满足条件 (234 <= 500)，提前返回
+[2025-04-10 00:22:58] [SolanaSlotFinder][find_slot_by_timestamp]: 🌟 搜索完成！Slot = 330771392, 时间: 2025-04-02 08:26:08, 误差: 192 s
+[2025-04-10 00:22:58] [SolanaWalletExplorer][get_signatures_by_7days]: 7天前的时间戳为 1743582176，对应 Slot 为 330771392
+[2025-04-10 00:22:58] [SolanaWalletExplorer][get_signatures_by_7days]: 请求交易签名: limit=1000, before=None
+[2025-04-10 00:22:58] [SolanaSlotFinder][find_slot_by_timestamp]: 🌟 搜索完成！Slot = 330771498, 时间: 2025-04-02 08:26:50, 误差: 234 s
+[2025-04-10 00:22:58] [SolanaWalletExplorer][get_signatures_by_7days]: 7天前的时间戳为 1743582176，对应 Slot 为 330771498
+[2025-04-10 00:22:58] [SolanaWalletExplorer][get_signatures_by_7days]: 请求交易签名: limit=1000, before=None
+[2025-04-10 00:22:58] [SolanaSlotFinder][find_slot_by_timestamp]: 🌟 搜索完成！Slot = 330771498, 时间: 2025-04-02 08:26:50, 误差: 234 s
+[2025-04-10 00:22:58] [SolanaWalletExplorer][get_signatures_by_7days]: 7天前的时间戳为 1743582176，对应 Slot 为 330771498
+[2025-04-10 00:22:58] [SolanaWalletExplorer][get_signatures_by_7days]: 请求交易签名: limit=1000, before=None
+[2025-04-10 00:23:43] [TransactionListDecoder][decode]: 开始全流程解析...
+[2025-04-10 00:23:43] [TransactionListDecoder][parse_signatures]: 开始解析签名...
+[2025-04-10 00:23:44] [TransactionListDecoder][parse_signatures]: 共解析交易 2 条，其中 PUMP 类型 2 条，其它类型 0 条
+[2025-04-10 00:23:44] [TransactionListDecoder][fetch_pump_tx_json]: 开始多线程获取 PUMP 交易 JSON 数据（加权 RPC 调度）...
+[2025-04-10 00:23:45] [TransactionListDecoder][fetch_one]: 成功获取交易 2y9ngxbiFwH3DV398enfTHJSf9vKsrBhoNSYQq86ay8VfjqWqmrxr746R5jFknZQFvjmKG8tHcpyyLoY2w2AVJK5 via https://lingering-wispy-voice.solana-mainnet.quiknode.pro/6e5fc0da5f61cc165757bcd9c453ab31ba36419a/
+[2025-04-10 00:23:45] [TransactionListDecoder][fetch_one]: 成功获取交易 MNuqWoyfPhZH55bna1KXCygN6WGDXa72bRU9HmRJABd48iEAuLBxgPWkLddJ5krhXsmsejDpXy5oM9c4iyQLj9d via https://lingering-wispy-voice.solana-mainnet.quiknode.pro/6e5fc0da5f61cc165757bcd9c453ab31ba36419a/
+[2025-04-10 00:23:45] [TransactionListDecoder][decode_pump_multithreaded]: 开始多进程解析 PUMP 交易...
+[2025-04-10 00:23:46] [TransactionListDecoder][decode_pump_multithreaded]: 成功解析 2 条 PUMP 交易
+[2025-04-10 00:23:46] [TransactionListDecoder][merge_results]: 开始合并结果...
+[2025-04-10 00:23:46] [TransactionListDecoder][decode]: 全部解析完成，合并后共 2 条记录
+[2025-04-10 00:30:53] [SolanaWalletExplorer][__init__]: 初始化 Explorer，地址: 9HCTuTPEiQvkUtLmTZvK6uch4E3pDynwJTbNw6jLhp9z
+[2025-04-10 00:30:53] [SolanaWalletExplorer][get_account_info]: 获取账户信息成功
+[2025-04-10 00:30:53] [SolanaWalletExplorer][calculate_profit_by_7_day]: 开始计算过去7天内钱包的盈利情况
+[2025-04-10 00:30:53] [SolanaSlotFinder][__init__]: ✅ SolanaSlotFinder 初始化成功，节点: https://lingering-wispy-voice.solana-mainnet.quiknode.pro/6e5fc0da5f61cc165757bcd9c453ab31ba36419a/
+[2025-04-10 00:30:53] [SolanaSlotFinder][find_slot_by_timestamp]: 🔍 查找目标时间戳对应的 slot: 1743582653 ± 10000
+[2025-04-10 00:30:53] [SolanaSlotFinder][estimate_slot_by_avg_speed]: 📐 基于平均出块速度估算目标 slot: 1743582653
+[2025-04-10 00:30:54] [SolanaSlotFinder][estimate_slot_by_avg_speed]: 📊 平均出块速度: 2.5098 slots/s
+[2025-04-10 00:30:54] [SolanaSlotFinder][estimate_slot_by_avg_speed]: 🧮 估算 slot: 330769684
+[2025-04-10 00:30:55] [SolanaSlotFinder][find_slot_by_timestamp]: Slot     → [ Left: 330769684  | Mid: 330774684  | Right: 330779684  ]
+[2025-04-10 00:30:55] [SolanaSlotFinder][find_slot_by_timestamp]: Time     → [ Left: 2025-04-02 08:14:41 | Mid: 2025-04-02 08:47:55 | Right: 2025-04-02 09:21:18 ]
+[2025-04-10 00:30:55] [SolanaSlotFinder][find_slot_by_timestamp]: Target   →           2025-04-02 08:30:53
+[2025-04-10 00:30:55] [SolanaSlotFinder][find_slot_by_timestamp]: 误差(秒) → [ Left: 972 | Mid: 1022 | Right: 3025 ]
+[2025-04-10 00:30:55] [SolanaSlotFinder][find_slot_by_timestamp]: ✅ 更新最接近 Slot: 330774684 (误差 1022 s)
+[2025-04-10 00:30:56] [SolanaSlotFinder][find_slot_by_timestamp]: Slot     → [ Left: 330769684  | Mid: 330772183  | Right: 330774683  ]
+[2025-04-10 00:30:56] [SolanaSlotFinder][find_slot_by_timestamp]: Time     → [ Left: 2025-04-02 08:14:41 | Mid: 2025-04-02 08:31:18 | Right: 2025-04-02 08:47:55 ]
+[2025-04-10 00:30:56] [SolanaSlotFinder][find_slot_by_timestamp]: Target   →           2025-04-02 08:30:53
+[2025-04-10 00:30:56] [SolanaSlotFinder][find_slot_by_timestamp]: 误差(秒) → [ Left: 972 | Mid: 25 | Right: 1022 ]
+[2025-04-10 00:30:56] [SolanaSlotFinder][find_slot_by_timestamp]: ✅ 更新最接近 Slot: 330772183 (误差 25 s)
+[2025-04-10 00:30:56] [SolanaSlotFinder][find_slot_by_timestamp]: 🛑 误差已满足条件 (25 <= 500)，提前返回
+[2025-04-10 00:30:56] [SolanaSlotFinder][find_slot_by_timestamp]: 🌟 搜索完成！Slot = 330772183, 时间: 2025-04-02 08:31:18, 误差: 25 s
+[2025-04-10 00:30:56] [SolanaWalletExplorer][get_signatures_by_7days]: 7天前的时间戳为 1743582653，对应 Slot 为 330772183
+[2025-04-10 00:30:56] [SolanaWalletExplorer][get_signatures_by_7days]: 请求交易签名: limit=1000, before=None
+[2025-04-10 00:30:57] [SolanaWalletExplorer][get_signatures_by_7days]: 本次获取 1000 条，成功 993 条
+[2025-04-10 00:30:57] [SolanaWalletExplorer][get_signatures_by_7days]: 最旧交易 slot=323334773 < 7天前 slot=330772183，终止递归
+[2025-04-10 00:30:57] [SolanaWalletExplorer][get_signatures_by_7days]: 最终保留过去7天内的成功交易: 73 条
+[2025-04-10 00:30:57] [SolanaWalletExplorer][decode_transaction]: 开始解析 73 条交易签名
+[2025-04-10 00:30:57] [TransactionListDecoder][decode]: 开始全流程解析...
+[2025-04-10 00:30:57] [TransactionListDecoder][parse_signatures]: 开始解析签名...
+[2025-04-10 00:31:00] [TransactionListDecoder][parse_signatures]: 共解析交易 73 条，其中 PUMP 类型 14 条，其它类型 59 条
+[2025-04-10 00:31:00] [TransactionListDecoder][async_fetch_pump_tx_json]: 开始异步获取 PUMP 交易 JSON 数据（加权 RPC 调度）...
+[2025-04-10 00:31:01] [TransactionListDecoder][fetch_one_tx]: 成功获取交易 34CVo61BnyfnDbNCdeDC2XKK6WESVVCoqvcJVLZvRUAEG2WfSZBZBtv2yziVV365YvaXuvHKU2MMkmwWUwDfgGTL via https://wild-boldest-rain.solana-mainnet.quiknode.pro/b95f33839916945a42159c53ceab4d7468a51a69/
+[2025-04-10 00:31:01] [TransactionListDecoder][fetch_one_tx]: 成功获取交易 3SQREDV4J5QJiELT6RmN8iNct8nHvG45iBxVFKgfa93wNRrDWJh4RWghPmZKRepQ9VCt11dHFjhFKXKJpYSWmUS2 via https://lingering-fragrant-hexagon.solana-mainnet.quiknode.pro/e27d3b258cfb3d3c3f808767fe98ed8fa189e38e/
+[2025-04-10 00:31:01] [TransactionListDecoder][fetch_one_tx]: 成功获取交易 JACHDJx1tgQeeZX8H7MD84CLcuGpyYSpoTu2Gpg9KvmF24AMLUGN16JpWaUkbT4HpWSKe8nZiuTqM3dseWxjwAB via https://lingering-wispy-voice.solana-mainnet.quiknode.pro/6e5fc0da5f61cc165757bcd9c453ab31ba36419a/
+[2025-04-10 00:31:01] [TransactionListDecoder][fetch_one_tx]: 成功获取交易 5CmfzvdMp4PPaWmdad8jVC734AuGrz5EojP2kC58vt5bQV9wz9qPXHrwxwqwgTrPBsjMprKA6Kw4B22XMtfMYakC via https://wild-boldest-rain.solana-mainnet.quiknode.pro/b95f33839916945a42159c53ceab4d7468a51a69/
+[2025-04-10 00:31:01] [TransactionListDecoder][fetch_one_tx]: 成功获取交易 3G8tcCeVBDr7M4Bo2ABeLdgPY26x1prbgTAfL171LFGiiaeoiMJ8gwpouFeFM9C8KbFXCvnQto1r7DrUGuT4uff9 via https://lingering-wispy-voice.solana-mainnet.quiknode.pro/6e5fc0da5f61cc165757bcd9c453ab31ba36419a/
+[2025-04-10 00:31:01] [TransactionListDecoder][fetch_one_tx]: 成功获取交易 3cFjBGxkNAKg4zfH3RjAfib1qsvgjdFSyzoPzyotpxcSzWWgh6ZfyDYXYg4TasZMx8Wx1W41oHgrejV42NiqdCRE via https://lingering-fragrant-hexagon.solana-mainnet.quiknode.pro/e27d3b258cfb3d3c3f808767fe98ed8fa189e38e/
+[2025-04-10 00:31:01] [TransactionListDecoder][fetch_one_tx]: 成功获取交易 4AEw6pbU7pG9mLDM85F6Ju7y2USY8RscUmqJFjSqRH8rpDS3scgoPxW66DiVgEHRBFAJQpohxoCcruT3JAmpKHpg via https://lingering-wispy-voice.solana-mainnet.quiknode.pro/6e5fc0da5f61cc165757bcd9c453ab31ba36419a/
+[2025-04-10 00:31:01] [TransactionListDecoder][fetch_one_tx]: 成功获取交易 63BGJCjo4N8NA56KBiGXJv2Uu14usgUQfhimpUR7kJkAGMFzufb3ZhqUZH2x6h9hPAthDemWBxcNAmfHUKmUvxi via https://lingering-wispy-voice.solana-mainnet.quiknode.pro/6e5fc0da5f61cc165757bcd9c453ab31ba36419a/
+[2025-04-10 00:31:02] [TransactionListDecoder][fetch_one_tx]: 成功获取交易 5mLo5uCE5zC4rUQfKMCpMEPLiCFKKB9hZfVi7yyXFSjK1iEHQfP2CWuhqiHqoYEnkuAts1CZSFivU4iJaz3c66ZN via https://lingering-wispy-voice.solana-mainnet.quiknode.pro/6e5fc0da5f61cc165757bcd9c453ab31ba36419a/
+[2025-04-10 00:31:02] [TransactionListDecoder][fetch_one_tx]: 成功获取交易 3vqgf6vQiHW2DJpm7qUYJPo2R4hHyJxUwt3tr1XNDur914pckhGFQTjKYaHWJYzL8xxusLtNATY7xnKkhCkD4vWk via https://lingering-wispy-voice.solana-mainnet.quiknode.pro/6e5fc0da5f61cc165757bcd9c453ab31ba36419a/
+[2025-04-10 00:31:02] [TransactionListDecoder][fetch_one_tx]: 成功获取交易 MZiGeHGb1KZSdmNQFkXnKVjBVWhePM9MT2tMyq9CYqMT3kJsDGYSMZ4s4vowNS6s7mcvh3uR9rhPKNcAF19vBka via https://lingering-wispy-voice.solana-mainnet.quiknode.pro/6e5fc0da5f61cc165757bcd9c453ab31ba36419a/
+[2025-04-10 00:31:02] [TransactionListDecoder][fetch_one_tx]: 成功获取交易 448BUM2oUQKC1RshRYo4QL1ZcYPxvn8RAbJAQ1rG6uaFRNvCpm9BCkQYsX6QbCJ9Trt3si1jCXPSxHUyZgTvEShc via https://lingering-wispy-voice.solana-mainnet.quiknode.pro/6e5fc0da5f61cc165757bcd9c453ab31ba36419a/
+[2025-04-10 00:31:02] [TransactionListDecoder][fetch_one_tx]: 成功获取交易 52G4PhhficWnkumQoDDzxP82K9Nd61AoTBCxKpmuEKwiJa8uQdpxYtX7yyZ6rd7KjHenCFUxsSVbsaXgD9eyvFPd via https://lingering-wispy-voice.solana-mainnet.quiknode.pro/6e5fc0da5f61cc165757bcd9c453ab31ba36419a/
+[2025-04-10 00:31:07] [TransactionListDecoder][fetch_one_tx]: 成功获取交易 4v3rbubK2XcRxiZjwKTqp66j7zY43xxVsTmwJrvpDoRiEWwxwiJvrVjWpCZ1JbR6Zfv5Uw1hZDvxjPyNpGSHyCXE via https://lingering-wispy-voice.solana-mainnet.quiknode.pro/6e5fc0da5f61cc165757bcd9c453ab31ba36419a/
+[2025-04-10 00:31:07] [TransactionListDecoder][decode_pump_multithreaded]: 开始多进程解析 PUMP 交易...
+[2025-04-10 00:31:08] [TransactionListDecoder][decode_pump_multithreaded]: 成功解析 14 条 PUMP 交易
+[2025-04-10 00:31:08] [TransactionListDecoder][merge_results]: 开始合并结果...
+[2025-04-10 00:31:08] [TransactionListDecoder][decode]: 全部解析完成，合并后共 73 条记录
+[2025-04-10 00:31:09] [WalletProfitCalculater][_update_sol_price]: SOL 当前价格设置为 106.7957 USD
+[2025-04-10 00:31:10] [TokenPriceFetcher][fetch_wallet_token_list]: 钱包 9HCTuTPEiQvkUtLmTZvK6uch4E3pDynwJTbNw6jLhp9z 持有 416 个 Token
+[2025-04-10 00:31:10] [TokenPriceFetcher][fetch_prices]: 开始获取价格，共 9 个地址
+[2025-04-10 00:31:10] [TokenPriceFetcher][fetch_prices]: 正在处理第 1 批（9 个地址）
+[2025-04-10 00:31:10] [TokenPriceFetcher][fetch_prices] [ERROR]: 第 1 批失败：BirdEye API 请求失败：400 - {"success":false,"message":"list_address is invalid format"}
+[2025-04-10 00:31:10] [TokenPriceFetcher][fetch_prices]: 价格获取完成，成功获取 0 条记录
+[2025-04-10 00:31:10] [SolanaWalletExplorer][calculate_profit_by_7_day] [ERROR]: 计算盈利时出错: local variable 'value' referenced before assignment
+[2025-04-10 00:32:26] [SolanaWalletExplorer][__init__]: 初始化 Explorer，地址: 9HCTuTPEiQvkUtLmTZvK6uch4E3pDynwJTbNw6jLhp9z
+[2025-04-10 00:32:26] [SolanaWalletExplorer][get_account_info]: 获取账户信息成功
+[2025-04-10 00:32:26] [SolanaWalletExplorer][calculate_profit_by_7_day]: 开始计算过去7天内钱包的盈利情况
+[2025-04-10 00:32:26] [SolanaSlotFinder][__init__]: ✅ SolanaSlotFinder 初始化成功，节点: https://lingering-wispy-voice.solana-mainnet.quiknode.pro/6e5fc0da5f61cc165757bcd9c453ab31ba36419a/
+[2025-04-10 00:32:26] [SolanaSlotFinder][find_slot_by_timestamp]: 🔍 查找目标时间戳对应的 slot: 1743582746 ± 10000
+[2025-04-10 00:32:26] [SolanaSlotFinder][estimate_slot_by_avg_speed]: 📐 基于平均出块速度估算目标 slot: 1743582746
+[2025-04-10 00:32:27] [SolanaSlotFinder][estimate_slot_by_avg_speed]: 📊 平均出块速度: 2.5150 slots/s
+[2025-04-10 00:32:27] [SolanaSlotFinder][estimate_slot_by_avg_speed]: 🧮 估算 slot: 330766643
+[2025-04-10 00:32:28] [SolanaSlotFinder][find_slot_by_timestamp]: Slot     → [ Left: 330766643  | Mid: 330771643  | Right: 330776643  ]
+[2025-04-10 00:32:28] [SolanaSlotFinder][find_slot_by_timestamp]: Time     → [ Left: 2025-04-02 07:54:28 | Mid: 2025-04-02 08:27:47 | Right: 2025-04-02 09:00:58 ]
+[2025-04-10 00:32:28] [SolanaSlotFinder][find_slot_by_timestamp]: Target   →           2025-04-02 08:32:26
+[2025-04-10 00:32:28] [SolanaSlotFinder][find_slot_by_timestamp]: 误差(秒) → [ Left: 2278 | Mid: 279 | Right: 1712 ]
+[2025-04-10 00:32:28] [SolanaSlotFinder][find_slot_by_timestamp]: ✅ 更新最接近 Slot: 330771643 (误差 279 s)
+[2025-04-10 00:32:28] [SolanaSlotFinder][find_slot_by_timestamp]: 🛑 误差已满足条件 (279 <= 500)，提前返回
+[2025-04-10 00:32:28] [SolanaSlotFinder][find_slot_by_timestamp]: 🌟 搜索完成！Slot = 330771643, 时间: 2025-04-02 08:27:47, 误差: 279 s
+[2025-04-10 00:32:28] [SolanaWalletExplorer][get_signatures_by_7days]: 7天前的时间戳为 1743582746，对应 Slot 为 330771643
+[2025-04-10 00:32:28] [SolanaWalletExplorer][get_signatures_by_7days]: 请求交易签名: limit=1000, before=None
+[2025-04-10 00:32:29] [SolanaWalletExplorer][get_signatures_by_7days]: 本次获取 1000 条，成功 993 条
+[2025-04-10 00:32:29] [SolanaWalletExplorer][get_signatures_by_7days]: 最旧交易 slot=323334773 < 7天前 slot=330771643，终止递归
+[2025-04-10 00:32:29] [SolanaWalletExplorer][get_signatures_by_7days]: 最终保留过去7天内的成功交易: 73 条
+[2025-04-10 00:32:29] [SolanaWalletExplorer][decode_transaction]: 开始解析 73 条交易签名
+[2025-04-10 00:32:29] [TransactionListDecoder][decode]: 开始全流程解析...
+[2025-04-10 00:32:29] [TransactionListDecoder][parse_signatures]: 开始解析签名...
+[2025-04-10 00:32:31] [TransactionListDecoder][parse_signatures]: 共解析交易 73 条，其中 PUMP 类型 14 条，其它类型 59 条
+[2025-04-10 00:32:31] [TransactionListDecoder][async_fetch_pump_tx_json]: 开始异步获取 PUMP 交易 JSON 数据（加权 RPC 调度）...
+[2025-04-10 00:32:32] [TransactionListDecoder][fetch_one_tx]: 成功获取交易 JACHDJx1tgQeeZX8H7MD84CLcuGpyYSpoTu2Gpg9KvmF24AMLUGN16JpWaUkbT4HpWSKe8nZiuTqM3dseWxjwAB via https://wild-boldest-rain.solana-mainnet.quiknode.pro/b95f33839916945a42159c53ceab4d7468a51a69/
+[2025-04-10 00:32:32] [TransactionListDecoder][fetch_one_tx]: 成功获取交易 MZiGeHGb1KZSdmNQFkXnKVjBVWhePM9MT2tMyq9CYqMT3kJsDGYSMZ4s4vowNS6s7mcvh3uR9rhPKNcAF19vBka via https://lingering-wispy-voice.solana-mainnet.quiknode.pro/6e5fc0da5f61cc165757bcd9c453ab31ba36419a/
+[2025-04-10 00:32:32] [TransactionListDecoder][fetch_one_tx]: 成功获取交易 3G8tcCeVBDr7M4Bo2ABeLdgPY26x1prbgTAfL171LFGiiaeoiMJ8gwpouFeFM9C8KbFXCvnQto1r7DrUGuT4uff9 via https://lingering-wispy-voice.solana-mainnet.quiknode.pro/6e5fc0da5f61cc165757bcd9c453ab31ba36419a/
+[2025-04-10 00:32:32] [TransactionListDecoder][fetch_one_tx]: 成功获取交易 3SQREDV4J5QJiELT6RmN8iNct8nHvG45iBxVFKgfa93wNRrDWJh4RWghPmZKRepQ9VCt11dHFjhFKXKJpYSWmUS2 via https://lingering-wispy-voice.solana-mainnet.quiknode.pro/6e5fc0da5f61cc165757bcd9c453ab31ba36419a/
+[2025-04-10 00:32:32] [TransactionListDecoder][fetch_one_tx]: 成功获取交易 3vqgf6vQiHW2DJpm7qUYJPo2R4hHyJxUwt3tr1XNDur914pckhGFQTjKYaHWJYzL8xxusLtNATY7xnKkhCkD4vWk via https://wild-boldest-rain.solana-mainnet.quiknode.pro/b95f33839916945a42159c53ceab4d7468a51a69/
+[2025-04-10 00:32:32] [TransactionListDecoder][fetch_one_tx]: 成功获取交易 34CVo61BnyfnDbNCdeDC2XKK6WESVVCoqvcJVLZvRUAEG2WfSZBZBtv2yziVV365YvaXuvHKU2MMkmwWUwDfgGTL via https://lingering-wispy-voice.solana-mainnet.quiknode.pro/6e5fc0da5f61cc165757bcd9c453ab31ba36419a/
+[2025-04-10 00:32:32] [TransactionListDecoder][fetch_one_tx]: 成功获取交易 4AEw6pbU7pG9mLDM85F6Ju7y2USY8RscUmqJFjSqRH8rpDS3scgoPxW66DiVgEHRBFAJQpohxoCcruT3JAmpKHpg via https://lingering-wispy-voice.solana-mainnet.quiknode.pro/6e5fc0da5f61cc165757bcd9c453ab31ba36419a/
+[2025-04-10 00:32:32] [TransactionListDecoder][fetch_one_tx]: 成功获取交易 52G4PhhficWnkumQoDDzxP82K9Nd61AoTBCxKpmuEKwiJa8uQdpxYtX7yyZ6rd7KjHenCFUxsSVbsaXgD9eyvFPd via https://lingering-wispy-voice.solana-mainnet.quiknode.pro/6e5fc0da5f61cc165757bcd9c453ab31ba36419a/
+[2025-04-10 00:32:32] [TransactionListDecoder][fetch_one_tx]: 成功获取交易 5mLo5uCE5zC4rUQfKMCpMEPLiCFKKB9hZfVi7yyXFSjK1iEHQfP2CWuhqiHqoYEnkuAts1CZSFivU4iJaz3c66ZN via https://lingering-wispy-voice.solana-mainnet.quiknode.pro/6e5fc0da5f61cc165757bcd9c453ab31ba36419a/
+[2025-04-10 00:32:33] [TransactionListDecoder][fetch_one_tx]: 成功获取交易 4v3rbubK2XcRxiZjwKTqp66j7zY43xxVsTmwJrvpDoRiEWwxwiJvrVjWpCZ1JbR6Zfv5Uw1hZDvxjPyNpGSHyCXE via https://lingering-wispy-voice.solana-mainnet.quiknode.pro/6e5fc0da5f61cc165757bcd9c453ab31ba36419a/
+[2025-04-10 00:32:33] [TransactionListDecoder][fetch_one_tx]: 成功获取交易 448BUM2oUQKC1RshRYo4QL1ZcYPxvn8RAbJAQ1rG6uaFRNvCpm9BCkQYsX6QbCJ9Trt3si1jCXPSxHUyZgTvEShc via https://lingering-wispy-voice.solana-mainnet.quiknode.pro/6e5fc0da5f61cc165757bcd9c453ab31ba36419a/
+[2025-04-10 00:32:33] [TransactionListDecoder][fetch_one_tx]: 成功获取交易 5CmfzvdMp4PPaWmdad8jVC734AuGrz5EojP2kC58vt5bQV9wz9qPXHrwxwqwgTrPBsjMprKA6Kw4B22XMtfMYakC via https://lingering-wispy-voice.solana-mainnet.quiknode.pro/6e5fc0da5f61cc165757bcd9c453ab31ba36419a/
+[2025-04-10 00:32:33] [TransactionListDecoder][fetch_one_tx]: 成功获取交易 3cFjBGxkNAKg4zfH3RjAfib1qsvgjdFSyzoPzyotpxcSzWWgh6ZfyDYXYg4TasZMx8Wx1W41oHgrejV42NiqdCRE via https://lingering-wispy-voice.solana-mainnet.quiknode.pro/6e5fc0da5f61cc165757bcd9c453ab31ba36419a/
+[2025-04-10 00:32:33] [TransactionListDecoder][fetch_one_tx]: 成功获取交易 63BGJCjo4N8NA56KBiGXJv2Uu14usgUQfhimpUR7kJkAGMFzufb3ZhqUZH2x6h9hPAthDemWBxcNAmfHUKmUvxi via https://lingering-wispy-voice.solana-mainnet.quiknode.pro/6e5fc0da5f61cc165757bcd9c453ab31ba36419a/
+[2025-04-10 00:32:33] [TransactionListDecoder][decode_pump_multithreaded]: 开始多进程解析 PUMP 交易...
+[2025-04-10 00:32:34] [TransactionListDecoder][decode_pump_multithreaded]: 成功解析 14 条 PUMP 交易
+[2025-04-10 00:32:34] [TransactionListDecoder][merge_results]: 开始合并结果...
+[2025-04-10 00:32:34] [TransactionListDecoder][decode]: 全部解析完成，合并后共 73 条记录
+[2025-04-10 00:32:35] [WalletProfitCalculater][_update_sol_price]: SOL 当前价格设置为 107.0328 USD
+[2025-04-10 00:32:36] [TokenPriceFetcher][fetch_wallet_token_list]: 钱包 9HCTuTPEiQvkUtLmTZvK6uch4E3pDynwJTbNw6jLhp9z 持有 416 个 Token
+[2025-04-10 00:32:36] [TokenPriceFetcher][fetch_prices]: 开始获取价格，共 9 个地址
+[2025-04-10 00:32:36] [TokenPriceFetcher][fetch_prices]: 正在处理第 1 批（9 个地址）
+[2025-04-10 00:32:36] [TokenPriceFetcher][fetch_prices] [ERROR]: 第 1 批失败：BirdEye API 请求失败：400 - {"success":false,"message":"list_address is invalid format"}
+[2025-04-10 00:32:36] [TokenPriceFetcher][fetch_prices]: 价格获取完成，成功获取 0 条记录
+[2025-04-10 00:32:36] [SolanaWalletExplorer][calculate_profit_by_7_day] [ERROR]: 计算盈利时出错: local variable 'value' referenced before assignment
+[2025-04-10 00:32:55] [SolanaWalletExplorer][__init__]: 初始化 Explorer，地址: 9HCTuTPEiQvkUtLmTZvK6uch4E3pDynwJTbNw6jLhp9z
+[2025-04-10 00:32:55] [SolanaWalletExplorer][get_account_info]: 获取账户信息成功
+[2025-04-10 00:32:55] [SolanaWalletExplorer][calculate_profit_by_7_day]: 开始计算过去7天内钱包的盈利情况
+[2025-04-10 00:32:55] [SolanaSlotFinder][__init__]: ✅ SolanaSlotFinder 初始化成功，节点: https://lingering-wispy-voice.solana-mainnet.quiknode.pro/6e5fc0da5f61cc165757bcd9c453ab31ba36419a/
+[2025-04-10 00:32:55] [SolanaSlotFinder][find_slot_by_timestamp]: 🔍 查找目标时间戳对应的 slot: 1743582775 ± 10000
+[2025-04-10 00:32:55] [SolanaSlotFinder][estimate_slot_by_avg_speed]: 📐 基于平均出块速度估算目标 slot: 1743582775
+[2025-04-10 00:32:55] [SolanaSlotFinder][estimate_slot_by_avg_speed]: 📊 平均出块速度: 2.5093 slots/s
+[2025-04-10 00:32:55] [SolanaSlotFinder][estimate_slot_by_avg_speed]: 🧮 估算 slot: 330770302
+[2025-04-10 00:32:57] [SolanaSlotFinder][find_slot_by_timestamp]: Slot     → [ Left: 330770302  | Mid: 330775302  | Right: 330780302  ]
+[2025-04-10 00:32:57] [SolanaSlotFinder][find_slot_by_timestamp]: Time     → [ Left: 2025-04-02 08:18:54 | Mid: 2025-04-02 08:52:00 | Right: 2025-04-02 09:25:33 ]
+[2025-04-10 00:32:57] [SolanaSlotFinder][find_slot_by_timestamp]: Target   →           2025-04-02 08:32:55
+[2025-04-10 00:32:57] [SolanaSlotFinder][find_slot_by_timestamp]: 误差(秒) → [ Left: 841 | Mid: 1145 | Right: 3158 ]
+[2025-04-10 00:32:57] [SolanaSlotFinder][find_slot_by_timestamp]: ✅ 更新最接近 Slot: 330775302 (误差 1145 s)
+[2025-04-10 00:32:57] [SolanaSlotFinder][find_slot_by_timestamp]: Slot     → [ Left: 330770302  | Mid: 330772801  | Right: 330775301  ]
+[2025-04-10 00:32:57] [SolanaSlotFinder][find_slot_by_timestamp]: Time     → [ Left: 2025-04-02 08:18:54 | Mid: 2025-04-02 08:35:25 | Right: 2025-04-02 08:52:00 ]
+[2025-04-10 00:32:57] [SolanaSlotFinder][find_slot_by_timestamp]: Target   →           2025-04-02 08:32:55
+[2025-04-10 00:32:57] [SolanaSlotFinder][find_slot_by_timestamp]: 误差(秒) → [ Left: 841 | Mid: 150 | Right: 1145 ]
+[2025-04-10 00:32:57] [SolanaSlotFinder][find_slot_by_timestamp]: ✅ 更新最接近 Slot: 330772801 (误差 150 s)
+[2025-04-10 00:32:57] [SolanaSlotFinder][find_slot_by_timestamp]: 🛑 误差已满足条件 (150 <= 500)，提前返回
+[2025-04-10 00:32:58] [SolanaSlotFinder][find_slot_by_timestamp]: 🌟 搜索完成！Slot = 330772801, 时间: 2025-04-02 08:35:25, 误差: 150 s
+[2025-04-10 00:32:58] [SolanaWalletExplorer][get_signatures_by_7days]: 7天前的时间戳为 1743582775，对应 Slot 为 330772801
+[2025-04-10 00:32:58] [SolanaWalletExplorer][get_signatures_by_7days]: 请求交易签名: limit=1000, before=None
+[2025-04-10 00:32:58] [SolanaWalletExplorer][get_signatures_by_7days]: 本次获取 1000 条，成功 993 条
+[2025-04-10 00:32:58] [SolanaWalletExplorer][get_signatures_by_7days]: 最旧交易 slot=323334773 < 7天前 slot=330772801，终止递归
+[2025-04-10 00:32:58] [SolanaWalletExplorer][get_signatures_by_7days]: 最终保留过去7天内的成功交易: 73 条
+[2025-04-10 00:32:58] [SolanaWalletExplorer][decode_transaction]: 开始解析 73 条交易签名
+[2025-04-10 00:32:58] [TransactionListDecoder][decode]: 开始全流程解析...
+[2025-04-10 00:32:58] [TransactionListDecoder][parse_signatures]: 开始解析签名...
+[2025-04-10 00:33:02] [TransactionListDecoder][parse_signatures]: 共解析交易 73 条，其中 PUMP 类型 14 条，其它类型 59 条
+[2025-04-10 00:33:02] [TransactionListDecoder][async_fetch_pump_tx_json]: 开始异步获取 PUMP 交易 JSON 数据（加权 RPC 调度）...
+[2025-04-10 00:33:03] [TransactionListDecoder][fetch_one_tx]: 成功获取交易 3cFjBGxkNAKg4zfH3RjAfib1qsvgjdFSyzoPzyotpxcSzWWgh6ZfyDYXYg4TasZMx8Wx1W41oHgrejV42NiqdCRE via https://lingering-fragrant-hexagon.solana-mainnet.quiknode.pro/e27d3b258cfb3d3c3f808767fe98ed8fa189e38e/
+[2025-04-10 00:33:03] [TransactionListDecoder][fetch_one_tx]: 成功获取交易 3SQREDV4J5QJiELT6RmN8iNct8nHvG45iBxVFKgfa93wNRrDWJh4RWghPmZKRepQ9VCt11dHFjhFKXKJpYSWmUS2 via https://wild-boldest-rain.solana-mainnet.quiknode.pro/b95f33839916945a42159c53ceab4d7468a51a69/
+[2025-04-10 00:33:03] [TransactionListDecoder][fetch_one_tx]: 成功获取交易 5CmfzvdMp4PPaWmdad8jVC734AuGrz5EojP2kC58vt5bQV9wz9qPXHrwxwqwgTrPBsjMprKA6Kw4B22XMtfMYakC via https://lingering-wispy-voice.solana-mainnet.quiknode.pro/6e5fc0da5f61cc165757bcd9c453ab31ba36419a/
+[2025-04-10 00:33:03] [TransactionListDecoder][fetch_one_tx]: 成功获取交易 4v3rbubK2XcRxiZjwKTqp66j7zY43xxVsTmwJrvpDoRiEWwxwiJvrVjWpCZ1JbR6Zfv5Uw1hZDvxjPyNpGSHyCXE via https://lingering-wispy-voice.solana-mainnet.quiknode.pro/6e5fc0da5f61cc165757bcd9c453ab31ba36419a/
+[2025-04-10 00:33:03] [TransactionListDecoder][fetch_one_tx]: 成功获取交易 5mLo5uCE5zC4rUQfKMCpMEPLiCFKKB9hZfVi7yyXFSjK1iEHQfP2CWuhqiHqoYEnkuAts1CZSFivU4iJaz3c66ZN via https://lingering-wispy-voice.solana-mainnet.quiknode.pro/6e5fc0da5f61cc165757bcd9c453ab31ba36419a/
+[2025-04-10 00:33:03] [TransactionListDecoder][fetch_one_tx]: 成功获取交易 448BUM2oUQKC1RshRYo4QL1ZcYPxvn8RAbJAQ1rG6uaFRNvCpm9BCkQYsX6QbCJ9Trt3si1jCXPSxHUyZgTvEShc via https://lingering-wispy-voice.solana-mainnet.quiknode.pro/6e5fc0da5f61cc165757bcd9c453ab31ba36419a/
+[2025-04-10 00:33:03] [TransactionListDecoder][fetch_one_tx]: 成功获取交易 4AEw6pbU7pG9mLDM85F6Ju7y2USY8RscUmqJFjSqRH8rpDS3scgoPxW66DiVgEHRBFAJQpohxoCcruT3JAmpKHpg via https://lingering-wispy-voice.solana-mainnet.quiknode.pro/6e5fc0da5f61cc165757bcd9c453ab31ba36419a/
+[2025-04-10 00:33:03] [TransactionListDecoder][fetch_one_tx]: 成功获取交易 63BGJCjo4N8NA56KBiGXJv2Uu14usgUQfhimpUR7kJkAGMFzufb3ZhqUZH2x6h9hPAthDemWBxcNAmfHUKmUvxi via https://lingering-wispy-voice.solana-mainnet.quiknode.pro/6e5fc0da5f61cc165757bcd9c453ab31ba36419a/
+[2025-04-10 00:33:03] [TransactionListDecoder][fetch_one_tx]: 成功获取交易 52G4PhhficWnkumQoDDzxP82K9Nd61AoTBCxKpmuEKwiJa8uQdpxYtX7yyZ6rd7KjHenCFUxsSVbsaXgD9eyvFPd via https://lingering-wispy-voice.solana-mainnet.quiknode.pro/6e5fc0da5f61cc165757bcd9c453ab31ba36419a/
+[2025-04-10 00:33:03] [TransactionListDecoder][fetch_one_tx]: 成功获取交易 3G8tcCeVBDr7M4Bo2ABeLdgPY26x1prbgTAfL171LFGiiaeoiMJ8gwpouFeFM9C8KbFXCvnQto1r7DrUGuT4uff9 via https://lingering-wispy-voice.solana-mainnet.quiknode.pro/6e5fc0da5f61cc165757bcd9c453ab31ba36419a/
+[2025-04-10 00:33:03] [TransactionListDecoder][fetch_one_tx]: 成功获取交易 34CVo61BnyfnDbNCdeDC2XKK6WESVVCoqvcJVLZvRUAEG2WfSZBZBtv2yziVV365YvaXuvHKU2MMkmwWUwDfgGTL via https://lingering-wispy-voice.solana-mainnet.quiknode.pro/6e5fc0da5f61cc165757bcd9c453ab31ba36419a/
+[2025-04-10 00:33:03] [TransactionListDecoder][fetch_one_tx]: 成功获取交易 JACHDJx1tgQeeZX8H7MD84CLcuGpyYSpoTu2Gpg9KvmF24AMLUGN16JpWaUkbT4HpWSKe8nZiuTqM3dseWxjwAB via https://lingering-wispy-voice.solana-mainnet.quiknode.pro/6e5fc0da5f61cc165757bcd9c453ab31ba36419a/
+[2025-04-10 00:33:04] [TransactionListDecoder][fetch_one_tx]: 成功获取交易 3vqgf6vQiHW2DJpm7qUYJPo2R4hHyJxUwt3tr1XNDur914pckhGFQTjKYaHWJYzL8xxusLtNATY7xnKkhCkD4vWk via https://lingering-wispy-voice.solana-mainnet.quiknode.pro/6e5fc0da5f61cc165757bcd9c453ab31ba36419a/
+[2025-04-10 00:33:06] [TransactionListDecoder][fetch_one_tx]: 成功获取交易 MZiGeHGb1KZSdmNQFkXnKVjBVWhePM9MT2tMyq9CYqMT3kJsDGYSMZ4s4vowNS6s7mcvh3uR9rhPKNcAF19vBka via https://lingering-wispy-voice.solana-mainnet.quiknode.pro/6e5fc0da5f61cc165757bcd9c453ab31ba36419a/
+[2025-04-10 00:33:06] [TransactionListDecoder][decode_pump_multithreaded]: 开始多进程解析 PUMP 交易...
+[2025-04-10 00:33:09] [TransactionListDecoder][decode_pump_multithreaded]: 成功解析 14 条 PUMP 交易
+[2025-04-10 00:33:09] [TransactionListDecoder][merge_results]: 开始合并结果...
+[2025-04-10 00:33:09] [TransactionListDecoder][decode]: 全部解析完成，合并后共 73 条记录
+[2025-04-10 00:33:09] [WalletProfitCalculater][_update_sol_price]: SOL 当前价格设置为 106.9391 USD
+[2025-04-10 00:33:10] [TokenPriceFetcher][fetch_wallet_token_list]: 钱包 9HCTuTPEiQvkUtLmTZvK6uch4E3pDynwJTbNw6jLhp9z 持有 416 个 Token
+[2025-04-10 00:34:45] [SolanaWalletExplorer][__init__]: 初始化 Explorer，地址: 9HCTuTPEiQvkUtLmTZvK6uch4E3pDynwJTbNw6jLhp9z
+[2025-04-10 00:34:45] [SolanaWalletExplorer][get_account_info]: 获取账户信息成功
+[2025-04-10 00:34:45] [SolanaWalletExplorer][calculate_profit_by_7_day]: 开始计算过去7天内钱包的盈利情况
+[2025-04-10 00:34:45] [SolanaSlotFinder][__init__]: ✅ SolanaSlotFinder 初始化成功，节点: https://lingering-wispy-voice.solana-mainnet.quiknode.pro/6e5fc0da5f61cc165757bcd9c453ab31ba36419a/
+[2025-04-10 00:34:45] [SolanaSlotFinder][find_slot_by_timestamp]: 🔍 查找目标时间戳对应的 slot: 1743582885 ± 10000
+[2025-04-10 00:34:45] [SolanaSlotFinder][estimate_slot_by_avg_speed]: 📐 基于平均出块速度估算目标 slot: 1743582885
+[2025-04-10 00:34:45] [SolanaSlotFinder][estimate_slot_by_avg_speed]: 📊 平均出块速度: 2.5097 slots/s
+[2025-04-10 00:34:45] [SolanaSlotFinder][estimate_slot_by_avg_speed]: 🧮 估算 slot: 330770373
+[2025-04-10 00:34:47] [SolanaSlotFinder][find_slot_by_timestamp]: Slot     → [ Left: 330770373  | Mid: 330775373  | Right: 330780373  ]
+[2025-04-10 00:34:47] [SolanaSlotFinder][find_slot_by_timestamp]: Time     → [ Left: 2025-04-02 08:19:22 | Mid: 2025-04-02 08:52:29 | Right: 2025-04-02 09:26:02 ]
+[2025-04-10 00:34:47] [SolanaSlotFinder][find_slot_by_timestamp]: Target   →           2025-04-02 08:34:45
+[2025-04-10 00:34:47] [SolanaSlotFinder][find_slot_by_timestamp]: 误差(秒) → [ Left: 923 | Mid: 1064 | Right: 3077 ]
+[2025-04-10 00:34:47] [SolanaSlotFinder][find_slot_by_timestamp]: ✅ 更新最接近 Slot: 330775373 (误差 1064 s)
+[2025-04-10 00:34:48] [SolanaSlotFinder][find_slot_by_timestamp]: Slot     → [ Left: 330770373  | Mid: 330772872  | Right: 330775372  ]
+[2025-04-10 00:34:48] [SolanaSlotFinder][find_slot_by_timestamp]: Time     → [ Left: 2025-04-02 08:19:22 | Mid: 2025-04-02 08:35:53 | Right: 2025-04-02 08:52:28 ]
+[2025-04-10 00:34:48] [SolanaSlotFinder][find_slot_by_timestamp]: Target   →           2025-04-02 08:34:45
+[2025-04-10 00:34:48] [SolanaSlotFinder][find_slot_by_timestamp]: 误差(秒) → [ Left: 923 | Mid: 68 | Right: 1063 ]
+[2025-04-10 00:34:48] [SolanaSlotFinder][find_slot_by_timestamp]: ✅ 更新最接近 Slot: 330772872 (误差 68 s)
+[2025-04-10 00:34:48] [SolanaSlotFinder][find_slot_by_timestamp]: 🛑 误差已满足条件 (68 <= 500)，提前返回
+[2025-04-10 00:34:48] [SolanaSlotFinder][find_slot_by_timestamp]: 🌟 搜索完成！Slot = 330772872, 时间: 2025-04-02 08:35:53, 误差: 68 s
+[2025-04-10 00:34:48] [SolanaWalletExplorer][get_signatures_by_7days]: 7天前的时间戳为 1743582885，对应 Slot 为 330772872
+[2025-04-10 00:34:48] [SolanaWalletExplorer][get_signatures_by_7days]: 请求交易签名: limit=1000, before=None
+[2025-04-10 00:34:48] [SolanaWalletExplorer][get_signatures_by_7days]: 本次获取 1000 条，成功 993 条
+[2025-04-10 00:34:48] [SolanaWalletExplorer][get_signatures_by_7days]: 最旧交易 slot=323334773 < 7天前 slot=330772872，终止递归
+[2025-04-10 00:34:48] [SolanaWalletExplorer][get_signatures_by_7days]: 最终保留过去7天内的成功交易: 73 条
+[2025-04-10 00:34:48] [SolanaWalletExplorer][decode_transaction]: 开始解析 73 条交易签名
+[2025-04-10 00:34:48] [TransactionListDecoder][decode]: 开始全流程解析...
+[2025-04-10 00:34:48] [TransactionListDecoder][parse_signatures]: 开始解析签名...
+[2025-04-10 00:34:51] [TransactionListDecoder][parse_signatures]: 共解析交易 73 条，其中 PUMP 类型 14 条，其它类型 59 条
+[2025-04-10 00:34:51] [TransactionListDecoder][async_fetch_pump_tx_json]: 开始异步获取 PUMP 交易 JSON 数据（加权 RPC 调度）...
+[2025-04-10 00:34:52] [TransactionListDecoder][fetch_one_tx]: 成功获取交易 52G4PhhficWnkumQoDDzxP82K9Nd61AoTBCxKpmuEKwiJa8uQdpxYtX7yyZ6rd7KjHenCFUxsSVbsaXgD9eyvFPd via https://lingering-fragrant-hexagon.solana-mainnet.quiknode.pro/e27d3b258cfb3d3c3f808767fe98ed8fa189e38e/
+[2025-04-10 00:34:52] [TransactionListDecoder][fetch_one_tx]: 成功获取交易 MZiGeHGb1KZSdmNQFkXnKVjBVWhePM9MT2tMyq9CYqMT3kJsDGYSMZ4s4vowNS6s7mcvh3uR9rhPKNcAF19vBka via https://lingering-wispy-voice.solana-mainnet.quiknode.pro/6e5fc0da5f61cc165757bcd9c453ab31ba36419a/
+[2025-04-10 00:34:52] [TransactionListDecoder][fetch_one_tx]: 成功获取交易 4v3rbubK2XcRxiZjwKTqp66j7zY43xxVsTmwJrvpDoRiEWwxwiJvrVjWpCZ1JbR6Zfv5Uw1hZDvxjPyNpGSHyCXE via https://lingering-fragrant-hexagon.solana-mainnet.quiknode.pro/e27d3b258cfb3d3c3f808767fe98ed8fa189e38e/
+[2025-04-10 00:34:52] [TransactionListDecoder][fetch_one_tx]: 成功获取交易 448BUM2oUQKC1RshRYo4QL1ZcYPxvn8RAbJAQ1rG6uaFRNvCpm9BCkQYsX6QbCJ9Trt3si1jCXPSxHUyZgTvEShc via https://lingering-wispy-voice.solana-mainnet.quiknode.pro/6e5fc0da5f61cc165757bcd9c453ab31ba36419a/
+[2025-04-10 00:34:52] [TransactionListDecoder][fetch_one_tx]: 成功获取交易 3G8tcCeVBDr7M4Bo2ABeLdgPY26x1prbgTAfL171LFGiiaeoiMJ8gwpouFeFM9C8KbFXCvnQto1r7DrUGuT4uff9 via https://lingering-wispy-voice.solana-mainnet.quiknode.pro/6e5fc0da5f61cc165757bcd9c453ab31ba36419a/
+[2025-04-10 00:34:52] [TransactionListDecoder][fetch_one_tx]: 成功获取交易 JACHDJx1tgQeeZX8H7MD84CLcuGpyYSpoTu2Gpg9KvmF24AMLUGN16JpWaUkbT4HpWSKe8nZiuTqM3dseWxjwAB via https://lingering-wispy-voice.solana-mainnet.quiknode.pro/6e5fc0da5f61cc165757bcd9c453ab31ba36419a/
+[2025-04-10 00:34:52] [TransactionListDecoder][fetch_one_tx]: 成功获取交易 63BGJCjo4N8NA56KBiGXJv2Uu14usgUQfhimpUR7kJkAGMFzufb3ZhqUZH2x6h9hPAthDemWBxcNAmfHUKmUvxi via https://lingering-wispy-voice.solana-mainnet.quiknode.pro/6e5fc0da5f61cc165757bcd9c453ab31ba36419a/
+[2025-04-10 00:34:52] [TransactionListDecoder][fetch_one_tx]: 成功获取交易 5CmfzvdMp4PPaWmdad8jVC734AuGrz5EojP2kC58vt5bQV9wz9qPXHrwxwqwgTrPBsjMprKA6Kw4B22XMtfMYakC via https://lingering-wispy-voice.solana-mainnet.quiknode.pro/6e5fc0da5f61cc165757bcd9c453ab31ba36419a/
+[2025-04-10 00:34:52] [TransactionListDecoder][fetch_one_tx]: 成功获取交易 3vqgf6vQiHW2DJpm7qUYJPo2R4hHyJxUwt3tr1XNDur914pckhGFQTjKYaHWJYzL8xxusLtNATY7xnKkhCkD4vWk via https://lingering-wispy-voice.solana-mainnet.quiknode.pro/6e5fc0da5f61cc165757bcd9c453ab31ba36419a/
+[2025-04-10 00:34:52] [TransactionListDecoder][fetch_one_tx]: 成功获取交易 3cFjBGxkNAKg4zfH3RjAfib1qsvgjdFSyzoPzyotpxcSzWWgh6ZfyDYXYg4TasZMx8Wx1W41oHgrejV42NiqdCRE via https://lingering-wispy-voice.solana-mainnet.quiknode.pro/6e5fc0da5f61cc165757bcd9c453ab31ba36419a/
+[2025-04-10 00:34:52] [TransactionListDecoder][fetch_one_tx]: 成功获取交易 3SQREDV4J5QJiELT6RmN8iNct8nHvG45iBxVFKgfa93wNRrDWJh4RWghPmZKRepQ9VCt11dHFjhFKXKJpYSWmUS2 via https://lingering-wispy-voice.solana-mainnet.quiknode.pro/6e5fc0da5f61cc165757bcd9c453ab31ba36419a/
+[2025-04-10 00:34:53] [TransactionListDecoder][fetch_one_tx]: 成功获取交易 5mLo5uCE5zC4rUQfKMCpMEPLiCFKKB9hZfVi7yyXFSjK1iEHQfP2CWuhqiHqoYEnkuAts1CZSFivU4iJaz3c66ZN via https://wild-boldest-rain.solana-mainnet.quiknode.pro/b95f33839916945a42159c53ceab4d7468a51a69/
+[2025-04-10 00:34:53] [TransactionListDecoder][fetch_one_tx]: 成功获取交易 34CVo61BnyfnDbNCdeDC2XKK6WESVVCoqvcJVLZvRUAEG2WfSZBZBtv2yziVV365YvaXuvHKU2MMkmwWUwDfgGTL via https://lingering-wispy-voice.solana-mainnet.quiknode.pro/6e5fc0da5f61cc165757bcd9c453ab31ba36419a/
+[2025-04-10 00:34:53] [TransactionListDecoder][fetch_one_tx]: 成功获取交易 4AEw6pbU7pG9mLDM85F6Ju7y2USY8RscUmqJFjSqRH8rpDS3scgoPxW66DiVgEHRBFAJQpohxoCcruT3JAmpKHpg via https://wild-boldest-rain.solana-mainnet.quiknode.pro/b95f33839916945a42159c53ceab4d7468a51a69/
+[2025-04-10 00:34:53] [TransactionListDecoder][decode_pump_multithreaded]: 开始多进程解析 PUMP 交易...
+[2025-04-10 00:35:13] [SolanaWalletExplorer][__init__]: 初始化 Explorer，地址: 9HCTuTPEiQvkUtLmTZvK6uch4E3pDynwJTbNw6jLhp9z
+[2025-04-10 00:35:13] [SolanaWalletExplorer][get_account_info]: 获取账户信息成功
+[2025-04-10 00:35:13] [SolanaWalletExplorer][calculate_profit_by_7_day]: 开始计算过去7天内钱包的盈利情况
+[2025-04-10 00:35:13] [SolanaSlotFinder][__init__]: ✅ SolanaSlotFinder 初始化成功，节点: https://lingering-wispy-voice.solana-mainnet.quiknode.pro/6e5fc0da5f61cc165757bcd9c453ab31ba36419a/
+[2025-04-10 00:35:13] [SolanaSlotFinder][find_slot_by_timestamp]: 🔍 查找目标时间戳对应的 slot: 1743582913 ± 10000
+[2025-04-10 00:35:13] [SolanaSlotFinder][estimate_slot_by_avg_speed]: 📐 基于平均出块速度估算目标 slot: 1743582913
+[2025-04-10 00:35:14] [SolanaSlotFinder][estimate_slot_by_avg_speed]: 📊 平均出块速度: 2.5097 slots/s
+[2025-04-10 00:35:14] [SolanaSlotFinder][estimate_slot_by_avg_speed]: 🧮 估算 slot: 330770446
+[2025-04-10 00:35:15] [SolanaSlotFinder][find_slot_by_timestamp]: Slot     → [ Left: 330770446  | Mid: 330775446  | Right: 330780446  ]
+[2025-04-10 00:35:15] [SolanaSlotFinder][find_slot_by_timestamp]: Time     → [ Left: 2025-04-02 08:19:51 | Mid: 2025-04-02 08:52:58 | Right: 2025-04-02 09:26:31 ]
+[2025-04-10 00:35:15] [SolanaSlotFinder][find_slot_by_timestamp]: Target   →           2025-04-02 08:35:13
+[2025-04-10 00:35:15] [SolanaSlotFinder][find_slot_by_timestamp]: 误差(秒) → [ Left: 922 | Mid: 1065 | Right: 3078 ]
+[2025-04-10 00:35:15] [SolanaSlotFinder][find_slot_by_timestamp]: ✅ 更新最接近 Slot: 330775446 (误差 1065 s)
+[2025-04-10 00:35:17] [SolanaSlotFinder][find_slot_by_timestamp]: Slot     → [ Left: 330770446  | Mid: 330772945  | Right: 330775445  ]
+[2025-04-10 00:35:17] [SolanaSlotFinder][find_slot_by_timestamp]: Time     → [ Left: 2025-04-02 08:19:51 | Mid: 2025-04-02 08:36:21 | Right: 2025-04-02 08:52:57 ]
+[2025-04-10 00:35:17] [SolanaSlotFinder][find_slot_by_timestamp]: Target   →           2025-04-02 08:35:13
+[2025-04-10 00:35:17] [SolanaSlotFinder][find_slot_by_timestamp]: 误差(秒) → [ Left: 922 | Mid: 68 | Right: 1064 ]
+[2025-04-10 00:35:17] [SolanaSlotFinder][find_slot_by_timestamp]: ✅ 更新最接近 Slot: 330772945 (误差 68 s)
+[2025-04-10 00:35:17] [SolanaSlotFinder][find_slot_by_timestamp]: 🛑 误差已满足条件 (68 <= 500)，提前返回
+[2025-04-10 00:35:17] [SolanaSlotFinder][find_slot_by_timestamp]: 🌟 搜索完成！Slot = 330772945, 时间: 2025-04-02 08:36:21, 误差: 68 s
+[2025-04-10 00:35:17] [SolanaWalletExplorer][get_signatures_by_7days]: 7天前的时间戳为 1743582913，对应 Slot 为 330772945
+[2025-04-10 00:35:17] [SolanaWalletExplorer][get_signatures_by_7days]: 请求交易签名: limit=1000, before=None
+[2025-04-10 00:35:18] [SolanaWalletExplorer][get_signatures_by_7days]: 本次获取 1000 条，成功 993 条
+[2025-04-10 00:35:18] [SolanaWalletExplorer][get_signatures_by_7days]: 最旧交易 slot=323334773 < 7天前 slot=330772945，终止递归
+[2025-04-10 00:35:18] [SolanaWalletExplorer][get_signatures_by_7days]: 最终保留过去7天内的成功交易: 73 条
+[2025-04-10 00:35:18] [SolanaWalletExplorer][decode_transaction]: 开始解析 73 条交易签名
+[2025-04-10 00:35:18] [TransactionListDecoder][decode]: 开始全流程解析...
+[2025-04-10 00:35:18] [TransactionListDecoder][parse_signatures]: 开始解析签名...
+[2025-04-10 00:35:21] [TransactionListDecoder][parse_signatures]: 共解析交易 73 条，其中 PUMP 类型 14 条，其它类型 59 条
+[2025-04-10 00:35:21] [TransactionListDecoder][async_fetch_pump_tx_json]: 开始异步获取 PUMP 交易 JSON 数据（加权 RPC 调度）...
+[2025-04-10 00:35:22] [TransactionListDecoder][fetch_one_tx]: 成功获取交易 52G4PhhficWnkumQoDDzxP82K9Nd61AoTBCxKpmuEKwiJa8uQdpxYtX7yyZ6rd7KjHenCFUxsSVbsaXgD9eyvFPd via https://lingering-fragrant-hexagon.solana-mainnet.quiknode.pro/e27d3b258cfb3d3c3f808767fe98ed8fa189e38e/
+[2025-04-10 00:35:22] [TransactionListDecoder][fetch_one_tx]: 成功获取交易 34CVo61BnyfnDbNCdeDC2XKK6WESVVCoqvcJVLZvRUAEG2WfSZBZBtv2yziVV365YvaXuvHKU2MMkmwWUwDfgGTL via https://lingering-wispy-voice.solana-mainnet.quiknode.pro/6e5fc0da5f61cc165757bcd9c453ab31ba36419a/
+[2025-04-10 00:35:22] [TransactionListDecoder][fetch_one_tx]: 成功获取交易 4v3rbubK2XcRxiZjwKTqp66j7zY43xxVsTmwJrvpDoRiEWwxwiJvrVjWpCZ1JbR6Zfv5Uw1hZDvxjPyNpGSHyCXE via https://lingering-fragrant-hexagon.solana-mainnet.quiknode.pro/e27d3b258cfb3d3c3f808767fe98ed8fa189e38e/
+[2025-04-10 00:35:22] [TransactionListDecoder][fetch_one_tx]: 成功获取交易 4AEw6pbU7pG9mLDM85F6Ju7y2USY8RscUmqJFjSqRH8rpDS3scgoPxW66DiVgEHRBFAJQpohxoCcruT3JAmpKHpg via https://wild-boldest-rain.solana-mainnet.quiknode.pro/b95f33839916945a42159c53ceab4d7468a51a69/
+[2025-04-10 00:35:22] [TransactionListDecoder][fetch_one_tx]: 成功获取交易 448BUM2oUQKC1RshRYo4QL1ZcYPxvn8RAbJAQ1rG6uaFRNvCpm9BCkQYsX6QbCJ9Trt3si1jCXPSxHUyZgTvEShc via https://lingering-wispy-voice.solana-mainnet.quiknode.pro/6e5fc0da5f61cc165757bcd9c453ab31ba36419a/
+[2025-04-10 00:35:22] [TransactionListDecoder][fetch_one_tx]: 成功获取交易 3cFjBGxkNAKg4zfH3RjAfib1qsvgjdFSyzoPzyotpxcSzWWgh6ZfyDYXYg4TasZMx8Wx1W41oHgrejV42NiqdCRE via https://wild-boldest-rain.solana-mainnet.quiknode.pro/b95f33839916945a42159c53ceab4d7468a51a69/
+[2025-04-10 00:35:22] [TransactionListDecoder][fetch_one_tx]: 成功获取交易 3G8tcCeVBDr7M4Bo2ABeLdgPY26x1prbgTAfL171LFGiiaeoiMJ8gwpouFeFM9C8KbFXCvnQto1r7DrUGuT4uff9 via https://lingering-fragrant-hexagon.solana-mainnet.quiknode.pro/e27d3b258cfb3d3c3f808767fe98ed8fa189e38e/
+[2025-04-10 00:35:22] [TransactionListDecoder][fetch_one_tx]: 成功获取交易 3vqgf6vQiHW2DJpm7qUYJPo2R4hHyJxUwt3tr1XNDur914pckhGFQTjKYaHWJYzL8xxusLtNATY7xnKkhCkD4vWk via https://lingering-wispy-voice.solana-mainnet.quiknode.pro/6e5fc0da5f61cc165757bcd9c453ab31ba36419a/
+[2025-04-10 00:35:22] [TransactionListDecoder][fetch_one_tx]: 成功获取交易 5CmfzvdMp4PPaWmdad8jVC734AuGrz5EojP2kC58vt5bQV9wz9qPXHrwxwqwgTrPBsjMprKA6Kw4B22XMtfMYakC via https://lingering-wispy-voice.solana-mainnet.quiknode.pro/6e5fc0da5f61cc165757bcd9c453ab31ba36419a/
+[2025-04-10 00:35:22] [TransactionListDecoder][fetch_one_tx]: 成功获取交易 63BGJCjo4N8NA56KBiGXJv2Uu14usgUQfhimpUR7kJkAGMFzufb3ZhqUZH2x6h9hPAthDemWBxcNAmfHUKmUvxi via https://lingering-wispy-voice.solana-mainnet.quiknode.pro/6e5fc0da5f61cc165757bcd9c453ab31ba36419a/
+[2025-04-10 00:35:22] [TransactionListDecoder][fetch_one_tx]: 成功获取交易 5mLo5uCE5zC4rUQfKMCpMEPLiCFKKB9hZfVi7yyXFSjK1iEHQfP2CWuhqiHqoYEnkuAts1CZSFivU4iJaz3c66ZN via https://lingering-wispy-voice.solana-mainnet.quiknode.pro/6e5fc0da5f61cc165757bcd9c453ab31ba36419a/
+[2025-04-10 00:35:22] [TransactionListDecoder][fetch_one_tx]: 成功获取交易 JACHDJx1tgQeeZX8H7MD84CLcuGpyYSpoTu2Gpg9KvmF24AMLUGN16JpWaUkbT4HpWSKe8nZiuTqM3dseWxjwAB via https://lingering-wispy-voice.solana-mainnet.quiknode.pro/6e5fc0da5f61cc165757bcd9c453ab31ba36419a/
+[2025-04-10 00:35:23] [TransactionListDecoder][fetch_one_tx]: 成功获取交易 MZiGeHGb1KZSdmNQFkXnKVjBVWhePM9MT2tMyq9CYqMT3kJsDGYSMZ4s4vowNS6s7mcvh3uR9rhPKNcAF19vBka via https://wild-boldest-rain.solana-mainnet.quiknode.pro/b95f33839916945a42159c53ceab4d7468a51a69/
+[2025-04-10 00:35:23] [TransactionListDecoder][fetch_one_tx]: 成功获取交易 3SQREDV4J5QJiELT6RmN8iNct8nHvG45iBxVFKgfa93wNRrDWJh4RWghPmZKRepQ9VCt11dHFjhFKXKJpYSWmUS2 via https://wild-boldest-rain.solana-mainnet.quiknode.pro/b95f33839916945a42159c53ceab4d7468a51a69/
+[2025-04-10 00:35:23] [TransactionListDecoder][decode_pump_multithreaded]: 开始多进程解析 PUMP 交易...
+[2025-04-10 00:38:50] [SolanaWalletExplorer][__init__]: 初始化 Explorer，地址: 9HCTuTPEiQvkUtLmTZvK6uch4E3pDynwJTbNw6jLhp9z
+[2025-04-10 00:38:50] [SolanaWalletExplorer][get_account_info]: 获取账户信息成功
+[2025-04-10 00:38:50] [SolanaWalletExplorer][calculate_profit_by_7_day]: 开始计算过去7天内钱包的盈利情况
+[2025-04-10 00:38:50] [SolanaSlotFinder][__init__]: ✅ SolanaSlotFinder 初始化成功，节点: https://lingering-wispy-voice.solana-mainnet.quiknode.pro/6e5fc0da5f61cc165757bcd9c453ab31ba36419a/
+[2025-04-10 00:38:50] [SolanaSlotFinder][find_slot_by_timestamp]: 🔍 查找目标时间戳对应的 slot: 1743583130 ± 10000
+[2025-04-10 00:38:50] [SolanaSlotFinder][estimate_slot_by_avg_speed]: 📐 基于平均出块速度估算目标 slot: 1743583130
+[2025-04-10 00:38:51] [SolanaSlotFinder][estimate_slot_by_avg_speed]: 📊 平均出块速度: 2.5102 slots/s
+[2025-04-10 00:38:51] [SolanaSlotFinder][estimate_slot_by_avg_speed]: 🧮 估算 slot: 330770677
+[2025-04-10 00:38:52] [SolanaSlotFinder][find_slot_by_timestamp]: Slot     → [ Left: 330770677  | Mid: 330775677  | Right: 330780677  ]
+[2025-04-10 00:38:52] [SolanaSlotFinder][find_slot_by_timestamp]: Time     → [ Left: 2025-04-02 08:21:23 | Mid: 2025-04-02 08:54:30 | Right: 2025-04-02 09:28:02 ]
+[2025-04-10 00:38:52] [SolanaSlotFinder][find_slot_by_timestamp]: Target   →           2025-04-02 08:38:50
+[2025-04-10 00:38:52] [SolanaSlotFinder][find_slot_by_timestamp]: 误差(秒) → [ Left: 1047 | Mid: 940 | Right: 2952 ]
+[2025-04-10 00:38:52] [SolanaSlotFinder][find_slot_by_timestamp]: ✅ 更新最接近 Slot: 330775677 (误差 940 s)
+[2025-04-10 00:38:53] [SolanaSlotFinder][find_slot_by_timestamp]: Slot     → [ Left: 330770677  | Mid: 330773176  | Right: 330775676  ]
+[2025-04-10 00:38:53] [SolanaSlotFinder][find_slot_by_timestamp]: Time     → [ Left: 2025-04-02 08:21:23 | Mid: 2025-04-02 08:37:53 | Right: 2025-04-02 08:54:30 ]
+[2025-04-10 00:38:53] [SolanaSlotFinder][find_slot_by_timestamp]: Target   →           2025-04-02 08:38:50
+[2025-04-10 00:38:53] [SolanaSlotFinder][find_slot_by_timestamp]: 误差(秒) → [ Left: 1047 | Mid: 57 | Right: 940 ]
+[2025-04-10 00:38:53] [SolanaSlotFinder][find_slot_by_timestamp]: ✅ 更新最接近 Slot: 330773176 (误差 57 s)
+[2025-04-10 00:38:53] [SolanaSlotFinder][find_slot_by_timestamp]: 🛑 误差已满足条件 (57 <= 500)，提前返回
+[2025-04-10 00:38:53] [SolanaSlotFinder][find_slot_by_timestamp]: 🌟 搜索完成！Slot = 330773176, 时间: 2025-04-02 08:37:53, 误差: 57 s
+[2025-04-10 00:38:53] [SolanaWalletExplorer][get_signatures_by_7days]: 7天前的时间戳为 1743583130，对应 Slot 为 330773176
+[2025-04-10 00:38:53] [SolanaWalletExplorer][get_signatures_by_7days]: 请求交易签名: limit=1000, before=None
+[2025-04-10 00:38:54] [SolanaWalletExplorer][get_signatures_by_7days]: 本次获取 1000 条，成功 993 条
+[2025-04-10 00:38:54] [SolanaWalletExplorer][get_signatures_by_7days]: 最旧交易 slot=323335244 < 7天前 slot=330773176，终止递归
+[2025-04-10 00:38:54] [SolanaWalletExplorer][get_signatures_by_7days]: 最终保留过去7天内的成功交易: 74 条
+[2025-04-10 00:38:54] [SolanaWalletExplorer][decode_transaction]: 开始解析 74 条交易签名
+[2025-04-10 00:38:54] [TransactionListDecoder][decode]: 开始全流程解析...
+[2025-04-10 00:38:54] [TransactionListDecoder][parse_signatures]: 开始解析签名...
+[2025-04-10 00:38:56] [TransactionListDecoder][parse_signatures]: 共解析交易 74 条，其中 PUMP 类型 14 条，其它类型 60 条
+[2025-04-10 00:38:56] [TransactionListDecoder][async_fetch_pump_tx_json]: 开始异步获取 PUMP 交易 JSON 数据（加权 RPC 调度）...
+[2025-04-10 00:38:57] [TransactionListDecoder][fetch_one_tx]: 成功获取交易 34CVo61BnyfnDbNCdeDC2XKK6WESVVCoqvcJVLZvRUAEG2WfSZBZBtv2yziVV365YvaXuvHKU2MMkmwWUwDfgGTL via https://lingering-wispy-voice.solana-mainnet.quiknode.pro/6e5fc0da5f61cc165757bcd9c453ab31ba36419a/
+[2025-04-10 00:38:57] [TransactionListDecoder][fetch_one_tx]: 成功获取交易 5CmfzvdMp4PPaWmdad8jVC734AuGrz5EojP2kC58vt5bQV9wz9qPXHrwxwqwgTrPBsjMprKA6Kw4B22XMtfMYakC via https://lingering-wispy-voice.solana-mainnet.quiknode.pro/6e5fc0da5f61cc165757bcd9c453ab31ba36419a/
+[2025-04-10 00:38:57] [TransactionListDecoder][fetch_one_tx]: 成功获取交易 3vqgf6vQiHW2DJpm7qUYJPo2R4hHyJxUwt3tr1XNDur914pckhGFQTjKYaHWJYzL8xxusLtNATY7xnKkhCkD4vWk via https://lingering-wispy-voice.solana-mainnet.quiknode.pro/6e5fc0da5f61cc165757bcd9c453ab31ba36419a/
+[2025-04-10 00:38:57] [TransactionListDecoder][fetch_one_tx]: 成功获取交易 52G4PhhficWnkumQoDDzxP82K9Nd61AoTBCxKpmuEKwiJa8uQdpxYtX7yyZ6rd7KjHenCFUxsSVbsaXgD9eyvFPd via https://lingering-wispy-voice.solana-mainnet.quiknode.pro/6e5fc0da5f61cc165757bcd9c453ab31ba36419a/
+[2025-04-10 00:38:57] [TransactionListDecoder][fetch_one_tx]: 成功获取交易 448BUM2oUQKC1RshRYo4QL1ZcYPxvn8RAbJAQ1rG6uaFRNvCpm9BCkQYsX6QbCJ9Trt3si1jCXPSxHUyZgTvEShc via https://lingering-wispy-voice.solana-mainnet.quiknode.pro/6e5fc0da5f61cc165757bcd9c453ab31ba36419a/
+[2025-04-10 00:38:57] [TransactionListDecoder][fetch_one_tx]: 成功获取交易 4v3rbubK2XcRxiZjwKTqp66j7zY43xxVsTmwJrvpDoRiEWwxwiJvrVjWpCZ1JbR6Zfv5Uw1hZDvxjPyNpGSHyCXE via https://lingering-wispy-voice.solana-mainnet.quiknode.pro/6e5fc0da5f61cc165757bcd9c453ab31ba36419a/
+[2025-04-10 00:38:57] [TransactionListDecoder][fetch_one_tx]: 成功获取交易 3cFjBGxkNAKg4zfH3RjAfib1qsvgjdFSyzoPzyotpxcSzWWgh6ZfyDYXYg4TasZMx8Wx1W41oHgrejV42NiqdCRE via https://lingering-wispy-voice.solana-mainnet.quiknode.pro/6e5fc0da5f61cc165757bcd9c453ab31ba36419a/
+[2025-04-10 00:38:57] [TransactionListDecoder][fetch_one_tx]: 成功获取交易 5mLo5uCE5zC4rUQfKMCpMEPLiCFKKB9hZfVi7yyXFSjK1iEHQfP2CWuhqiHqoYEnkuAts1CZSFivU4iJaz3c66ZN via https://lingering-wispy-voice.solana-mainnet.quiknode.pro/6e5fc0da5f61cc165757bcd9c453ab31ba36419a/
+[2025-04-10 00:38:57] [TransactionListDecoder][fetch_one_tx]: 成功获取交易 3G8tcCeVBDr7M4Bo2ABeLdgPY26x1prbgTAfL171LFGiiaeoiMJ8gwpouFeFM9C8KbFXCvnQto1r7DrUGuT4uff9 via https://lingering-wispy-voice.solana-mainnet.quiknode.pro/6e5fc0da5f61cc165757bcd9c453ab31ba36419a/
+[2025-04-10 00:38:58] [TransactionListDecoder][fetch_one_tx]: 成功获取交易 JACHDJx1tgQeeZX8H7MD84CLcuGpyYSpoTu2Gpg9KvmF24AMLUGN16JpWaUkbT4HpWSKe8nZiuTqM3dseWxjwAB via https://lingering-wispy-voice.solana-mainnet.quiknode.pro/6e5fc0da5f61cc165757bcd9c453ab31ba36419a/
+[2025-04-10 00:38:58] [TransactionListDecoder][fetch_one_tx]: 成功获取交易 4AEw6pbU7pG9mLDM85F6Ju7y2USY8RscUmqJFjSqRH8rpDS3scgoPxW66DiVgEHRBFAJQpohxoCcruT3JAmpKHpg via https://lingering-wispy-voice.solana-mainnet.quiknode.pro/6e5fc0da5f61cc165757bcd9c453ab31ba36419a/
+[2025-04-10 00:38:58] [TransactionListDecoder][fetch_one_tx]: 成功获取交易 63BGJCjo4N8NA56KBiGXJv2Uu14usgUQfhimpUR7kJkAGMFzufb3ZhqUZH2x6h9hPAthDemWBxcNAmfHUKmUvxi via https://lingering-wispy-voice.solana-mainnet.quiknode.pro/6e5fc0da5f61cc165757bcd9c453ab31ba36419a/
+[2025-04-10 00:38:58] [TransactionListDecoder][fetch_one_tx]: 成功获取交易 MZiGeHGb1KZSdmNQFkXnKVjBVWhePM9MT2tMyq9CYqMT3kJsDGYSMZ4s4vowNS6s7mcvh3uR9rhPKNcAF19vBka via https://lingering-wispy-voice.solana-mainnet.quiknode.pro/6e5fc0da5f61cc165757bcd9c453ab31ba36419a/
+[2025-04-10 00:38:58] [TransactionListDecoder][fetch_one_tx]: 成功获取交易 3SQREDV4J5QJiELT6RmN8iNct8nHvG45iBxVFKgfa93wNRrDWJh4RWghPmZKRepQ9VCt11dHFjhFKXKJpYSWmUS2 via https://wild-boldest-rain.solana-mainnet.quiknode.pro/b95f33839916945a42159c53ceab4d7468a51a69/
+[2025-04-10 00:38:58] [TransactionListDecoder][decode_pump_multithreaded]: 开始多进程解析 PUMP 交易...
+[2025-04-10 00:38:59] [TransactionListDecoder][decode_pump_multithreaded]: 成功解析 14 条 PUMP 交易
+[2025-04-10 00:38:59] [TransactionListDecoder][merge_results]: 开始合并结果...
+[2025-04-10 00:38:59] [TransactionListDecoder][decode]: 全部解析完成，合并后共 74 条记录
+[2025-04-10 00:39:00] [WalletProfitCalculater][_update_sol_price]: SOL 当前价格设置为 107.1939 USD
+[2025-04-10 00:39:01] [TokenPriceFetcher][fetch_wallet_token_list]: 钱包 9HCTuTPEiQvkUtLmTZvK6uch4E3pDynwJTbNw6jLhp9z 持有 416 个 Token
+[2025-04-10 00:39:01] [TokenPriceFetcher][fetch_prices]: 开始获取价格，共 8 个地址
+[2025-04-10 00:39:01] [TokenPriceFetcher][fetch_prices]: 正在处理第 1 批（8 个地址）
+[2025-04-10 00:39:01] [TokenPriceFetcher][fetch_prices]: 价格获取完成，成功获取 8 条记录
+[2025-04-10 00:39:01] [SolanaWalletExplorer][calculate_profit_by_7_day] [ERROR]: 计算盈利时出错: local variable 'value' referenced before assignment
+[2025-04-10 00:41:24] [SolanaWalletExplorer][__init__]: 初始化 Explorer，地址: 9HCTuTPEiQvkUtLmTZvK6uch4E3pDynwJTbNw6jLhp9z
+[2025-04-10 00:41:24] [SolanaWalletExplorer][get_account_info]: 获取账户信息成功
+[2025-04-10 00:41:24] [SolanaWalletExplorer][calculate_profit_by_7_day]: 开始计算过去7天内钱包的盈利情况
+[2025-04-10 00:41:24] [SolanaSlotFinder][__init__]: ✅ SolanaSlotFinder 初始化成功，节点: https://lingering-wispy-voice.solana-mainnet.quiknode.pro/6e5fc0da5f61cc165757bcd9c453ab31ba36419a/
+[2025-04-10 00:41:24] [SolanaSlotFinder][find_slot_by_timestamp]: 🔍 查找目标时间戳对应的 slot: 1743583284 ± 10000
+[2025-04-10 00:41:24] [SolanaSlotFinder][estimate_slot_by_avg_speed]: 📐 基于平均出块速度估算目标 slot: 1743583284
+[2025-04-10 00:41:25] [SolanaSlotFinder][estimate_slot_by_avg_speed]: 📊 平均出块速度: 2.5117 slots/s
+[2025-04-10 00:41:25] [SolanaSlotFinder][estimate_slot_by_avg_speed]: 🧮 估算 slot: 330770117
+[2025-04-10 00:41:26] [SolanaSlotFinder][find_slot_by_timestamp]: Slot     → [ Left: 330770117  | Mid: 330775117  | Right: 330780117  ]
+[2025-04-10 00:41:26] [SolanaSlotFinder][find_slot_by_timestamp]: Time     → [ Left: 2025-04-02 08:17:36 | Mid: 2025-04-02 08:50:47 | Right: 2025-04-02 09:24:15 ]
+[2025-04-10 00:41:26] [SolanaSlotFinder][find_slot_by_timestamp]: Target   →           2025-04-02 08:41:24
+[2025-04-10 00:41:26] [SolanaSlotFinder][find_slot_by_timestamp]: 误差(秒) → [ Left: 1428 | Mid: 563 | Right: 2571 ]
+[2025-04-10 00:41:26] [SolanaSlotFinder][find_slot_by_timestamp]: ✅ 更新最接近 Slot: 330775117 (误差 563 s)
+[2025-04-10 00:41:31] [SolanaWalletExplorer][__init__]: 初始化 Explorer，地址: 9HCTuTPEiQvkUtLmTZvK6uch4E3pDynwJTbNw6jLhp9z
+[2025-04-10 00:41:31] [SolanaWalletExplorer][get_account_info]: 获取账户信息成功
+[2025-04-10 00:41:31] [SolanaWalletExplorer][calculate_profit_by_7_day]: 开始计算过去7天内钱包的盈利情况
+[2025-04-10 00:41:31] [SolanaSlotFinder][__init__]: ✅ SolanaSlotFinder 初始化成功，节点: https://lingering-wispy-voice.solana-mainnet.quiknode.pro/6e5fc0da5f61cc165757bcd9c453ab31ba36419a/
+[2025-04-10 00:41:31] [SolanaSlotFinder][find_slot_by_timestamp]: 🔍 查找目标时间戳对应的 slot: 1743583291 ± 10000
+[2025-04-10 00:41:31] [SolanaSlotFinder][estimate_slot_by_avg_speed]: 📐 基于平均出块速度估算目标 slot: 1743583291
+[2025-04-10 00:41:32] [SolanaSlotFinder][estimate_slot_by_avg_speed]: 📊 平均出块速度: 2.5115 slots/s
+[2025-04-10 00:41:32] [SolanaSlotFinder][estimate_slot_by_avg_speed]: 🧮 估算 slot: 330770242
+[2025-04-10 00:41:33] [SolanaSlotFinder][find_slot_by_timestamp]: Slot     → [ Left: 330770242  | Mid: 330775242  | Right: 330780242  ]
+[2025-04-10 00:41:33] [SolanaSlotFinder][find_slot_by_timestamp]: Time     → [ Left: 2025-04-02 08:18:27 | Mid: 2025-04-02 08:51:37 | Right: 2025-04-02 09:25:06 ]
+[2025-04-10 00:41:33] [SolanaSlotFinder][find_slot_by_timestamp]: Target   →           2025-04-02 08:41:31
+[2025-04-10 00:41:33] [SolanaSlotFinder][find_slot_by_timestamp]: 误差(秒) → [ Left: 1384 | Mid: 606 | Right: 2615 ]
+[2025-04-10 00:41:33] [SolanaSlotFinder][find_slot_by_timestamp]: ✅ 更新最接近 Slot: 330775242 (误差 606 s)
+[2025-04-10 00:41:34] [SolanaSlotFinder][find_slot_by_timestamp]: Slot     → [ Left: 330770242  | Mid: 330772741  | Right: 330775241  ]
+[2025-04-10 00:41:34] [SolanaSlotFinder][find_slot_by_timestamp]: Time     → [ Left: 2025-04-02 08:18:27 | Mid: 2025-04-02 08:35:02 | Right: 2025-04-02 08:51:36 ]
+[2025-04-10 00:41:34] [SolanaSlotFinder][find_slot_by_timestamp]: Target   →           2025-04-02 08:41:31
+[2025-04-10 00:41:34] [SolanaSlotFinder][find_slot_by_timestamp]: 误差(秒) → [ Left: 1384 | Mid: 389 | Right: 605 ]
+[2025-04-10 00:41:34] [SolanaSlotFinder][find_slot_by_timestamp]: ✅ 更新最接近 Slot: 330772741 (误差 389 s)
+[2025-04-10 00:41:34] [SolanaSlotFinder][find_slot_by_timestamp]: 🛑 误差已满足条件 (389 <= 500)，提前返回
+[2025-04-10 00:41:34] [SolanaSlotFinder][find_slot_by_timestamp]: 🌟 搜索完成！Slot = 330772741, 时间: 2025-04-02 08:35:02, 误差: 389 s
+[2025-04-10 00:41:34] [SolanaWalletExplorer][get_signatures_by_7days]: 7天前的时间戳为 1743583291，对应 Slot 为 330772741
+[2025-04-10 00:41:34] [SolanaWalletExplorer][get_signatures_by_7days]: 请求交易签名: limit=1000, before=None
+[2025-04-10 00:41:35] [SolanaWalletExplorer][get_signatures_by_7days]: 本次获取 1000 条，成功 993 条
+[2025-04-10 00:41:35] [SolanaWalletExplorer][get_signatures_by_7days]: 最旧交易 slot=323335244 < 7天前 slot=330772741，终止递归
+[2025-04-10 00:41:35] [SolanaWalletExplorer][get_signatures_by_7days]: 最终保留过去7天内的成功交易: 74 条
+[2025-04-10 00:41:35] [SolanaWalletExplorer][decode_transaction]: 开始解析 74 条交易签名
+[2025-04-10 00:41:35] [TransactionListDecoder][decode]: 开始全流程解析...
+[2025-04-10 00:41:35] [TransactionListDecoder][parse_signatures]: 开始解析签名...
+[2025-04-10 00:41:38] [TransactionListDecoder][parse_signatures]: 共解析交易 74 条，其中 PUMP 类型 14 条，其它类型 60 条
+[2025-04-10 00:41:38] [TransactionListDecoder][async_fetch_pump_tx_json]: 开始异步获取 PUMP 交易 JSON 数据（加权 RPC 调度）...
+[2025-04-10 00:41:39] [TransactionListDecoder][fetch_one_tx]: 成功获取交易 3SQREDV4J5QJiELT6RmN8iNct8nHvG45iBxVFKgfa93wNRrDWJh4RWghPmZKRepQ9VCt11dHFjhFKXKJpYSWmUS2 via https://lingering-fragrant-hexagon.solana-mainnet.quiknode.pro/e27d3b258cfb3d3c3f808767fe98ed8fa189e38e/
+[2025-04-10 00:41:39] [TransactionListDecoder][fetch_one_tx]: 成功获取交易 34CVo61BnyfnDbNCdeDC2XKK6WESVVCoqvcJVLZvRUAEG2WfSZBZBtv2yziVV365YvaXuvHKU2MMkmwWUwDfgGTL via https://lingering-fragrant-hexagon.solana-mainnet.quiknode.pro/e27d3b258cfb3d3c3f808767fe98ed8fa189e38e/
+[2025-04-10 00:41:39] [TransactionListDecoder][fetch_one_tx]: 成功获取交易 JACHDJx1tgQeeZX8H7MD84CLcuGpyYSpoTu2Gpg9KvmF24AMLUGN16JpWaUkbT4HpWSKe8nZiuTqM3dseWxjwAB via https://lingering-wispy-voice.solana-mainnet.quiknode.pro/6e5fc0da5f61cc165757bcd9c453ab31ba36419a/
+[2025-04-10 00:41:39] [TransactionListDecoder][fetch_one_tx]: 成功获取交易 4v3rbubK2XcRxiZjwKTqp66j7zY43xxVsTmwJrvpDoRiEWwxwiJvrVjWpCZ1JbR6Zfv5Uw1hZDvxjPyNpGSHyCXE via https://lingering-fragrant-hexagon.solana-mainnet.quiknode.pro/e27d3b258cfb3d3c3f808767fe98ed8fa189e38e/
+[2025-04-10 00:41:39] [TransactionListDecoder][fetch_one_tx]: 成功获取交易 52G4PhhficWnkumQoDDzxP82K9Nd61AoTBCxKpmuEKwiJa8uQdpxYtX7yyZ6rd7KjHenCFUxsSVbsaXgD9eyvFPd via https://lingering-wispy-voice.solana-mainnet.quiknode.pro/6e5fc0da5f61cc165757bcd9c453ab31ba36419a/
+[2025-04-10 00:41:39] [TransactionListDecoder][fetch_one_tx]: 成功获取交易 448BUM2oUQKC1RshRYo4QL1ZcYPxvn8RAbJAQ1rG6uaFRNvCpm9BCkQYsX6QbCJ9Trt3si1jCXPSxHUyZgTvEShc via https://lingering-wispy-voice.solana-mainnet.quiknode.pro/6e5fc0da5f61cc165757bcd9c453ab31ba36419a/
+[2025-04-10 00:41:39] [TransactionListDecoder][fetch_one_tx]: 成功获取交易 3G8tcCeVBDr7M4Bo2ABeLdgPY26x1prbgTAfL171LFGiiaeoiMJ8gwpouFeFM9C8KbFXCvnQto1r7DrUGuT4uff9 via https://lingering-fragrant-hexagon.solana-mainnet.quiknode.pro/e27d3b258cfb3d3c3f808767fe98ed8fa189e38e/
+[2025-04-10 00:41:39] [TransactionListDecoder][fetch_one_tx]: 成功获取交易 3vqgf6vQiHW2DJpm7qUYJPo2R4hHyJxUwt3tr1XNDur914pckhGFQTjKYaHWJYzL8xxusLtNATY7xnKkhCkD4vWk via https://lingering-wispy-voice.solana-mainnet.quiknode.pro/6e5fc0da5f61cc165757bcd9c453ab31ba36419a/
+[2025-04-10 00:41:39] [TransactionListDecoder][fetch_one_tx]: 成功获取交易 63BGJCjo4N8NA56KBiGXJv2Uu14usgUQfhimpUR7kJkAGMFzufb3ZhqUZH2x6h9hPAthDemWBxcNAmfHUKmUvxi via https://lingering-wispy-voice.solana-mainnet.quiknode.pro/6e5fc0da5f61cc165757bcd9c453ab31ba36419a/
+[2025-04-10 00:41:39] [TransactionListDecoder][fetch_one_tx]: 成功获取交易 5CmfzvdMp4PPaWmdad8jVC734AuGrz5EojP2kC58vt5bQV9wz9qPXHrwxwqwgTrPBsjMprKA6Kw4B22XMtfMYakC via https://lingering-wispy-voice.solana-mainnet.quiknode.pro/6e5fc0da5f61cc165757bcd9c453ab31ba36419a/
+[2025-04-10 00:41:39] [TransactionListDecoder][fetch_one_tx]: 成功获取交易 5mLo5uCE5zC4rUQfKMCpMEPLiCFKKB9hZfVi7yyXFSjK1iEHQfP2CWuhqiHqoYEnkuAts1CZSFivU4iJaz3c66ZN via https://lingering-wispy-voice.solana-mainnet.quiknode.pro/6e5fc0da5f61cc165757bcd9c453ab31ba36419a/
+[2025-04-10 00:41:39] [TransactionListDecoder][fetch_one_tx]: 成功获取交易 MZiGeHGb1KZSdmNQFkXnKVjBVWhePM9MT2tMyq9CYqMT3kJsDGYSMZ4s4vowNS6s7mcvh3uR9rhPKNcAF19vBka via https://lingering-wispy-voice.solana-mainnet.quiknode.pro/6e5fc0da5f61cc165757bcd9c453ab31ba36419a/
+[2025-04-10 00:41:40] [TransactionListDecoder][fetch_one_tx]: 成功获取交易 4AEw6pbU7pG9mLDM85F6Ju7y2USY8RscUmqJFjSqRH8rpDS3scgoPxW66DiVgEHRBFAJQpohxoCcruT3JAmpKHpg via https://lingering-wispy-voice.solana-mainnet.quiknode.pro/6e5fc0da5f61cc165757bcd9c453ab31ba36419a/
+[2025-04-10 00:41:40] [TransactionListDecoder][fetch_one_tx]: 成功获取交易 3cFjBGxkNAKg4zfH3RjAfib1qsvgjdFSyzoPzyotpxcSzWWgh6ZfyDYXYg4TasZMx8Wx1W41oHgrejV42NiqdCRE via https://wild-boldest-rain.solana-mainnet.quiknode.pro/b95f33839916945a42159c53ceab4d7468a51a69/
+[2025-04-10 00:41:40] [TransactionListDecoder][decode_pump_multithreaded]: 开始多进程解析 PUMP 交易...
+[2025-04-10 00:41:41] [TransactionListDecoder][decode_pump_multithreaded]: 成功解析 14 条 PUMP 交易
+[2025-04-10 00:41:41] [TransactionListDecoder][merge_results]: 开始合并结果...
+[2025-04-10 00:41:41] [TransactionListDecoder][decode]: 全部解析完成，合并后共 74 条记录
+[2025-04-10 00:41:41] [WalletProfitCalculater][_update_sol_price]: SOL 当前价格设置为 107.3742 USD
+[2025-04-10 00:41:42] [TokenPriceFetcher][fetch_wallet_token_list]: 钱包 9HCTuTPEiQvkUtLmTZvK6uch4E3pDynwJTbNw6jLhp9z 持有 416 个 Token
+[2025-04-10 00:41:42] [TokenPriceFetcher][fetch_prices]: 开始获取价格，共 8 个地址
+[2025-04-10 00:41:42] [TokenPriceFetcher][fetch_prices]: 正在处理第 1 批（8 个地址）
+[2025-04-10 00:41:43] [TokenPriceFetcher][fetch_prices]: 价格获取完成，成功获取 8 条记录
+[2025-04-10 00:41:43] [SolanaWalletExplorer][calculate_profit_by_7_day] [ERROR]: 计算盈利时出错: local variable 'value' referenced before assignment
+Traceback (most recent call last):
+  File "F:\工作区\Smart_Wallet_MEXC\SOLONA\LIB\Sol_Wallet_Fetcher.py", line 166, in calculate_profit_by_7_day
+    readable_df = calculator.get_wallet_trade_history(decoded_df)
+  File "F:\工作区\Smart_Wallet_MEXC\SOLONA\LIB\WalletProfitCalculater.py", line 265, in get_wallet_trade_history
+    "价值(USD)": value
+UnboundLocalError: local variable 'value' referenced before assignment
+
+[2025-04-10 00:43:08] [SolanaWalletExplorer][__init__]: 初始化 Explorer，地址: 9HCTuTPEiQvkUtLmTZvK6uch4E3pDynwJTbNw6jLhp9z
+[2025-04-10 00:43:09] [SolanaWalletExplorer][get_account_info]: 获取账户信息成功
+[2025-04-10 00:43:09] [SolanaWalletExplorer][calculate_profit_by_7_day]: 开始计算过去7天内钱包的盈利情况
+[2025-04-10 00:43:09] [SolanaSlotFinder][__init__]: ✅ SolanaSlotFinder 初始化成功，节点: https://lingering-wispy-voice.solana-mainnet.quiknode.pro/6e5fc0da5f61cc165757bcd9c453ab31ba36419a/
+[2025-04-10 00:43:09] [SolanaSlotFinder][find_slot_by_timestamp]: 🔍 查找目标时间戳对应的 slot: 1743583389 ± 10000
+[2025-04-10 00:43:09] [SolanaSlotFinder][estimate_slot_by_avg_speed]: 📐 基于平均出块速度估算目标 slot: 1743583389
+[2025-04-10 00:43:09] [SolanaSlotFinder][estimate_slot_by_avg_speed]: 📊 平均出块速度: 2.5108 slots/s
+[2025-04-10 00:43:09] [SolanaSlotFinder][estimate_slot_by_avg_speed]: 🧮 估算 slot: 330770909
+[2025-04-10 00:43:10] [SolanaSlotFinder][find_slot_by_timestamp]: Slot     → [ Left: 330770909  | Mid: 330775909  | Right: 330780909  ]
+[2025-04-10 00:43:10] [SolanaSlotFinder][find_slot_by_timestamp]: Time     → [ Left: 2025-04-02 08:22:57 | Mid: 2025-04-02 08:56:04 | Right: 2025-04-02 09:29:35 ]
+[2025-04-10 00:43:10] [SolanaSlotFinder][find_slot_by_timestamp]: Target   →           2025-04-02 08:43:09
+[2025-04-10 00:43:10] [SolanaSlotFinder][find_slot_by_timestamp]: 误差(秒) → [ Left: 1212 | Mid: 775 | Right: 2786 ]
+[2025-04-10 00:43:10] [SolanaSlotFinder][find_slot_by_timestamp]: ✅ 更新最接近 Slot: 330775909 (误差 775 s)
+[2025-04-10 00:43:11] [SolanaSlotFinder][find_slot_by_timestamp]: Slot     → [ Left: 330770909  | Mid: 330773408  | Right: 330775908  ]
+[2025-04-10 00:43:11] [SolanaSlotFinder][find_slot_by_timestamp]: Time     → [ Left: 2025-04-02 08:22:57 | Mid: 2025-04-02 08:39:25 | Right: 2025-04-02 08:56:04 ]
+[2025-04-10 00:43:11] [SolanaSlotFinder][find_slot_by_timestamp]: Target   →           2025-04-02 08:43:09
+[2025-04-10 00:43:11] [SolanaSlotFinder][find_slot_by_timestamp]: 误差(秒) → [ Left: 1212 | Mid: 224 | Right: 775 ]
+[2025-04-10 00:43:11] [SolanaSlotFinder][find_slot_by_timestamp]: ✅ 更新最接近 Slot: 330773408 (误差 224 s)
+[2025-04-10 00:43:11] [SolanaSlotFinder][find_slot_by_timestamp]: 🛑 误差已满足条件 (224 <= 500)，提前返回
+[2025-04-10 00:43:12] [SolanaSlotFinder][find_slot_by_timestamp]: 🌟 搜索完成！Slot = 330773408, 时间: 2025-04-02 08:39:25, 误差: 224 s
+[2025-04-10 00:43:12] [SolanaWalletExplorer][get_signatures_by_7days]: 7天前的时间戳为 1743583389，对应 Slot 为 330773408
+[2025-04-10 00:43:12] [SolanaWalletExplorer][get_signatures_by_7days]: 请求交易签名: limit=1000, before=None
+[2025-04-10 00:43:12] [SolanaWalletExplorer][get_signatures_by_7days]: 本次获取 1000 条，成功 993 条
+[2025-04-10 00:43:12] [SolanaWalletExplorer][get_signatures_by_7days]: 最旧交易 slot=323335244 < 7天前 slot=330773408，终止递归
+[2025-04-10 00:43:12] [SolanaWalletExplorer][get_signatures_by_7days]: 最终保留过去7天内的成功交易: 74 条
+[2025-04-10 00:43:12] [SolanaWalletExplorer][decode_transaction]: 开始解析 74 条交易签名
+[2025-04-10 00:43:12] [TransactionListDecoder][decode]: 开始全流程解析...
+[2025-04-10 00:43:12] [TransactionListDecoder][parse_signatures]: 开始解析签名...
+[2025-04-10 00:43:15] [TransactionListDecoder][parse_signatures]: 共解析交易 74 条，其中 PUMP 类型 14 条，其它类型 60 条
+[2025-04-10 00:43:15] [TransactionListDecoder][async_fetch_pump_tx_json]: 开始异步获取 PUMP 交易 JSON 数据（加权 RPC 调度）...
+[2025-04-10 00:43:16] [TransactionListDecoder][fetch_one_tx]: 成功获取交易 448BUM2oUQKC1RshRYo4QL1ZcYPxvn8RAbJAQ1rG6uaFRNvCpm9BCkQYsX6QbCJ9Trt3si1jCXPSxHUyZgTvEShc via https://lingering-wispy-voice.solana-mainnet.quiknode.pro/6e5fc0da5f61cc165757bcd9c453ab31ba36419a/
+[2025-04-10 00:43:16] [TransactionListDecoder][fetch_one_tx]: 成功获取交易 MZiGeHGb1KZSdmNQFkXnKVjBVWhePM9MT2tMyq9CYqMT3kJsDGYSMZ4s4vowNS6s7mcvh3uR9rhPKNcAF19vBka via https://lingering-fragrant-hexagon.solana-mainnet.quiknode.pro/e27d3b258cfb3d3c3f808767fe98ed8fa189e38e/
+[2025-04-10 00:43:16] [TransactionListDecoder][fetch_one_tx]: 成功获取交易 4v3rbubK2XcRxiZjwKTqp66j7zY43xxVsTmwJrvpDoRiEWwxwiJvrVjWpCZ1JbR6Zfv5Uw1hZDvxjPyNpGSHyCXE via https://wild-boldest-rain.solana-mainnet.quiknode.pro/b95f33839916945a42159c53ceab4d7468a51a69/
+[2025-04-10 00:43:16] [TransactionListDecoder][fetch_one_tx]: 成功获取交易 3SQREDV4J5QJiELT6RmN8iNct8nHvG45iBxVFKgfa93wNRrDWJh4RWghPmZKRepQ9VCt11dHFjhFKXKJpYSWmUS2 via https://lingering-wispy-voice.solana-mainnet.quiknode.pro/6e5fc0da5f61cc165757bcd9c453ab31ba36419a/
+[2025-04-10 00:43:16] [TransactionListDecoder][fetch_one_tx]: 成功获取交易 34CVo61BnyfnDbNCdeDC2XKK6WESVVCoqvcJVLZvRUAEG2WfSZBZBtv2yziVV365YvaXuvHKU2MMkmwWUwDfgGTL via https://lingering-wispy-voice.solana-mainnet.quiknode.pro/6e5fc0da5f61cc165757bcd9c453ab31ba36419a/
+[2025-04-10 00:43:16] [TransactionListDecoder][fetch_one_tx]: 成功获取交易 5CmfzvdMp4PPaWmdad8jVC734AuGrz5EojP2kC58vt5bQV9wz9qPXHrwxwqwgTrPBsjMprKA6Kw4B22XMtfMYakC via https://lingering-wispy-voice.solana-mainnet.quiknode.pro/6e5fc0da5f61cc165757bcd9c453ab31ba36419a/
+[2025-04-10 00:43:16] [TransactionListDecoder][fetch_one_tx]: 成功获取交易 63BGJCjo4N8NA56KBiGXJv2Uu14usgUQfhimpUR7kJkAGMFzufb3ZhqUZH2x6h9hPAthDemWBxcNAmfHUKmUvxi via https://lingering-wispy-voice.solana-mainnet.quiknode.pro/6e5fc0da5f61cc165757bcd9c453ab31ba36419a/
+[2025-04-10 00:43:16] [TransactionListDecoder][fetch_one_tx]: 成功获取交易 52G4PhhficWnkumQoDDzxP82K9Nd61AoTBCxKpmuEKwiJa8uQdpxYtX7yyZ6rd7KjHenCFUxsSVbsaXgD9eyvFPd via https://lingering-wispy-voice.solana-mainnet.quiknode.pro/6e5fc0da5f61cc165757bcd9c453ab31ba36419a/
+[2025-04-10 00:43:16] [TransactionListDecoder][fetch_one_tx]: 成功获取交易 3vqgf6vQiHW2DJpm7qUYJPo2R4hHyJxUwt3tr1XNDur914pckhGFQTjKYaHWJYzL8xxusLtNATY7xnKkhCkD4vWk via https://lingering-wispy-voice.solana-mainnet.quiknode.pro/6e5fc0da5f61cc165757bcd9c453ab31ba36419a/
+[2025-04-10 00:43:16] [TransactionListDecoder][fetch_one_tx]: 成功获取交易 3cFjBGxkNAKg4zfH3RjAfib1qsvgjdFSyzoPzyotpxcSzWWgh6ZfyDYXYg4TasZMx8Wx1W41oHgrejV42NiqdCRE via https://lingering-fragrant-hexagon.solana-mainnet.quiknode.pro/e27d3b258cfb3d3c3f808767fe98ed8fa189e38e/
+[2025-04-10 00:43:16] [TransactionListDecoder][fetch_one_tx]: 成功获取交易 3G8tcCeVBDr7M4Bo2ABeLdgPY26x1prbgTAfL171LFGiiaeoiMJ8gwpouFeFM9C8KbFXCvnQto1r7DrUGuT4uff9 via https://lingering-wispy-voice.solana-mainnet.quiknode.pro/6e5fc0da5f61cc165757bcd9c453ab31ba36419a/
+[2025-04-10 00:43:16] [TransactionListDecoder][fetch_one_tx]: 成功获取交易 JACHDJx1tgQeeZX8H7MD84CLcuGpyYSpoTu2Gpg9KvmF24AMLUGN16JpWaUkbT4HpWSKe8nZiuTqM3dseWxjwAB via https://lingering-wispy-voice.solana-mainnet.quiknode.pro/6e5fc0da5f61cc165757bcd9c453ab31ba36419a/
+[2025-04-10 00:43:16] [TransactionListDecoder][fetch_one_tx]: 成功获取交易 4AEw6pbU7pG9mLDM85F6Ju7y2USY8RscUmqJFjSqRH8rpDS3scgoPxW66DiVgEHRBFAJQpohxoCcruT3JAmpKHpg via https://lingering-wispy-voice.solana-mainnet.quiknode.pro/6e5fc0da5f61cc165757bcd9c453ab31ba36419a/
+[2025-04-10 00:43:16] [TransactionListDecoder][fetch_one_tx]: 成功获取交易 5mLo5uCE5zC4rUQfKMCpMEPLiCFKKB9hZfVi7yyXFSjK1iEHQfP2CWuhqiHqoYEnkuAts1CZSFivU4iJaz3c66ZN via https://lingering-wispy-voice.solana-mainnet.quiknode.pro/6e5fc0da5f61cc165757bcd9c453ab31ba36419a/
+[2025-04-10 00:43:16] [TransactionListDecoder][decode_pump_multithreaded]: 开始多进程解析 PUMP 交易...
+[2025-04-10 00:43:17] [TransactionListDecoder][decode_pump_multithreaded]: 成功解析 14 条 PUMP 交易
+[2025-04-10 00:43:17] [TransactionListDecoder][merge_results]: 开始合并结果...
+[2025-04-10 00:43:17] [TransactionListDecoder][decode]: 全部解析完成，合并后共 74 条记录
+[2025-04-10 00:43:17] [WalletProfitCalculater][_update_sol_price]: SOL 当前价格设置为 107.2674 USD
+[2025-04-10 00:43:19] [TokenPriceFetcher][fetch_wallet_token_list]: 钱包 9HCTuTPEiQvkUtLmTZvK6uch4E3pDynwJTbNw6jLhp9z 持有 416 个 Token
+[2025-04-10 00:43:19] [TokenPriceFetcher][fetch_prices]: 开始获取价格，共 8 个地址
+[2025-04-10 00:43:19] [TokenPriceFetcher][fetch_prices]: 正在处理第 1 批（8 个地址）
+[2025-04-10 00:43:19] [TokenPriceFetcher][fetch_prices]: 价格获取完成，成功获取 8 条记录
+[2025-04-10 00:43:19] [SolanaWalletExplorer][calculate_profit_by_7_day]: 步骤1 - 获取签名 耗时: 3.45 秒
+[2025-04-10 00:43:19] [SolanaWalletExplorer][calculate_profit_by_7_day]: 步骤2 - 解码交易 耗时: 4.86 秒
+[2025-04-10 00:43:19] [SolanaWalletExplorer][calculate_profit_by_7_day]: 步骤3 - 盈利计算 耗时: 2.10 秒
+[2025-04-10 00:43:19] [SolanaWalletExplorer][calculate_profit_by_7_day]: 总耗时: 10.40 秒
+[2025-04-10 00:52:57] [SolanaWalletExplorer][__init__]: 初始化 Explorer，地址: 9HCTuTPEiQvkUtLmTZvK6uch4E3pDynwJTbNw6jLhp9z
+[2025-04-10 00:52:57] [SolanaWalletExplorer][get_account_info]: 获取账户信息成功
+[2025-04-10 00:52:57] [SolanaWalletExplorer][calculate_profit_by_7_day]: 开始计算过去7天内钱包的盈利情况
+[2025-04-10 00:52:57] [SolanaSlotFinder][__init__]: ✅ SolanaSlotFinder 初始化成功，节点: https://lingering-wispy-voice.solana-mainnet.quiknode.pro/6e5fc0da5f61cc165757bcd9c453ab31ba36419a/
+[2025-04-10 00:52:57] [SolanaSlotFinder][find_slot_by_timestamp]: 🔍 查找目标时间戳对应的 slot: 1743583977 ± 10000
+[2025-04-10 00:52:57] [SolanaSlotFinder][estimate_slot_by_avg_speed]: 📐 基于平均出块速度估算目标 slot: 1743583977
+[2025-04-10 00:52:58] [SolanaSlotFinder][estimate_slot_by_avg_speed]: 📊 平均出块速度: 2.5097 slots/s
+[2025-04-10 00:52:58] [SolanaSlotFinder][estimate_slot_by_avg_speed]: 🧮 估算 slot: 330773125
+[2025-04-10 00:52:59] [SolanaSlotFinder][find_slot_by_timestamp]: Slot     → [ Left: 330773125  | Mid: 330778125  | Right: 330783125  ]
+[2025-04-10 00:52:59] [SolanaSlotFinder][find_slot_by_timestamp]: Time     → [ Left: 2025-04-02 08:37:33 | Mid: 2025-04-02 09:10:49 | Right: 2025-04-02 09:44:19 ]
+[2025-04-10 00:52:59] [SolanaSlotFinder][find_slot_by_timestamp]: Target   →           2025-04-02 08:52:57
+[2025-04-10 00:52:59] [SolanaSlotFinder][find_slot_by_timestamp]: 误差(秒) → [ Left: 924 | Mid: 1072 | Right: 3082 ]
+[2025-04-10 00:52:59] [SolanaSlotFinder][find_slot_by_timestamp]: ✅ 更新最接近 Slot: 330778125 (误差 1072 s)
+[2025-04-10 00:53:00] [SolanaSlotFinder][find_slot_by_timestamp]: Slot     → [ Left: 330773125  | Mid: 330775624  | Right: 330778124  ]
+[2025-04-10 00:53:00] [SolanaSlotFinder][find_slot_by_timestamp]: Time     → [ Left: 2025-04-02 08:37:33 | Mid: 2025-04-02 08:54:09 | Right: 2025-04-02 09:10:49 ]
+[2025-04-10 00:53:00] [SolanaSlotFinder][find_slot_by_timestamp]: Target   →           2025-04-02 08:52:57
+[2025-04-10 00:53:00] [SolanaSlotFinder][find_slot_by_timestamp]: 误差(秒) → [ Left: 924 | Mid: 72 | Right: 1072 ]
+[2025-04-10 00:53:00] [SolanaSlotFinder][find_slot_by_timestamp]: ✅ 更新最接近 Slot: 330775624 (误差 72 s)
+[2025-04-10 00:53:00] [SolanaSlotFinder][find_slot_by_timestamp]: 🛑 误差已满足条件 (72 <= 500)，提前返回
+[2025-04-10 00:53:00] [SolanaSlotFinder][find_slot_by_timestamp]: 🌟 搜索完成！Slot = 330775624, 时间: 2025-04-02 08:54:09, 误差: 72 s
+[2025-04-10 00:53:00] [SolanaWalletExplorer][get_signatures_by_7days]: 7天前的时间戳为 1743583977，对应 Slot 为 330775624
+[2025-04-10 00:53:00] [SolanaWalletExplorer][get_signatures_by_7days]: 请求交易签名: limit=1000, before=None
+[2025-04-10 00:53:01] [SolanaWalletExplorer][get_signatures_by_7days]: 本次获取 1000 条，成功 993 条
+[2025-04-10 00:53:01] [SolanaWalletExplorer][get_signatures_by_7days]: 最旧交易 slot=323335574 < 7天前 slot=330775624，终止递归
+[2025-04-10 00:53:01] [SolanaWalletExplorer][get_signatures_by_7days]: 最终保留过去7天内的成功交易: 75 条
+[2025-04-10 00:53:01] [SolanaWalletExplorer][decode_transaction]: 开始解析 75 条交易签名
+[2025-04-10 00:53:01] [TransactionListDecoder][decode]: 开始全流程解析...
+[2025-04-10 00:53:01] [TransactionListDecoder][parse_signatures]: 开始解析签名...
+[2025-04-10 00:55:25] [SolanaWalletExplorer][__init__]: 初始化 Explorer，地址: 9HCTuTPEiQvkUtLmTZvK6uch4E3pDynwJTbNw6jLhp9z
+[2025-04-10 00:55:25] [SolanaWalletExplorer][get_account_info]: 获取账户信息成功
+[2025-04-10 00:55:25] [SolanaWalletExplorer][calculate_profit_by_7_day]: 开始计算过去7天内钱包的盈利情况
+[2025-04-10 00:55:25] [SolanaSlotFinder][__init__]: ✅ SolanaSlotFinder 初始化成功，节点: https://lingering-wispy-voice.solana-mainnet.quiknode.pro/6e5fc0da5f61cc165757bcd9c453ab31ba36419a/
+[2025-04-10 00:55:25] [SolanaSlotFinder][find_slot_by_timestamp]: 🔍 查找目标时间戳对应的 slot: 1743584125 ± 10000
+[2025-04-10 00:55:25] [SolanaSlotFinder][estimate_slot_by_avg_speed]: 📐 基于平均出块速度估算目标 slot: 1743584125
+[2025-04-10 00:55:26] [SolanaSlotFinder][estimate_slot_by_avg_speed]: 📊 平均出块速度: 2.5095 slots/s
+[2025-04-10 00:55:26] [SolanaSlotFinder][estimate_slot_by_avg_speed]: 🧮 估算 slot: 330773604
+[2025-04-10 00:55:27] [SolanaSlotFinder][find_slot_by_timestamp]: Slot     → [ Left: 330773604  | Mid: 330778604  | Right: 330783604  ]
+[2025-04-10 00:55:27] [SolanaSlotFinder][find_slot_by_timestamp]: Time     → [ Left: 2025-04-02 08:40:44 | Mid: 2025-04-02 09:14:00 | Right: 2025-04-02 09:47:32 ]
+[2025-04-10 00:55:27] [SolanaSlotFinder][find_slot_by_timestamp]: Target   →           2025-04-02 08:55:25
+[2025-04-10 00:55:27] [SolanaSlotFinder][find_slot_by_timestamp]: 误差(秒) → [ Left: 881 | Mid: 1115 | Right: 3127 ]
+[2025-04-10 00:55:27] [SolanaSlotFinder][find_slot_by_timestamp]: ✅ 更新最接近 Slot: 330778604 (误差 1115 s)
+[2025-04-10 00:55:28] [SolanaSlotFinder][find_slot_by_timestamp]: Slot     → [ Left: 330773604  | Mid: 330776103  | Right: 330778603  ]
+[2025-04-10 00:55:28] [SolanaSlotFinder][find_slot_by_timestamp]: Time     → [ Left: 2025-04-02 08:40:44 | Mid: 2025-04-02 08:57:21 | Right: 2025-04-02 09:13:59 ]
+[2025-04-10 00:55:28] [SolanaSlotFinder][find_slot_by_timestamp]: Target   →           2025-04-02 08:55:25
+[2025-04-10 00:55:28] [SolanaSlotFinder][find_slot_by_timestamp]: 误差(秒) → [ Left: 881 | Mid: 116 | Right: 1114 ]
+[2025-04-10 00:55:28] [SolanaSlotFinder][find_slot_by_timestamp]: ✅ 更新最接近 Slot: 330776103 (误差 116 s)
+[2025-04-10 00:55:28] [SolanaSlotFinder][find_slot_by_timestamp]: 🛑 误差已满足条件 (116 <= 500)，提前返回
+[2025-04-10 00:55:28] [SolanaSlotFinder][find_slot_by_timestamp]: 🌟 搜索完成！Slot = 330776103, 时间: 2025-04-02 08:57:21, 误差: 116 s
+[2025-04-10 00:55:28] [SolanaWalletExplorer][get_signatures_by_7days]: 7天前的时间戳为 1743584125，对应 Slot 为 330776103
+[2025-04-10 00:55:28] [SolanaWalletExplorer][get_signatures_by_7days]: 请求交易签名: limit=1000, before=None
+[2025-04-10 00:55:29] [SolanaWalletExplorer][get_signatures_by_7days]: 本次获取 1000 条，成功 993 条
+[2025-04-10 00:55:29] [SolanaWalletExplorer][get_signatures_by_7days]: 最旧交易 slot=323335574 < 7天前 slot=330776103，终止递归
+[2025-04-10 00:55:29] [SolanaWalletExplorer][get_signatures_by_7days]: 最终保留过去7天内的成功交易: 75 条
+[2025-04-10 00:55:29] [SolanaWalletExplorer][decode_transaction]: 开始解析 75 条交易签名
+[2025-04-10 00:55:29] [TransactionListDecoder][decode]: 开始全流程解析...
+[2025-04-10 00:55:29] [TransactionListDecoder][parse_signatures]: 开始解析签名...
