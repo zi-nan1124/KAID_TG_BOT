@@ -1,0 +1,17 @@
+# 忽略 Python 虚拟环境
+.venv/
+
+# 忽略 Python 缓存
+__pycache__/
+*.py[cod]
+*.pyo
+
+# 忽略 IDE 配置
+.idea/
+.vscode/
+*.swp
+
+# 忽略日志和输出文件
+*.log
+*.csv
+*.tsv
