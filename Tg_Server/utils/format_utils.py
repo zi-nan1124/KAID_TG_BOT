@@ -41,3 +41,45 @@ def format_toptrader_table(df: pd.DataFrame, max_rows: int = 10) -> str:
         lines.append(f"{wallet} {profit}    {ratio}")
     lines.append("```")
     return "\n".join(lines)
+
+import re
+
+def escape_md(text: str) -> str:
+    """转义 MarkdownV2 保留字符"""
+    return re.sub(r'([_\*\[\]\(\)\~\`\>\#\+\-\=\|\{\}\.\!])', r'\\\1', str(text))
+
+
+def format_alpha_table(df, max_rows) -> str:
+    lines = ["*新地址更新（按链划分，每链前 %d 项）*:" % max_rows]
+
+    for chain, group_df in df.groupby("chain"):
+        lines.append(f"\n*链：{escape_md(chain.upper())}*")
+        lines.append("symbol \\| 24hVolume \\| MarketCap")
+
+        for _, row in group_df.head(max_rows).fillna("-").iterrows():
+            symbol_raw = str(row["symbol"])
+            address_raw = str(row["address"])
+            chain_raw = str(row["chain"])[:3]
+
+            # 构造超链接
+            link_text = escape_md(symbol_raw)
+            url = escape_md(f"https://www.gmgn.ai/{chain_raw}/token/{address_raw}")
+            symbol_link = f"[{link_text}]({url})"
+
+            v24 = f"{row['v24hUSD'] / 1_000_000:.2f}"
+            mc = f"{row['mc'] / 1_000_000:.2f}"
+
+            # 整行字符串，除了超链接部分都 escape
+            volume_text = escape_md(f"${v24}M")
+            mc_text = escape_md(f"${mc}M")
+
+            # 拼接
+            line = f"{symbol_link} \\| {volume_text} \\| {mc_text}"
+            lines.append(line)
+
+    return "\n".join(lines)
+
+
+
+
+

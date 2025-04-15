@@ -1,8 +1,14 @@
-# === handlers/start_handler.py ===
+# Tg_Server/handlers/start_handler.py
 from telegram import Update
 from telegram.ext import ContextTypes
+from Tg_Server.utils.SubscriberManager import SubscriberManager
+
+subscriber_mgr = SubscriberManager()
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    chat_id = update.effective_chat.id
+    subscriber_mgr.add(chat_id)
+
     await update.message.reply_text(
         "欢迎使用 Solana 钱包探索者！\n\n"
         "可用命令包括：\n"

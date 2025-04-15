@@ -4,7 +4,7 @@ from telegram.ext import ContextTypes
 from concurrent.futures import ThreadPoolExecutor
 import asyncio
 import config
-from utils.format_utils import format_profit_table
+from Tg_Server.utils.format_utils import format_profit_table
 from SOLONA.LIB.Sol_Wallet_Fetcher import SolanaWalletExplorer
 
 executor = ThreadPoolExecutor()
