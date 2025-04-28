@@ -8,6 +8,7 @@ import os
 from config import CONFIG
 from SOLONA.LIB.alpha.fetch_token_by_24V_BirdEye import BirdEyeFetcher
 from Tg_Server.utils.format_utils import format_alpha_table
+from Tg_Server.utils.format_utils import format_alpha_table_html
 
 
 ALPHA_CSV_PATH = os.path.join(CONFIG["tg_server_data_path"], "alpha.csv")
@@ -37,9 +38,15 @@ async def alpha_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
         await update.message.reply_text("✅ 没有发现新地址，一切如常。")
         return
 
-    # 输出格式化：单位用 M
-    msg = format_alpha_table(df_new, max_rows=20)
-    await update.message.reply_text(msg, parse_mode="MarkdownV2")
+    messages = format_alpha_table_html(df_new, max_rows=20)
+
+    for text, markup in messages:
+        await update.message.reply_text(
+            text,
+            parse_mode="HTML",
+            reply_markup=markup,
+            disable_web_page_preview=True
+        )
 
 
 

@@ -1,7 +1,7 @@
 from SOLONA.LIB.common import *
 import datetime
 from SOLONA.LIB.SolanaSlotFinder import SolanaSlotFinder
-from SOLONA.LIB.TransactionListDecoder_abandon import TransactionListDecoder
+from SOLONA.LIB.TransactionListDecoder import TransactionListDecoder
 from SOLONA.LIB.WalletProfitCalculater import WalletProfitCalculater
 
 class SolanaWalletExplorer:
@@ -71,7 +71,8 @@ class SolanaWalletExplorer:
         now = datetime.datetime.utcnow()
         seven_days_ago = now - datetime.timedelta(days=7)
         target_timestamp = int(seven_days_ago.timestamp())
-        cutoff_slot,err = slot_finder.find_slot_by_timestamp(target_timestamp)
+        #cutoff_slot,err = slot_finder.find_slot_by_timestamp(target_timestamp)
+        cutoff_slot = slot_finder.estimate_slot_by_avg_speed(target_timestamp)
         logger.info(f"7天前的时间戳为 {target_timestamp}，对应 Slot 为 {cutoff_slot}")
 
         while True:
@@ -110,7 +111,7 @@ class SolanaWalletExplorer:
         logger.info(f"最终保留过去7天内的成功交易: {len(filtered)} 条")
         return pd.DataFrame(filtered)[["signature"]]
 
-    def decode_transaction(self, signature_df: pd.DataFrame) -> pd.DataFrame:
+    async def decode_transaction(self, signature_df: pd.DataFrame) -> pd.DataFrame:
         """
         解析传入的交易签名 DataFrame，返回标准结构 DataFrame。
         参数: signature_df - 包含 "signature" 列的 DataFrame
@@ -121,11 +122,11 @@ class SolanaWalletExplorer:
             return pd.DataFrame()
 
         decoder = TransactionListDecoder()
-        decoded_df = decoder.decode(signature_df)
+        decoded_df = await decoder.decode(signature_df)
         return decoded_df
 
 
-    def calculate_profit_by_7_day(self):
+    async def calculate_profit_by_7_day(self):
         logger.info("开始计算过去7天内钱包的盈利情况")
         start_time = time.time()
 
@@ -143,7 +144,7 @@ class SolanaWalletExplorer:
 
             # 第二步：解析交易
             step2_start = time.time()
-            decoded_df = self.decode_transaction(signature_df)
+            decoded_df = await self.decode_transaction(signature_df)
             step2_end = time.time()
 
             if decoded_df.empty:
@@ -185,7 +186,9 @@ class SolanaWalletExplorer:
 
 
 # 示例用法
-if __name__ == "__main__":
+import asyncio
+
+async def main():
     start_time = time.time()  # 开始计时
 
     pd.set_option("display.max_columns", None)
@@ -199,7 +202,6 @@ if __name__ == "__main__":
         wallet_address="9HCTuTPEiQvkUtLmTZvK6uch4E3pDynwJTbNw6jLhp9z"
     )
 
-
     print(f"🔎 查询地址: {explorer.wallet_address}\n")
 
     account_info = explorer.get_account_info()
@@ -208,16 +210,16 @@ if __name__ == "__main__":
 
     # 新调用：获取近7天的交易
     #df_recent = explorer.get_signatures_by_7days()
-    print("\n📅 近7天交易签名（DataFrame 表格）:")
+    #print("\n📅 近7天交易签名（DataFrame 表格）:")
     #print(df_recent.head())
+    #df_recent.to_csv("wallet_tx_last7days.csv", index=False)
 
-
-    print("\n🔍 正在解析近7天的交易详情...")
+    #print("\n🔍 正在解析近7天的交易详情...")
     #df_tx_details = explorer.decode_transaction(df_recent)
     #print(df_tx_details.head())
 
     print("\n 正在计算钱包的七日盈利率：")
-    result_df, summary = explorer.calculate_profit_by_7_day()
+    result_df, summary = await explorer.calculate_profit_by_7_day()
     #print(result_df)
     #print(summary)
 
@@ -227,3 +229,6 @@ if __name__ == "__main__":
 
     # 可选保存为 CSV
     #df_tx_details.to_csv("wallet_tx_last7days.csv", index=False)
+
+if __name__ == "__main__":
+    asyncio.run(main())

@@ -13,7 +13,11 @@ class PumpFunTradeDecoder:
     def decode(self, tx_json):
         signature = tx_json["transaction"]["signatures"][0]
         signer = tx_json['transaction']['message']['accountKeys'][0]
-        account_keys = tx_json['transaction']['message']['accountKeys']
+        account_keys = (
+                tx_json['transaction']['message']['accountKeys'] +
+                tx_json.get('meta', {}).get('loadedAddresses', {}).get('writable', []) +
+                tx_json.get('meta', {}).get('loadedAddresses', {}).get('readonly', [])
+        )
         logs = tx_json['meta']['logMessages']
         pre_balances = tx_json['meta']['preBalances']
         post_balances = tx_json['meta']['postBalances']
@@ -98,7 +102,7 @@ class PumpFunTradeDecoder:
 # 示例主程序
 if __name__ == "__main__":
     client = Client("https://api.mainnet-beta.solana.com")
-    tx_signature = Signature.from_string("MNuqWoyfPhZH55bna1KXCygN6WGDXa72bRU9HmRJABd48iEAuLBxgPWkLddJ5krhXsmsejDpXy5oM9c4iyQLj9d")
+    tx_signature = Signature.from_string("2R8gH39oJ4ibs4hUqiozb7ExodqmbsgQDcXETW1PB99TuE3tU1YLFjPRvJXWw2j2siGZnP2YNEEf6HjC9YDvC7TC")
     response = client.get_transaction(tx_signature, max_supported_transaction_version=0)
     if not response.value:
         print("⚠️ 无法获取交易信息")

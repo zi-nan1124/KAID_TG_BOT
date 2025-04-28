@@ -5,7 +5,7 @@ CONFIG = {
     "rpc_url3": "https://wild-boldest-rain.solana-mainnet.quiknode.pro/b95f33839916945a42159c53ceab4d7468a51a69/",
     "input_path": "../INPUT",
     "output_path": "../RESULT",  # 新增的配置项
-    "tg_server_data_path":"TG_Server/data",
+    "tg_server_data_path":"Tg_Server/data",
     "log_enabled": True,
     "HELIU_APIKEY":"9ab6766f-ff7d-4256-92d1-beb442440800",
     "BIRDEYE_APIKEY": "1417024180f241ac91e88350dc2a1058",

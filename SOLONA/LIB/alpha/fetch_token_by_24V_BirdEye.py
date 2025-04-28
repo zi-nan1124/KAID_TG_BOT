@@ -37,7 +37,7 @@ class BirdEyeFetcher:
         df = df[["symbol", "address", "chain", "v24hUSD", "mc"]]
         return df
 
-    def fetch_all(self, chains=("solana", "bsc")) -> pd.DataFrame:
+    def fetch_all(self, chains=("solana", "bsc", "base")) -> pd.DataFrame:
         all_dfs = []
         for chain in chains:
             try:
