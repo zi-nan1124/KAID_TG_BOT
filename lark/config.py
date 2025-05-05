@@ -18,7 +18,10 @@ APP_SECRET = "Iq7KNfcVNQbp8AHn1VV7HgN61oAGhL5N"
 # List of openids (user IDs) to receive scheduled messages
 USERID = [
     "kaid.y@mexc.com",
+    "aqua.z@mexc.com"
 ]
 
 # Message push schedule (in seconds)
-MESSAGE_PUSH_INTERVAL = 2  # e.g., push every hour
+MESSAGE_PUSH_INTERVAL = 600  # e.g., push every hour
+
+keywords=["binance wallet", "binance alpha"]
