@@ -1,12 +1,12 @@
 import os
 import time
 import pandas as pd
+import sys
 from bs4 import BeautifulSoup
-
-import config
-from BlockBeats.BlockBeatsFlashFetcher import BlockBeatsFlashFetcher
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "../..")))
 from lark.larkapi.message_sender import LarkMessageSender
 from lark.config import APP_ID, APP_SECRET, USERID, keywords,MESSAGE_PUSH_INTERVAL
+from BlockBeats.BlockBeatsFlashFetcher import BlockBeatsFlashFetcher
 
 class BNfetcher:
     def __init__(self,

@@ -12,13 +12,12 @@ LARKAPI_SETTINGS = {
 }
 
 # App credentials for larkapi
-APP_ID = "cli_a880bef271f89009"
-APP_SECRET = "Iq7KNfcVNQbp8AHn1VV7HgN61oAGhL5N"
+APP_ID = "cli_a89b487d9578d003"
+APP_SECRET = "wIfnJiTbe1u2MDIZY79jlc7rSOKVTZ15"
 
 # List of openids (user IDs) to receive scheduled messages
 USERID = [
     "kaid.y@mexc.com",
-    "aqua.z@mexc.com"
 ]
 
 # Message push schedule (in seconds)
