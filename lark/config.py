@@ -2,25 +2,11 @@
 Configuration settings for lark_server framework.
 """
 
-# Example configuration variables
-BUSINESS_LOGIC_MODULES = [
-    # List of business logic module names to load
-]
 
-LARKAPI_SETTINGS = {
-    # Configuration for larkapi integration
-}
+# webhook url
+pvp_url = "https://open.larksuite.com/open-apis/bot/v2/hook/6ef1a3db-2a07-480c-9d76-79e7466618ab"
 
-# App credentials for larkapi
-APP_ID = "cli_a89b487d9578d003"
-APP_SECRET = "wIfnJiTbe1u2MDIZY79jlc7rSOKVTZ15"
 
-# List of openids (user IDs) to receive scheduled messages
-USERID = [
-    "kaid.y@mexc.com",
-]
-
-# Message push schedule (in seconds)
-MESSAGE_PUSH_INTERVAL = 600  # e.g., push every hour
-
-keywords=["binance wallet", "binance alpha"]
+# BlockTime_Fetcher related setting
+BlockTime_Fetcher_MESSAGE_PUSH_INTERVAL = 600  # e.g., push every hour
+BlockTime_Fetcher_keywords=["binance wallet", "binance alpha"]
