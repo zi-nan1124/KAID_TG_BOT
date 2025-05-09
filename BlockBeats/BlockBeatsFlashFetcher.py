@@ -1,13 +1,11 @@
 import requests
 import pandas as pd
 import time
-import os
 from datetime import datetime
 
 class BlockBeatsFlashFetcher:
-    def __init__(self, output_file="blockbeats_flash.csv", max_pages=2, page_size=50, sleep_sec=0.2):
+    def __init__(self, max_pages=2, page_size=50, sleep_sec=0.2):
         self.api_url = "https://api.theblockbeats.news/v1/open-api/open-flash"
-        self.output_file = output_file
         self.max_pages = max_pages
         self.page_size = page_size
         self.sleep_sec = sleep_sec
@@ -64,25 +62,12 @@ class BlockBeatsFlashFetcher:
                 print(f"⚠️ 请求第 {page} 页失败: {e}")
                 break
 
-        new_df = pd.DataFrame(all_flash_records)
+        df = pd.DataFrame(all_flash_records)
+        df["create_time"] = df["create_time"].apply(self._convert_timestamp)
+        df = df.drop_duplicates(subset="id", keep="first").sort_values(by="create_time", ascending=False)
 
-        if os.path.exists(self.output_file):
-            existing_df = pd.read_csv(self.output_file, dtype={"id": int})
-            print(f"\n📂 检测到已有 {self.output_file}，原数据 {len(existing_df)} 条")
-            combined_df = pd.concat([existing_df, new_df], ignore_index=True)
-        else:
-            print(f"\n📂 未检测到已有文件，将直接保存")
-            combined_df = new_df
-
-        combined_df = combined_df.drop_duplicates(subset="id", keep="first")
-        combined_df["create_time"] = combined_df["create_time"].apply(self._convert_timestamp)
-        combined_df = combined_df.sort_values(by="create_time", ascending=False)
-        combined_df.to_csv(self.output_file, index=False, encoding="utf-8-sig")
-
-        print(f"\n📄 全部数据已保存为 {self.output_file}，当前总条数 {len(combined_df)} 条")
-        print("\n🎯 所有页拉取完成！")
-
-        return combined_df
+        print(f"\n🎯 所有页拉取完成，共 {len(df)} 条快讯")
+        return df
 
 if __name__ == "__main__":
     fetcher = BlockBeatsFlashFetcher(max_pages=5)

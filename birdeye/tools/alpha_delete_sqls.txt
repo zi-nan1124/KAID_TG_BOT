@@ -1,39 +1,25 @@
 集群：biz-dex-evm
 数据库：dexx_data_flow_v4
 SQL：
-DELETE FROM trending_alpha_config WHERE chain_id = 56 AND token_address = '0xe6cF62bf8bc5BDb05BE4dd9C57f8899Df3741226';
-DELETE FROM trending_alpha_config WHERE chain_id = 56 AND token_address = '0x36fdebeb2bb7538d5559f1d2968307e86eb04444';
-DELETE FROM trending_alpha_config WHERE chain_id = 56 AND token_address = '0x005e13c67f1d9d341194d902ec6f9e3c4b8b4444';
-DELETE FROM trending_alpha_config WHERE chain_id = 56 AND token_address = '0xE215f9575e2fAFff8D0D3F9C6866ac656bD25BD9';
-DELETE FROM trending_alpha_config WHERE chain_id = 100000 AND token_address = '7LSsEoJGhLeZzGvDofTdNg7M3JttxQqGWNLo6vWMpump';
-DELETE FROM trending_alpha_config WHERE chain_id = 100000 AND token_address = 'CmXr8rZyqxbFKv44kk1u8ixQM9mZnUf625k56p27pump';
-DELETE FROM trending_alpha_config WHERE chain_id = 100000 AND token_address = '43SXvpf4c41t2uErsw7aL6w5qhnie6BXSSPqiTcTpump';
-DELETE FROM trending_alpha_config WHERE chain_id = 100000 AND token_address = '5HV956n7UQT1XdJzv43fHPocest5YAmi9ipsuiJx7zt7';
-DELETE FROM trending_alpha_config WHERE chain_id = 100000 AND token_address = '13TVvChoA7S2qdB7GhP8sDret3aPBetBjvWHtL3Ymeme';
-DELETE FROM trending_alpha_config WHERE chain_id = 100000 AND token_address = 'DPTP4fUfWuwVTgCmttWBu6Sy5B9TeCTBjc2YKgpDpump';
-DELETE FROM trending_alpha_config WHERE chain_id = 100000 AND token_address = 'BdQR2zt6eJ5vJNWBHbE9wnjc6iDBYyQbfoSwCRX6pump';
-DELETE FROM trending_alpha_config WHERE chain_id = 100000 AND token_address = '88KKUzT9B5sHRopVgRNn3VEfKh7g4ykLXqqjPT7Hpump';
-DELETE FROM trending_alpha_config WHERE chain_id = 100000 AND token_address = '9kvTPjemayUL7XKPyjhqavbcLtY5VP2ha1G5vPuppump';
-DELETE FROM trending_alpha_config WHERE chain_id = 100000 AND token_address = 'JCV8BB8Zde8ukroWKTjLSENSWEj42kBkENjjws2Rh6vP';
-DELETE FROM trending_alpha_config WHERE chain_id = 100000 AND token_address = '3SQSwa5PXDWoBjCGi5uXCgNZ7FDCD8gG8Ai5UkLppump';
-DELETE FROM trending_alpha_config WHERE chain_id = 100000 AND token_address = '7JcJLMzqaZNrtc3E2YCp7L1txL2kkYHv5soRTsU4pump';
-DELETE FROM trending_alpha_config WHERE chain_id = 100000 AND token_address = '4HuSTfcJruukNbhrF9sc5iKrMeGxNBs6XpQ1L2hUpump';
+DELETE FROM trending_alpha_config WHERE chain_id = 100000 AND token_address = 'B91Nyc6SnWqr5DRR34eEMKuZrWh4zBhW9VhX4UNLpump';
+DELETE FROM trending_alpha_config WHERE chain_id = 100000 AND token_address = 'CjqxraDuTMEcfhdqY8qEaMY43icdBrkt3EXciNVpump';
+DELETE FROM trending_alpha_config WHERE chain_id = 100000 AND token_address = 'HN8GGgzBFvuePPL3DGPg7uuq2dVgLApnNcW4pxY9a11o';
+DELETE FROM trending_alpha_config WHERE chain_id = 100000 AND token_address = 'Cz75ZtjwgZmr5J1VDBRTm5ZybZvEFR5DEdb8hEy59pWq';
+DELETE FROM trending_alpha_config WHERE chain_id = 100000 AND token_address = '6N7CrWe6qNt27G4sHXcjQMMy6btKRb7i9n4RYkKboop';
+DELETE FROM trending_alpha_config WHERE chain_id = 100000 AND token_address = 'FkT2JJHDLL5eyBeeX7RjFevXSP5UDwRkiMCusg3ypump';
+DELETE FROM trending_alpha_config WHERE chain_id = 100000 AND token_address = '2t7SanEtAjf35FERcfzzSTo8rajgV6YZWZYVVoRZpump';
+DELETE FROM trending_alpha_config WHERE chain_id = 100000 AND token_address = 'R6Res6qfWxgDGom5CpUEvxt7DNJu62bWvbgj7Vkboop';
+DELETE FROM trending_alpha_config WHERE chain_id = 100000 AND token_address = 'CL2bvqdTtYQqhwQC1Ad5GZ7cedW9RrbtUK4AZs9Bpump';
+DELETE FROM trending_alpha_config WHERE chain_id = 100000 AND token_address = 'HMRh9ksQTe2SXWLxaNTd2u8PTX9mcodUgzedDMaLbonk';
 
 回滚：
-INSERT INTO trending_alpha_config(chain_id, token_address, token_name) VALUES (56, '0xe6cF62bf8bc5BDb05BE4dd9C57f8899Df3741226', 'GBB');
-INSERT INTO trending_alpha_config(chain_id, token_address, token_name) VALUES (56, '0x36fdebeb2bb7538d5559f1d2968307e86eb04444', 'CYBERWISH');
-INSERT INTO trending_alpha_config(chain_id, token_address, token_name) VALUES (56, '0x005e13c67f1d9d341194d902ec6f9e3c4b8b4444', 'PHIL');
-INSERT INTO trending_alpha_config(chain_id, token_address, token_name) VALUES (56, '0xE215f9575e2fAFff8D0D3F9C6866ac656bD25BD9', 'DUCKY');
-INSERT INTO trending_alpha_config(chain_id, token_address, token_name) VALUES (100000, '7LSsEoJGhLeZzGvDofTdNg7M3JttxQqGWNLo6vWMpump', 'Figure');
-INSERT INTO trending_alpha_config(chain_id, token_address, token_name) VALUES (100000, 'CmXr8rZyqxbFKv44kk1u8ixQM9mZnUf625k56p27pump', 'pppp');
-INSERT INTO trending_alpha_config(chain_id, token_address, token_name) VALUES (100000, '43SXvpf4c41t2uErsw7aL6w5qhnie6BXSSPqiTcTpump', 'DB');
-INSERT INTO trending_alpha_config(chain_id, token_address, token_name) VALUES (100000, '5HV956n7UQT1XdJzv43fHPocest5YAmi9ipsuiJx7zt7', 'MEMECOIN');
-INSERT INTO trending_alpha_config(chain_id, token_address, token_name) VALUES (100000, '13TVvChoA7S2qdB7GhP8sDret3aPBetBjvWHtL3Ymeme', 'TIME');
-INSERT INTO trending_alpha_config(chain_id, token_address, token_name) VALUES (100000, 'DPTP4fUfWuwVTgCmttWBu6Sy5B9TeCTBjc2YKgpDpump', 'defiant');
-INSERT INTO trending_alpha_config(chain_id, token_address, token_name) VALUES (100000, 'BdQR2zt6eJ5vJNWBHbE9wnjc6iDBYyQbfoSwCRX6pump', 'FUN');
-INSERT INTO trending_alpha_config(chain_id, token_address, token_name) VALUES (100000, '88KKUzT9B5sHRopVgRNn3VEfKh7g4ykLXqqjPT7Hpump', 'OKINTAMA');
-INSERT INTO trending_alpha_config(chain_id, token_address, token_name) VALUES (100000, '9kvTPjemayUL7XKPyjhqavbcLtY5VP2ha1G5vPuppump', 'fitcoin');
-INSERT INTO trending_alpha_config(chain_id, token_address, token_name) VALUES (100000, 'JCV8BB8Zde8ukroWKTjLSENSWEj42kBkENjjws2Rh6vP', 'POSEIDON');
-INSERT INTO trending_alpha_config(chain_id, token_address, token_name) VALUES (100000, '3SQSwa5PXDWoBjCGi5uXCgNZ7FDCD8gG8Ai5UkLppump', 'TOFI');
-INSERT INTO trending_alpha_config(chain_id, token_address, token_name) VALUES (100000, '7JcJLMzqaZNrtc3E2YCp7L1txL2kkYHv5soRTsU4pump', 'SIDELINED');
-INSERT INTO trending_alpha_config(chain_id, token_address, token_name) VALUES (100000, '4HuSTfcJruukNbhrF9sc5iKrMeGxNBs6XpQ1L2hUpump', 'OPAIUM');
+INSERT INTO trending_alpha_config(chain_id, token_address, token_name) VALUES (100000, 'B91Nyc6SnWqr5DRR34eEMKuZrWh4zBhW9VhX4UNLpump', 'jockey');
+INSERT INTO trending_alpha_config(chain_id, token_address, token_name) VALUES (100000, 'CjqxraDuTMEcfhdqY8qEaMY43icdBrkt3EXciNVpump', 'Lemon');
+INSERT INTO trending_alpha_config(chain_id, token_address, token_name) VALUES (100000, 'HN8GGgzBFvuePPL3DGPg7uuq2dVgLApnNcW4pxY9a11o', 'SQUID');
+INSERT INTO trending_alpha_config(chain_id, token_address, token_name) VALUES (100000, 'Cz75ZtjwgZmr5J1VDBRTm5ZybZvEFR5DEdb8hEy59pWq', 'FUCKCOIN');
+INSERT INTO trending_alpha_config(chain_id, token_address, token_name) VALUES (100000, '6N7CrWe6qNt27G4sHXcjQMMy6btKRb7i9n4RYkKboop', 'BETTY');
+INSERT INTO trending_alpha_config(chain_id, token_address, token_name) VALUES (100000, 'FkT2JJHDLL5eyBeeX7RjFevXSP5UDwRkiMCusg3ypump', 'URMOM');
+INSERT INTO trending_alpha_config(chain_id, token_address, token_name) VALUES (100000, '2t7SanEtAjf35FERcfzzSTo8rajgV6YZWZYVVoRZpump', 'amuseonx');
+INSERT INTO trending_alpha_config(chain_id, token_address, token_name) VALUES (100000, 'R6Res6qfWxgDGom5CpUEvxt7DNJu62bWvbgj7Vkboop', 'PORK');
+INSERT INTO trending_alpha_config(chain_id, token_address, token_name) VALUES (100000, 'CL2bvqdTtYQqhwQC1Ad5GZ7cedW9RrbtUK4AZs9Bpump', 'pitcoin');
+INSERT INTO trending_alpha_config(chain_id, token_address, token_name) VALUES (100000, 'HMRh9ksQTe2SXWLxaNTd2u8PTX9mcodUgzedDMaLbonk', 'Pingu');

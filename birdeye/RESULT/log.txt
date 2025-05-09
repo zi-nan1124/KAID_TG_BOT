@@ -1,0 +1,16 @@
+[2025-05-08 17:56:08] [BirdeyeTokenFetcher][fetch]: 📡 开始抓取 BSC Token 数据...
+[2025-05-08 17:56:08] [BirdeyeTokenFetcher][fetch]: 🔄 正在请求第 1 页（max_liquidity = 100000000000）
+[2025-05-08 17:56:09] [BirdeyeTokenFetcher][fetch]: 🔄 正在请求第 2 页（max_liquidity = 7381429.599305745）
+[2025-05-08 17:56:10] [BirdeyeTokenFetcher][fetch]: 🔄 正在请求第 3 页（max_liquidity = 3304573.808745488）
+[2025-05-08 17:56:11] [BirdeyeTokenFetcher][fetch]: 🔄 正在请求第 4 页（max_liquidity = 2013480.590666555）
+[2025-05-08 17:56:12] [BirdeyeTokenFetcher][fetch]: 🔄 正在请求第 5 页（max_liquidity = 1488396.3168360204）
+[2025-05-08 17:56:13] [BirdeyeTokenFetcher][fetch]: 📦 共获取 250 条记录，正在去重和排序...
+[2025-05-08 17:56:13] [BirdeyeTokenFetcher][fetch]: ✅ 去重后共 250 条记录
+[2025-05-08 17:57:23] [BirdeyeTokenFetcher][fetch]: 📡 开始抓取 BSC Token 数据...
+[2025-05-08 17:57:23] [BirdeyeTokenFetcher][fetch]: 🔄 正在请求第 1 页（max_liquidity = 100000000000）
+[2025-05-08 17:57:24] [BirdeyeTokenFetcher][fetch]: 🔄 正在请求第 2 页（max_liquidity = 7381429.599305745）
+[2025-05-08 17:57:25] [BirdeyeTokenFetcher][fetch]: 🔄 正在请求第 3 页（max_liquidity = 3304573.808745488）
+[2025-05-08 17:57:26] [BirdeyeTokenFetcher][fetch]: 🔄 正在请求第 4 页（max_liquidity = 2013480.590666555）
+[2025-05-08 17:57:28] [BirdeyeTokenFetcher][fetch]: 🔄 正在请求第 5 页（max_liquidity = 1488396.3168360204）
+[2025-05-08 17:57:29] [BirdeyeTokenFetcher][fetch]: 📦 共获取 250 条记录，正在去重和排序...
+[2025-05-08 17:57:29] [BirdeyeTokenFetcher][fetch]: ✅ 去重后共 250 条记录

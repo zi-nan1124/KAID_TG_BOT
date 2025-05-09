@@ -16,6 +16,8 @@ CHAIN_MAPPING = {
 
 # === 第一步：读取 Excel 并筛选 ===
 df = pd.read_excel(CSV_PATH)
+if pd.api.types.is_numeric_dtype(df["登记时间"]):
+    df["登记时间"] = pd.to_datetime(df["登记时间"], unit='D', origin='1899-12-30')
 
 # 只筛选在架 + 链是 SOL/BSC/BASE 的
 filtered_df = df[(df["状态"] == "在架") & (df["链"].isin(["SOL", "BSC", "BASE"]))]
