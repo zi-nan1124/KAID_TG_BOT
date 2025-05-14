@@ -14,3 +14,962 @@
 [2025-05-08 17:57:28] [BirdeyeTokenFetcher][fetch]: 🔄 正在请求第 5 页（max_liquidity = 1488396.3168360204）
 [2025-05-08 17:57:29] [BirdeyeTokenFetcher][fetch]: 📦 共获取 250 条记录，正在去重和排序...
 [2025-05-08 17:57:29] [BirdeyeTokenFetcher][fetch]: ✅ 去重后共 250 条记录
+[2025-05-11 22:02:05] [BirdeyeTokenFetcher][fetch]: 📡 开始抓取 BSC Token 数据...
+[2025-05-11 22:02:05] [BirdeyeTokenFetcher][fetch]: 🔄 正在请求第 1 页（max_liquidity = 100000000000）
+[2025-05-11 22:02:16] [BirdeyeTokenFetcher][fetch] [ERROR]: 请求异常：HTTPSConnectionPool(host='public-api.birdeye.so', port=443): Read timed out. (read timeout=10)
+[2025-05-11 22:02:16] [BirdeyeTokenFetcher][fetch]: 📦 共获取 0 条记录，正在去重和排序...
+[2025-05-11 22:02:16] [BirdeyeTokenFetcher][fetch]: ✅ 去重后共 0 条记录
+[2025-05-11 22:20:19] [BirdEyePriceFetcher][fetch_price_history]: 111111
+[2025-05-11 22:22:47] [BirdEyePriceFetcher][fetch_price_history]: 调用参数：address=So11111111111111111111111111111111111111112, chain=solana, time_type=1m, time_from=2024-05-01 00:00:00, time_to=2024-05-01 01:00:00
+[2025-05-11 22:22:48] [BirdEyePriceFetcher][fetch_price_history]: 成功获取 61 条价格记录
+[2025-05-11 22:23:43] [BirdEyePriceFetcher][fetch_price_history]: query address=So11111111111111111111111111111111111111112, chain=solana, time_type=1m, time_from=2024-05-01 00:00:00, time_to=2024-05-01 01:00:00
+[2025-05-11 22:23:43] [BirdEyePriceFetcher][fetch_price_history]: 成功获取 61 条价格记录
+[2025-05-11 22:28:35] [TokenpriceFetcher][fetch_price_history]: query address=So11111111111111111111111111111111111111112, chain=solana, time_type=1m, time_from=2024-05-01 00:00:00, time_to=2024-05-01 01:00:00
+[2025-05-11 22:28:36] [TokenpriceFetcher][fetch_price_history]: 成功获取 61 条价格记录
+[2025-05-11 22:29:11] [TokenpriceFetcher][fetch_price_history]: query address=So11111111111111111111111111111111111111112, chain=solana, time_type=1m, time_from=2024-05-01 00:00:00, time_to=2024-05-01 01:00:00
+[2025-05-11 22:29:12] [TokenpriceFetcher][fetch_price_history]: 成功获取 61 条价格记录
+[2025-05-12 15:16:33] [TokenpriceFetcher][fetch_price_history]: query address=4M4ypzyZA7Sp2weYEMfnWuJ6wBVpNaMgaGTanmTspump, chain=solana, time_type=1m, time_from=2025-04-04 23:59:00, time_to=2025-04-04 23:59:00
+[2025-05-12 15:16:33] [TokenpriceFetcher][fetch_price_history] [ERROR]: 请求失败: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+[2025-05-12 15:26:38] [TokenpriceFetcher][fetch_price_history]: query address=4M4ypzyZA7Sp2weYEMfnWuJ6wBVpNaMgaGTanmTspump, chain=solana, time_type=1m, time_from=2025-04-04 23:59:00, time_to=2025-04-04 23:59:00
+[2025-05-12 15:26:39] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:28:09] [TokenpriceFetcher][fetch_price_history]: query address=4M4ypzyZA7Sp2weYEMfnWuJ6wBVpNaMgaGTanmTspump, chain=solana, time_type=1m, time_from=2025-04-05 23:59:00, time_to=2025-04-05 23:59:00
+[2025-05-12 15:28:09] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:28:16] [TokenpriceFetcher][fetch_price_history]: query address=4M4ypzyZA7Sp2weYEMfnWuJ6wBVpNaMgaGTanmTspump, chain=solana, time_type=1m, time_from=2025-04-06 23:59:00, time_to=2025-04-06 23:59:00
+[2025-05-12 15:28:17] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:28:17] [TokenpriceFetcher][fetch_price_history]: query address=4M4ypzyZA7Sp2weYEMfnWuJ6wBVpNaMgaGTanmTspump, chain=solana, time_type=1m, time_from=2025-04-11 23:59:00, time_to=2025-04-11 23:59:00
+[2025-05-12 15:28:18] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:28:19] [TokenpriceFetcher][fetch_price_history]: query address=FtUEW73K6vEYHfbkfpdBZfWpxgQar2HipGdbutEhpump, chain=solana, time_type=1m, time_from=2025-04-04 23:59:00, time_to=2025-04-04 23:59:00
+[2025-05-12 15:28:19] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:28:20] [TokenpriceFetcher][fetch_price_history]: query address=FtUEW73K6vEYHfbkfpdBZfWpxgQar2HipGdbutEhpump, chain=solana, time_type=1m, time_from=2025-04-05 23:59:00, time_to=2025-04-05 23:59:00
+[2025-05-12 15:28:21] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:28:21] [TokenpriceFetcher][fetch_price_history]: query address=FtUEW73K6vEYHfbkfpdBZfWpxgQar2HipGdbutEhpump, chain=solana, time_type=1m, time_from=2025-04-06 23:59:00, time_to=2025-04-06 23:59:00
+[2025-05-12 15:28:22] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:28:23] [TokenpriceFetcher][fetch_price_history]: query address=FtUEW73K6vEYHfbkfpdBZfWpxgQar2HipGdbutEhpump, chain=solana, time_type=1m, time_from=2025-04-11 23:59:00, time_to=2025-04-11 23:59:00
+[2025-05-12 15:28:23] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:28:24] [TokenpriceFetcher][fetch_price_history]: query address=FasH397CeZLNYWkd3wWK9vrmjd1z93n3b59DssRXpump, chain=solana, time_type=1m, time_from=2025-04-04 23:59:00, time_to=2025-04-04 23:59:00
+[2025-05-12 15:28:24] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:28:25] [TokenpriceFetcher][fetch_price_history]: query address=FasH397CeZLNYWkd3wWK9vrmjd1z93n3b59DssRXpump, chain=solana, time_type=1m, time_from=2025-04-05 23:59:00, time_to=2025-04-05 23:59:00
+[2025-05-12 15:28:25] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:28:26] [TokenpriceFetcher][fetch_price_history]: query address=FasH397CeZLNYWkd3wWK9vrmjd1z93n3b59DssRXpump, chain=solana, time_type=1m, time_from=2025-04-06 23:59:00, time_to=2025-04-06 23:59:00
+[2025-05-12 15:28:27] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:28:27] [TokenpriceFetcher][fetch_price_history]: query address=FasH397CeZLNYWkd3wWK9vrmjd1z93n3b59DssRXpump, chain=solana, time_type=1m, time_from=2025-04-11 23:59:00, time_to=2025-04-11 23:59:00
+[2025-05-12 15:28:28] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:28:28] [TokenpriceFetcher][fetch_price_history]: query address=DitHyRMQiSDhn5cnKMJV2CDDt6sVct96YrECiM49pump, chain=solana, time_type=1m, time_from=2025-04-04 23:59:00, time_to=2025-04-04 23:59:00
+[2025-05-12 15:28:29] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:28:30] [TokenpriceFetcher][fetch_price_history]: query address=DitHyRMQiSDhn5cnKMJV2CDDt6sVct96YrECiM49pump, chain=solana, time_type=1m, time_from=2025-04-05 23:59:00, time_to=2025-04-05 23:59:00
+[2025-05-12 15:28:30] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:28:31] [TokenpriceFetcher][fetch_price_history]: query address=DitHyRMQiSDhn5cnKMJV2CDDt6sVct96YrECiM49pump, chain=solana, time_type=1m, time_from=2025-04-06 23:59:00, time_to=2025-04-06 23:59:00
+[2025-05-12 15:28:31] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:28:32] [TokenpriceFetcher][fetch_price_history]: query address=DitHyRMQiSDhn5cnKMJV2CDDt6sVct96YrECiM49pump, chain=solana, time_type=1m, time_from=2025-04-11 23:59:00, time_to=2025-04-11 23:59:00
+[2025-05-12 15:28:32] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:28:43] [TokenpriceFetcher][fetch_price_history]: query address=6pKHwNCpzgZuC9o5FzvCZkYSUGfQddhUYtMyDbEVpump, chain=solana, time_type=1m, time_from=2025-04-04 23:59:00, time_to=2025-04-04 23:59:00
+[2025-05-12 15:28:43] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:28:43] [TokenpriceFetcher][fetch_price_history]: query address=6pKHwNCpzgZuC9o5FzvCZkYSUGfQddhUYtMyDbEVpump, chain=solana, time_type=1m, time_from=2025-04-05 23:59:00, time_to=2025-04-05 23:59:00
+[2025-05-12 15:28:43] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:28:43] [TokenpriceFetcher][fetch_price_history]: query address=6pKHwNCpzgZuC9o5FzvCZkYSUGfQddhUYtMyDbEVpump, chain=solana, time_type=1m, time_from=2025-04-06 23:59:00, time_to=2025-04-06 23:59:00
+[2025-05-12 15:28:44] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:28:44] [TokenpriceFetcher][fetch_price_history]: query address=6pKHwNCpzgZuC9o5FzvCZkYSUGfQddhUYtMyDbEVpump, chain=solana, time_type=1m, time_from=2025-04-11 23:59:00, time_to=2025-04-11 23:59:00
+[2025-05-12 15:28:44] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:28:44] [TokenpriceFetcher][fetch_price_history]: query address=C3DwDjT17gDvvCYC2nsdGHxDHVmQRdhKfpAdqQ29pump, chain=solana, time_type=1m, time_from=2025-04-04 23:59:00, time_to=2025-04-04 23:59:00
+[2025-05-12 15:28:45] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:28:45] [TokenpriceFetcher][fetch_price_history]: query address=C3DwDjT17gDvvCYC2nsdGHxDHVmQRdhKfpAdqQ29pump, chain=solana, time_type=1m, time_from=2025-04-05 23:59:00, time_to=2025-04-05 23:59:00
+[2025-05-12 15:28:45] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:28:45] [TokenpriceFetcher][fetch_price_history]: query address=C3DwDjT17gDvvCYC2nsdGHxDHVmQRdhKfpAdqQ29pump, chain=solana, time_type=1m, time_from=2025-04-06 23:59:00, time_to=2025-04-06 23:59:00
+[2025-05-12 15:28:46] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:28:46] [TokenpriceFetcher][fetch_price_history]: query address=C3DwDjT17gDvvCYC2nsdGHxDHVmQRdhKfpAdqQ29pump, chain=solana, time_type=1m, time_from=2025-04-11 23:59:00, time_to=2025-04-11 23:59:00
+[2025-05-12 15:28:46] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:28:46] [TokenpriceFetcher][fetch_price_history]: query address=HNg5PYJmtqcmzXrv6S9zP1CDKk5BgDuyFBxbvNApump, chain=solana, time_type=1m, time_from=2025-04-04 23:59:00, time_to=2025-04-04 23:59:00
+[2025-05-12 15:28:47] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:28:47] [TokenpriceFetcher][fetch_price_history]: query address=HNg5PYJmtqcmzXrv6S9zP1CDKk5BgDuyFBxbvNApump, chain=solana, time_type=1m, time_from=2025-04-05 23:59:00, time_to=2025-04-05 23:59:00
+[2025-05-12 15:28:47] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:28:47] [TokenpriceFetcher][fetch_price_history]: query address=HNg5PYJmtqcmzXrv6S9zP1CDKk5BgDuyFBxbvNApump, chain=solana, time_type=1m, time_from=2025-04-06 23:59:00, time_to=2025-04-06 23:59:00
+[2025-05-12 15:28:48] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:28:48] [TokenpriceFetcher][fetch_price_history]: query address=HNg5PYJmtqcmzXrv6S9zP1CDKk5BgDuyFBxbvNApump, chain=solana, time_type=1m, time_from=2025-04-11 23:59:00, time_to=2025-04-11 23:59:00
+[2025-05-12 15:28:48] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:28:48] [TokenpriceFetcher][fetch_price_history]: query address=BQQzEvYT4knThhkSPBvSKBLg1LEczisWLhx5ydJipump, chain=solana, time_type=1m, time_from=2025-04-04 23:59:00, time_to=2025-04-04 23:59:00
+[2025-05-12 15:28:48] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:28:48] [TokenpriceFetcher][fetch_price_history]: query address=BQQzEvYT4knThhkSPBvSKBLg1LEczisWLhx5ydJipump, chain=solana, time_type=1m, time_from=2025-04-05 23:59:00, time_to=2025-04-05 23:59:00
+[2025-05-12 15:28:49] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:28:49] [TokenpriceFetcher][fetch_price_history]: query address=BQQzEvYT4knThhkSPBvSKBLg1LEczisWLhx5ydJipump, chain=solana, time_type=1m, time_from=2025-04-06 23:59:00, time_to=2025-04-06 23:59:00
+[2025-05-12 15:28:49] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:28:49] [TokenpriceFetcher][fetch_price_history]: query address=BQQzEvYT4knThhkSPBvSKBLg1LEczisWLhx5ydJipump, chain=solana, time_type=1m, time_from=2025-04-11 23:59:00, time_to=2025-04-11 23:59:00
+[2025-05-12 15:28:50] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:28:50] [TokenpriceFetcher][fetch_price_history]: query address=4TBi66vi32S7J8X1A6eWfaLHYmUXu7CStcEmsJQdpump, chain=solana, time_type=1m, time_from=2025-04-04 23:59:00, time_to=2025-04-04 23:59:00
+[2025-05-12 15:28:50] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:28:50] [TokenpriceFetcher][fetch_price_history]: query address=4TBi66vi32S7J8X1A6eWfaLHYmUXu7CStcEmsJQdpump, chain=solana, time_type=1m, time_from=2025-04-05 23:59:00, time_to=2025-04-05 23:59:00
+[2025-05-12 15:28:51] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:28:51] [TokenpriceFetcher][fetch_price_history]: query address=4TBi66vi32S7J8X1A6eWfaLHYmUXu7CStcEmsJQdpump, chain=solana, time_type=1m, time_from=2025-04-06 23:59:00, time_to=2025-04-06 23:59:00
+[2025-05-12 15:28:51] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:28:51] [TokenpriceFetcher][fetch_price_history]: query address=4TBi66vi32S7J8X1A6eWfaLHYmUXu7CStcEmsJQdpump, chain=solana, time_type=1m, time_from=2025-04-11 23:59:00, time_to=2025-04-11 23:59:00
+[2025-05-12 15:28:52] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:28:52] [TokenpriceFetcher][fetch_price_history]: query address=Grass7B4RdKfBCjTKgSqnXkqjwiGvQyFbuSCUJr3XXjs, chain=solana, time_type=1m, time_from=2025-04-04 23:59:00, time_to=2025-04-04 23:59:00
+[2025-05-12 15:28:52] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:28:52] [TokenpriceFetcher][fetch_price_history]: query address=Grass7B4RdKfBCjTKgSqnXkqjwiGvQyFbuSCUJr3XXjs, chain=solana, time_type=1m, time_from=2025-04-05 23:59:00, time_to=2025-04-05 23:59:00
+[2025-05-12 15:28:53] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:28:53] [TokenpriceFetcher][fetch_price_history]: query address=Grass7B4RdKfBCjTKgSqnXkqjwiGvQyFbuSCUJr3XXjs, chain=solana, time_type=1m, time_from=2025-04-06 23:59:00, time_to=2025-04-06 23:59:00
+[2025-05-12 15:28:53] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:28:53] [TokenpriceFetcher][fetch_price_history]: query address=Grass7B4RdKfBCjTKgSqnXkqjwiGvQyFbuSCUJr3XXjs, chain=solana, time_type=1m, time_from=2025-04-11 23:59:00, time_to=2025-04-11 23:59:00
+[2025-05-12 15:28:54] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:28:54] [TokenpriceFetcher][fetch_price_history]: query address=0x661Af369690a8f5591CC0df7D581C83d1A6e4444, chain=bsc, time_type=1m, time_from=2025-04-04 23:59:00, time_to=2025-04-04 23:59:00
+[2025-05-12 15:28:54] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:28:54] [TokenpriceFetcher][fetch_price_history]: query address=0x661Af369690a8f5591CC0df7D581C83d1A6e4444, chain=bsc, time_type=1m, time_from=2025-04-05 23:59:00, time_to=2025-04-05 23:59:00
+[2025-05-12 15:28:54] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:28:54] [TokenpriceFetcher][fetch_price_history]: query address=0x661Af369690a8f5591CC0df7D581C83d1A6e4444, chain=bsc, time_type=1m, time_from=2025-04-06 23:59:00, time_to=2025-04-06 23:59:00
+[2025-05-12 15:28:55] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:28:55] [TokenpriceFetcher][fetch_price_history]: query address=0x661Af369690a8f5591CC0df7D581C83d1A6e4444, chain=bsc, time_type=1m, time_from=2025-04-11 23:59:00, time_to=2025-04-11 23:59:00
+[2025-05-12 15:28:56] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:28:56] [TokenpriceFetcher][fetch_price_history]: query address=0xdAf1695c41327b61B9b9965Ac6A5843A3198cf07, chain=bsc, time_type=1m, time_from=2025-04-04 23:59:00, time_to=2025-04-04 23:59:00
+[2025-05-12 15:28:56] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:28:56] [TokenpriceFetcher][fetch_price_history]: query address=0xdAf1695c41327b61B9b9965Ac6A5843A3198cf07, chain=bsc, time_type=1m, time_from=2025-04-05 23:59:00, time_to=2025-04-05 23:59:00
+[2025-05-12 15:28:57] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:28:57] [TokenpriceFetcher][fetch_price_history]: query address=0xdAf1695c41327b61B9b9965Ac6A5843A3198cf07, chain=bsc, time_type=1m, time_from=2025-04-06 23:59:00, time_to=2025-04-06 23:59:00
+[2025-05-12 15:28:57] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:28:57] [TokenpriceFetcher][fetch_price_history]: query address=0xdAf1695c41327b61B9b9965Ac6A5843A3198cf07, chain=bsc, time_type=1m, time_from=2025-04-11 23:59:00, time_to=2025-04-11 23:59:00
+[2025-05-12 15:28:58] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:28:58] [TokenpriceFetcher][fetch_price_history]: query address=0xe6cF62bf8bc5BDb05BE4dd9C57f8899Df3741226, chain=bsc, time_type=1m, time_from=2025-04-04 23:59:00, time_to=2025-04-04 23:59:00
+[2025-05-12 15:28:58] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:28:58] [TokenpriceFetcher][fetch_price_history]: query address=0xe6cF62bf8bc5BDb05BE4dd9C57f8899Df3741226, chain=bsc, time_type=1m, time_from=2025-04-05 23:59:00, time_to=2025-04-05 23:59:00
+[2025-05-12 15:28:59] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:28:59] [TokenpriceFetcher][fetch_price_history]: query address=0xe6cF62bf8bc5BDb05BE4dd9C57f8899Df3741226, chain=bsc, time_type=1m, time_from=2025-04-06 23:59:00, time_to=2025-04-06 23:59:00
+[2025-05-12 15:29:00] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:29:00] [TokenpriceFetcher][fetch_price_history]: query address=0xe6cF62bf8bc5BDb05BE4dd9C57f8899Df3741226, chain=bsc, time_type=1m, time_from=2025-04-11 23:59:00, time_to=2025-04-11 23:59:00
+[2025-05-12 15:29:00] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:29:00] [TokenpriceFetcher][fetch_price_history]: query address=0xB7C0007ab75350c582d5eAb1862b872B5cF53F0C, chain=bsc, time_type=1m, time_from=2025-04-04 23:59:00, time_to=2025-04-04 23:59:00
+[2025-05-12 15:29:00] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:29:00] [TokenpriceFetcher][fetch_price_history]: query address=0xB7C0007ab75350c582d5eAb1862b872B5cF53F0C, chain=bsc, time_type=1m, time_from=2025-04-05 23:59:00, time_to=2025-04-05 23:59:00
+[2025-05-12 15:29:01] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:29:01] [TokenpriceFetcher][fetch_price_history]: query address=0xB7C0007ab75350c582d5eAb1862b872B5cF53F0C, chain=bsc, time_type=1m, time_from=2025-04-06 23:59:00, time_to=2025-04-06 23:59:00
+[2025-05-12 15:29:01] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:29:01] [TokenpriceFetcher][fetch_price_history]: query address=0xB7C0007ab75350c582d5eAb1862b872B5cF53F0C, chain=bsc, time_type=1m, time_from=2025-04-11 23:59:00, time_to=2025-04-11 23:59:00
+[2025-05-12 15:29:02] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:29:02] [TokenpriceFetcher][fetch_price_history]: query address=0xC9882dEF23bc42D53895b8361D0b1EDC7570Bc6A, chain=bsc, time_type=1m, time_from=2025-04-04 23:59:00, time_to=2025-04-04 23:59:00
+[2025-05-12 15:29:03] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:29:03] [TokenpriceFetcher][fetch_price_history]: query address=0xC9882dEF23bc42D53895b8361D0b1EDC7570Bc6A, chain=bsc, time_type=1m, time_from=2025-04-05 23:59:00, time_to=2025-04-05 23:59:00
+[2025-05-12 15:29:03] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:29:03] [TokenpriceFetcher][fetch_price_history]: query address=0xC9882dEF23bc42D53895b8361D0b1EDC7570Bc6A, chain=bsc, time_type=1m, time_from=2025-04-06 23:59:00, time_to=2025-04-06 23:59:00
+[2025-05-12 15:29:04] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:29:04] [TokenpriceFetcher][fetch_price_history]: query address=0xC9882dEF23bc42D53895b8361D0b1EDC7570Bc6A, chain=bsc, time_type=1m, time_from=2025-04-11 23:59:00, time_to=2025-04-11 23:59:00
+[2025-05-12 15:29:04] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:29:04] [TokenpriceFetcher][fetch_price_history]: query address=0x208bF3E7dA9639f1Eaefa2DE78c23396B0682025, chain=bsc, time_type=1m, time_from=2025-04-05 23:59:00, time_to=2025-04-05 23:59:00
+[2025-05-12 15:29:05] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:29:05] [TokenpriceFetcher][fetch_price_history]: query address=0x208bF3E7dA9639f1Eaefa2DE78c23396B0682025, chain=bsc, time_type=1m, time_from=2025-04-06 23:59:00, time_to=2025-04-06 23:59:00
+[2025-05-12 15:29:05] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:29:05] [TokenpriceFetcher][fetch_price_history]: query address=0x208bF3E7dA9639f1Eaefa2DE78c23396B0682025, chain=bsc, time_type=1m, time_from=2025-04-07 23:59:00, time_to=2025-04-07 23:59:00
+[2025-05-12 15:29:06] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:29:06] [TokenpriceFetcher][fetch_price_history]: query address=0x208bF3E7dA9639f1Eaefa2DE78c23396B0682025, chain=bsc, time_type=1m, time_from=2025-04-12 23:59:00, time_to=2025-04-12 23:59:00
+[2025-05-12 15:29:06] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:29:06] [TokenpriceFetcher][fetch_price_history]: query address=0x59264f02D301281f3393e1385c0aEFd446Eb0F00, chain=bsc, time_type=1m, time_from=2025-04-05 23:59:00, time_to=2025-04-05 23:59:00
+[2025-05-12 15:29:07] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:29:07] [TokenpriceFetcher][fetch_price_history]: query address=0x59264f02D301281f3393e1385c0aEFd446Eb0F00, chain=bsc, time_type=1m, time_from=2025-04-06 23:59:00, time_to=2025-04-06 23:59:00
+[2025-05-12 15:29:07] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:29:07] [TokenpriceFetcher][fetch_price_history]: query address=0x59264f02D301281f3393e1385c0aEFd446Eb0F00, chain=bsc, time_type=1m, time_from=2025-04-07 23:59:00, time_to=2025-04-07 23:59:00
+[2025-05-12 15:29:07] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:29:07] [TokenpriceFetcher][fetch_price_history]: query address=0x59264f02D301281f3393e1385c0aEFd446Eb0F00, chain=bsc, time_type=1m, time_from=2025-04-12 23:59:00, time_to=2025-04-12 23:59:00
+[2025-05-12 15:29:08] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:29:08] [TokenpriceFetcher][fetch_price_history]: query address=0x3d4f0513E8a29669B960f9dBcA61861548A9A760, chain=bsc, time_type=1m, time_from=2025-04-05 23:59:00, time_to=2025-04-05 23:59:00
+[2025-05-12 15:29:08] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:29:08] [TokenpriceFetcher][fetch_price_history]: query address=0x3d4f0513E8a29669B960f9dBcA61861548A9A760, chain=bsc, time_type=1m, time_from=2025-04-06 23:59:00, time_to=2025-04-06 23:59:00
+[2025-05-12 15:29:09] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:29:09] [TokenpriceFetcher][fetch_price_history]: query address=0x3d4f0513E8a29669B960f9dBcA61861548A9A760, chain=bsc, time_type=1m, time_from=2025-04-07 23:59:00, time_to=2025-04-07 23:59:00
+[2025-05-12 15:29:09] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:29:09] [TokenpriceFetcher][fetch_price_history]: query address=0x3d4f0513E8a29669B960f9dBcA61861548A9A760, chain=bsc, time_type=1m, time_from=2025-04-12 23:59:00, time_to=2025-04-12 23:59:00
+[2025-05-12 15:29:10] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:29:10] [TokenpriceFetcher][fetch_price_history]: query address=7LSsEoJGhLeZzGvDofTdNg7M3JttxQqGWNLo6vWMpump, chain=solana, time_type=1m, time_from=2025-04-05 23:59:00, time_to=2025-04-05 23:59:00
+[2025-05-12 15:29:10] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:29:10] [TokenpriceFetcher][fetch_price_history]: query address=7LSsEoJGhLeZzGvDofTdNg7M3JttxQqGWNLo6vWMpump, chain=solana, time_type=1m, time_from=2025-04-06 23:59:00, time_to=2025-04-06 23:59:00
+[2025-05-12 15:29:11] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:29:11] [TokenpriceFetcher][fetch_price_history]: query address=7LSsEoJGhLeZzGvDofTdNg7M3JttxQqGWNLo6vWMpump, chain=solana, time_type=1m, time_from=2025-04-07 23:59:00, time_to=2025-04-07 23:59:00
+[2025-05-12 15:29:11] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:29:11] [TokenpriceFetcher][fetch_price_history]: query address=7LSsEoJGhLeZzGvDofTdNg7M3JttxQqGWNLo6vWMpump, chain=solana, time_type=1m, time_from=2025-04-12 23:59:00, time_to=2025-04-12 23:59:00
+[2025-05-12 15:29:12] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:29:12] [TokenpriceFetcher][fetch_price_history]: query address=5LJMJyR8MtAkbtpf8kFUV7S9oFG3xaGDdcnFxYt9pump, chain=solana, time_type=1m, time_from=2025-04-05 23:59:00, time_to=2025-04-05 23:59:00
+[2025-05-12 15:29:12] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:29:12] [TokenpriceFetcher][fetch_price_history]: query address=5LJMJyR8MtAkbtpf8kFUV7S9oFG3xaGDdcnFxYt9pump, chain=solana, time_type=1m, time_from=2025-04-06 23:59:00, time_to=2025-04-06 23:59:00
+[2025-05-12 15:29:13] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:29:13] [TokenpriceFetcher][fetch_price_history]: query address=5LJMJyR8MtAkbtpf8kFUV7S9oFG3xaGDdcnFxYt9pump, chain=solana, time_type=1m, time_from=2025-04-07 23:59:00, time_to=2025-04-07 23:59:00
+[2025-05-12 15:29:13] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:29:13] [TokenpriceFetcher][fetch_price_history]: query address=5LJMJyR8MtAkbtpf8kFUV7S9oFG3xaGDdcnFxYt9pump, chain=solana, time_type=1m, time_from=2025-04-12 23:59:00, time_to=2025-04-12 23:59:00
+[2025-05-12 15:29:14] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:29:14] [TokenpriceFetcher][fetch_price_history]: query address=8BtoThi2ZoXnF7QQK1Wjmh2JuBw9FjVvhnGMVZ2vpump, chain=solana, time_type=1m, time_from=2025-04-05 23:59:00, time_to=2025-04-05 23:59:00
+[2025-05-12 15:29:14] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:29:14] [TokenpriceFetcher][fetch_price_history]: query address=8BtoThi2ZoXnF7QQK1Wjmh2JuBw9FjVvhnGMVZ2vpump, chain=solana, time_type=1m, time_from=2025-04-06 23:59:00, time_to=2025-04-06 23:59:00
+[2025-05-12 15:29:15] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:29:15] [TokenpriceFetcher][fetch_price_history]: query address=8BtoThi2ZoXnF7QQK1Wjmh2JuBw9FjVvhnGMVZ2vpump, chain=solana, time_type=1m, time_from=2025-04-07 23:59:00, time_to=2025-04-07 23:59:00
+[2025-05-12 15:29:15] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:29:15] [TokenpriceFetcher][fetch_price_history]: query address=8BtoThi2ZoXnF7QQK1Wjmh2JuBw9FjVvhnGMVZ2vpump, chain=solana, time_type=1m, time_from=2025-04-12 23:59:00, time_to=2025-04-12 23:59:00
+[2025-05-12 15:29:16] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:29:16] [TokenpriceFetcher][fetch_price_history]: query address=D4dfSb86qUb949MCsAJmGzbyXo7YhgaMNj7c9F49pump, chain=solana, time_type=1m, time_from=2025-04-06 23:59:00, time_to=2025-04-06 23:59:00
+[2025-05-12 15:29:16] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:29:16] [TokenpriceFetcher][fetch_price_history]: query address=D4dfSb86qUb949MCsAJmGzbyXo7YhgaMNj7c9F49pump, chain=solana, time_type=1m, time_from=2025-04-07 23:59:00, time_to=2025-04-07 23:59:00
+[2025-05-12 15:29:17] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:29:17] [TokenpriceFetcher][fetch_price_history]: query address=D4dfSb86qUb949MCsAJmGzbyXo7YhgaMNj7c9F49pump, chain=solana, time_type=1m, time_from=2025-04-08 23:59:00, time_to=2025-04-08 23:59:00
+[2025-05-12 15:29:17] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:29:17] [TokenpriceFetcher][fetch_price_history]: query address=D4dfSb86qUb949MCsAJmGzbyXo7YhgaMNj7c9F49pump, chain=solana, time_type=1m, time_from=2025-04-13 23:59:00, time_to=2025-04-13 23:59:00
+[2025-05-12 15:29:18] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:29:18] [TokenpriceFetcher][fetch_price_history]: query address=0xf20f8a3c135dC048C36cb1c94E1f00CEEEa3Dd61, chain=bsc, time_type=1m, time_from=2025-04-06 23:59:00, time_to=2025-04-06 23:59:00
+[2025-05-12 15:29:18] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:29:18] [TokenpriceFetcher][fetch_price_history]: query address=0xf20f8a3c135dC048C36cb1c94E1f00CEEEa3Dd61, chain=bsc, time_type=1m, time_from=2025-04-07 23:59:00, time_to=2025-04-07 23:59:00
+[2025-05-12 15:29:19] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:29:19] [TokenpriceFetcher][fetch_price_history]: query address=0xf20f8a3c135dC048C36cb1c94E1f00CEEEa3Dd61, chain=bsc, time_type=1m, time_from=2025-04-08 23:59:00, time_to=2025-04-08 23:59:00
+[2025-05-12 15:29:19] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:29:19] [TokenpriceFetcher][fetch_price_history]: query address=0xf20f8a3c135dC048C36cb1c94E1f00CEEEa3Dd61, chain=bsc, time_type=1m, time_from=2025-04-13 23:59:00, time_to=2025-04-13 23:59:00
+[2025-05-12 15:29:20] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:29:20] [TokenpriceFetcher][fetch_price_history]: query address=EiKZAWphC65hFKz9kygWgKGcRZUGgdMmH2zSPtbGpump, chain=solana, time_type=1m, time_from=2025-04-08 23:59:00, time_to=2025-04-08 23:59:00
+[2025-05-12 15:29:20] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:29:20] [TokenpriceFetcher][fetch_price_history]: query address=EiKZAWphC65hFKz9kygWgKGcRZUGgdMmH2zSPtbGpump, chain=solana, time_type=1m, time_from=2025-04-09 23:59:00, time_to=2025-04-09 23:59:00
+[2025-05-12 15:29:21] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:29:21] [TokenpriceFetcher][fetch_price_history]: query address=EiKZAWphC65hFKz9kygWgKGcRZUGgdMmH2zSPtbGpump, chain=solana, time_type=1m, time_from=2025-04-10 23:59:00, time_to=2025-04-10 23:59:00
+[2025-05-12 15:29:22] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:29:22] [TokenpriceFetcher][fetch_price_history]: query address=EiKZAWphC65hFKz9kygWgKGcRZUGgdMmH2zSPtbGpump, chain=solana, time_type=1m, time_from=2025-04-15 23:59:00, time_to=2025-04-15 23:59:00
+[2025-05-12 15:29:22] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:29:22] [TokenpriceFetcher][fetch_price_history]: query address=B91Nyc6SnWqr5DRR34eEMKuZrWh4zBhW9VhX4UNLpump, chain=solana, time_type=1m, time_from=2025-04-09 23:59:00, time_to=2025-04-09 23:59:00
+[2025-05-12 15:29:23] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:29:23] [TokenpriceFetcher][fetch_price_history]: query address=B91Nyc6SnWqr5DRR34eEMKuZrWh4zBhW9VhX4UNLpump, chain=solana, time_type=1m, time_from=2025-04-10 23:59:00, time_to=2025-04-10 23:59:00
+[2025-05-12 15:29:23] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:29:23] [TokenpriceFetcher][fetch_price_history]: query address=B91Nyc6SnWqr5DRR34eEMKuZrWh4zBhW9VhX4UNLpump, chain=solana, time_type=1m, time_from=2025-04-11 23:59:00, time_to=2025-04-11 23:59:00
+[2025-05-12 15:29:24] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:29:24] [TokenpriceFetcher][fetch_price_history]: query address=B91Nyc6SnWqr5DRR34eEMKuZrWh4zBhW9VhX4UNLpump, chain=solana, time_type=1m, time_from=2025-04-16 23:59:00, time_to=2025-04-16 23:59:00
+[2025-05-12 15:29:24] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:29:24] [TokenpriceFetcher][fetch_price_history]: query address=DH4MqNmSR7rSY1zLiEaszx8cyDPCNgTWWTm4w8TMpump, chain=solana, time_type=1m, time_from=2025-04-09 23:59:00, time_to=2025-04-09 23:59:00
+[2025-05-12 15:29:25] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:29:25] [TokenpriceFetcher][fetch_price_history]: query address=DH4MqNmSR7rSY1zLiEaszx8cyDPCNgTWWTm4w8TMpump, chain=solana, time_type=1m, time_from=2025-04-10 23:59:00, time_to=2025-04-10 23:59:00
+[2025-05-12 15:29:25] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:29:25] [TokenpriceFetcher][fetch_price_history]: query address=DH4MqNmSR7rSY1zLiEaszx8cyDPCNgTWWTm4w8TMpump, chain=solana, time_type=1m, time_from=2025-04-11 23:59:00, time_to=2025-04-11 23:59:00
+[2025-05-12 15:29:26] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:29:26] [TokenpriceFetcher][fetch_price_history]: query address=DH4MqNmSR7rSY1zLiEaszx8cyDPCNgTWWTm4w8TMpump, chain=solana, time_type=1m, time_from=2025-04-16 23:59:00, time_to=2025-04-16 23:59:00
+[2025-05-12 15:29:26] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:29:26] [TokenpriceFetcher][fetch_price_history]: query address=0xcdC80a63d24Bb2B3C7dE48EF4A69a00000000000, chain=bsc, time_type=1m, time_from=2025-04-09 23:59:00, time_to=2025-04-09 23:59:00
+[2025-05-12 15:29:26] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:29:26] [TokenpriceFetcher][fetch_price_history]: query address=0xcdC80a63d24Bb2B3C7dE48EF4A69a00000000000, chain=bsc, time_type=1m, time_from=2025-04-10 23:59:00, time_to=2025-04-10 23:59:00
+[2025-05-12 15:29:27] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:29:27] [TokenpriceFetcher][fetch_price_history]: query address=0xcdC80a63d24Bb2B3C7dE48EF4A69a00000000000, chain=bsc, time_type=1m, time_from=2025-04-11 23:59:00, time_to=2025-04-11 23:59:00
+[2025-05-12 15:29:27] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:29:27] [TokenpriceFetcher][fetch_price_history]: query address=0xcdC80a63d24Bb2B3C7dE48EF4A69a00000000000, chain=bsc, time_type=1m, time_from=2025-04-16 23:59:00, time_to=2025-04-16 23:59:00
+[2025-05-12 15:29:28] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:29:28] [TokenpriceFetcher][fetch_price_history]: query address=12You7a9CKuEH6QMdjqX2Wuvxo8bkGjK4YEDngmiGsub, chain=solana, time_type=1m, time_from=2025-04-10 23:59:00, time_to=2025-04-10 23:59:00
+[2025-05-12 15:29:29] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:29:29] [TokenpriceFetcher][fetch_price_history]: query address=12You7a9CKuEH6QMdjqX2Wuvxo8bkGjK4YEDngmiGsub, chain=solana, time_type=1m, time_from=2025-04-11 23:59:00, time_to=2025-04-11 23:59:00
+[2025-05-12 15:29:29] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:29:29] [TokenpriceFetcher][fetch_price_history]: query address=12You7a9CKuEH6QMdjqX2Wuvxo8bkGjK4YEDngmiGsub, chain=solana, time_type=1m, time_from=2025-04-12 23:59:00, time_to=2025-04-12 23:59:00
+[2025-05-12 15:29:30] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:29:30] [TokenpriceFetcher][fetch_price_history]: query address=12You7a9CKuEH6QMdjqX2Wuvxo8bkGjK4YEDngmiGsub, chain=solana, time_type=1m, time_from=2025-04-17 23:59:00, time_to=2025-04-17 23:59:00
+[2025-05-12 15:29:30] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:29:30] [TokenpriceFetcher][fetch_price_history]: query address=5CxtvaR1SskwLxfzHGurx8Enu8bgSTPyWF3YP4sWpump, chain=solana, time_type=1m, time_from=2025-04-10 23:59:00, time_to=2025-04-10 23:59:00
+[2025-05-12 15:29:31] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:29:31] [TokenpriceFetcher][fetch_price_history]: query address=5CxtvaR1SskwLxfzHGurx8Enu8bgSTPyWF3YP4sWpump, chain=solana, time_type=1m, time_from=2025-04-11 23:59:00, time_to=2025-04-11 23:59:00
+[2025-05-12 15:29:31] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:29:31] [TokenpriceFetcher][fetch_price_history]: query address=5CxtvaR1SskwLxfzHGurx8Enu8bgSTPyWF3YP4sWpump, chain=solana, time_type=1m, time_from=2025-04-12 23:59:00, time_to=2025-04-12 23:59:00
+[2025-05-12 15:29:31] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:29:31] [TokenpriceFetcher][fetch_price_history]: query address=5CxtvaR1SskwLxfzHGurx8Enu8bgSTPyWF3YP4sWpump, chain=solana, time_type=1m, time_from=2025-04-17 23:59:00, time_to=2025-04-17 23:59:00
+[2025-05-12 15:29:32] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:29:32] [TokenpriceFetcher][fetch_price_history]: query address=0x934e2003D24D27CD28A3cC7c8B6765e522F567d9, chain=bsc, time_type=1m, time_from=2025-04-10 23:59:00, time_to=2025-04-10 23:59:00
+[2025-05-12 15:29:32] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:29:32] [TokenpriceFetcher][fetch_price_history]: query address=0x934e2003D24D27CD28A3cC7c8B6765e522F567d9, chain=bsc, time_type=1m, time_from=2025-04-11 23:59:00, time_to=2025-04-11 23:59:00
+[2025-05-12 15:29:33] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:29:33] [TokenpriceFetcher][fetch_price_history]: query address=0x934e2003D24D27CD28A3cC7c8B6765e522F567d9, chain=bsc, time_type=1m, time_from=2025-04-12 23:59:00, time_to=2025-04-12 23:59:00
+[2025-05-12 15:29:33] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:29:33] [TokenpriceFetcher][fetch_price_history]: query address=0x934e2003D24D27CD28A3cC7c8B6765e522F567d9, chain=bsc, time_type=1m, time_from=2025-04-17 23:59:00, time_to=2025-04-17 23:59:00
+[2025-05-12 15:29:34] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:29:34] [TokenpriceFetcher][fetch_price_history]: query address=0xd55C9fB62E176a8Eb6968f32958FeFDD0962727E, chain=bsc, time_type=1m, time_from=2025-04-10 23:59:00, time_to=2025-04-10 23:59:00
+[2025-05-12 15:29:34] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:29:34] [TokenpriceFetcher][fetch_price_history]: query address=0xd55C9fB62E176a8Eb6968f32958FeFDD0962727E, chain=bsc, time_type=1m, time_from=2025-04-11 23:59:00, time_to=2025-04-11 23:59:00
+[2025-05-12 15:29:35] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:29:35] [TokenpriceFetcher][fetch_price_history]: query address=0xd55C9fB62E176a8Eb6968f32958FeFDD0962727E, chain=bsc, time_type=1m, time_from=2025-04-12 23:59:00, time_to=2025-04-12 23:59:00
+[2025-05-12 15:29:35] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:29:35] [TokenpriceFetcher][fetch_price_history]: query address=0xd55C9fB62E176a8Eb6968f32958FeFDD0962727E, chain=bsc, time_type=1m, time_from=2025-04-17 23:59:00, time_to=2025-04-17 23:59:00
+[2025-05-12 15:29:35] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:29:35] [TokenpriceFetcher][fetch_price_history]: query address=CEK3J5DavCqqn3bV1smLZz7LxJR5eaRN5KxCxDZBq7SG, chain=solana, time_type=1m, time_from=2025-04-12 23:59:00, time_to=2025-04-12 23:59:00
+[2025-05-12 15:29:36] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:29:36] [TokenpriceFetcher][fetch_price_history]: query address=CEK3J5DavCqqn3bV1smLZz7LxJR5eaRN5KxCxDZBq7SG, chain=solana, time_type=1m, time_from=2025-04-13 23:59:00, time_to=2025-04-13 23:59:00
+[2025-05-12 15:29:37] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:29:37] [TokenpriceFetcher][fetch_price_history]: query address=CEK3J5DavCqqn3bV1smLZz7LxJR5eaRN5KxCxDZBq7SG, chain=solana, time_type=1m, time_from=2025-04-14 23:59:00, time_to=2025-04-14 23:59:00
+[2025-05-12 15:29:37] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:29:37] [TokenpriceFetcher][fetch_price_history]: query address=CEK3J5DavCqqn3bV1smLZz7LxJR5eaRN5KxCxDZBq7SG, chain=solana, time_type=1m, time_from=2025-04-19 23:59:00, time_to=2025-04-19 23:59:00
+[2025-05-12 15:29:38] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:29:38] [TokenpriceFetcher][fetch_price_history]: query address=CmXr8rZyqxbFKv44kk1u8ixQM9mZnUf625k56p27pump, chain=solana, time_type=1m, time_from=2025-04-13 23:59:00, time_to=2025-04-13 23:59:00
+[2025-05-12 15:29:38] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:29:38] [TokenpriceFetcher][fetch_price_history]: query address=CmXr8rZyqxbFKv44kk1u8ixQM9mZnUf625k56p27pump, chain=solana, time_type=1m, time_from=2025-04-14 23:59:00, time_to=2025-04-14 23:59:00
+[2025-05-12 15:29:39] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:29:39] [TokenpriceFetcher][fetch_price_history]: query address=CmXr8rZyqxbFKv44kk1u8ixQM9mZnUf625k56p27pump, chain=solana, time_type=1m, time_from=2025-04-15 23:59:00, time_to=2025-04-15 23:59:00
+[2025-05-12 15:29:40] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:29:40] [TokenpriceFetcher][fetch_price_history]: query address=CmXr8rZyqxbFKv44kk1u8ixQM9mZnUf625k56p27pump, chain=solana, time_type=1m, time_from=2025-04-20 23:59:00, time_to=2025-04-20 23:59:00
+[2025-05-12 15:29:40] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:29:40] [TokenpriceFetcher][fetch_price_history]: query address=4StuLHHsHobhBh4BCNhreFtQ5EvSZHvbAMxJ44JWpump, chain=solana, time_type=1m, time_from=2025-04-13 23:59:00, time_to=2025-04-13 23:59:00
+[2025-05-12 15:29:41] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:29:41] [TokenpriceFetcher][fetch_price_history]: query address=4StuLHHsHobhBh4BCNhreFtQ5EvSZHvbAMxJ44JWpump, chain=solana, time_type=1m, time_from=2025-04-14 23:59:00, time_to=2025-04-14 23:59:00
+[2025-05-12 15:29:42] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:29:42] [TokenpriceFetcher][fetch_price_history]: query address=4StuLHHsHobhBh4BCNhreFtQ5EvSZHvbAMxJ44JWpump, chain=solana, time_type=1m, time_from=2025-04-15 23:59:00, time_to=2025-04-15 23:59:00
+[2025-05-12 15:29:42] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:29:42] [TokenpriceFetcher][fetch_price_history]: query address=4StuLHHsHobhBh4BCNhreFtQ5EvSZHvbAMxJ44JWpump, chain=solana, time_type=1m, time_from=2025-04-20 23:59:00, time_to=2025-04-20 23:59:00
+[2025-05-12 15:29:43] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:29:43] [TokenpriceFetcher][fetch_price_history]: query address=43SXvpf4c41t2uErsw7aL6w5qhnie6BXSSPqiTcTpump, chain=solana, time_type=1m, time_from=2025-04-14 23:59:00, time_to=2025-04-14 23:59:00
+[2025-05-12 15:29:43] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:29:43] [TokenpriceFetcher][fetch_price_history]: query address=43SXvpf4c41t2uErsw7aL6w5qhnie6BXSSPqiTcTpump, chain=solana, time_type=1m, time_from=2025-04-15 23:59:00, time_to=2025-04-15 23:59:00
+[2025-05-12 15:29:44] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:29:44] [TokenpriceFetcher][fetch_price_history]: query address=43SXvpf4c41t2uErsw7aL6w5qhnie6BXSSPqiTcTpump, chain=solana, time_type=1m, time_from=2025-04-16 23:59:00, time_to=2025-04-16 23:59:00
+[2025-05-12 15:29:44] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:29:44] [TokenpriceFetcher][fetch_price_history]: query address=43SXvpf4c41t2uErsw7aL6w5qhnie6BXSSPqiTcTpump, chain=solana, time_type=1m, time_from=2025-04-21 23:59:00, time_to=2025-04-21 23:59:00
+[2025-05-12 15:29:45] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:29:45] [TokenpriceFetcher][fetch_price_history]: query address=5HV956n7UQT1XdJzv43fHPocest5YAmi9ipsuiJx7zt7, chain=solana, time_type=1m, time_from=2025-04-14 23:59:00, time_to=2025-04-14 23:59:00
+[2025-05-12 15:29:45] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:29:45] [TokenpriceFetcher][fetch_price_history]: query address=5HV956n7UQT1XdJzv43fHPocest5YAmi9ipsuiJx7zt7, chain=solana, time_type=1m, time_from=2025-04-15 23:59:00, time_to=2025-04-15 23:59:00
+[2025-05-12 15:29:46] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:29:46] [TokenpriceFetcher][fetch_price_history]: query address=5HV956n7UQT1XdJzv43fHPocest5YAmi9ipsuiJx7zt7, chain=solana, time_type=1m, time_from=2025-04-16 23:59:00, time_to=2025-04-16 23:59:00
+[2025-05-12 15:29:46] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:29:46] [TokenpriceFetcher][fetch_price_history]: query address=5HV956n7UQT1XdJzv43fHPocest5YAmi9ipsuiJx7zt7, chain=solana, time_type=1m, time_from=2025-04-21 23:59:00, time_to=2025-04-21 23:59:00
+[2025-05-12 15:29:47] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:29:47] [TokenpriceFetcher][fetch_price_history]: query address=0x56c7675fAB25228A49c666A374A3c7BB94434444, chain=bsc, time_type=1m, time_from=2025-04-14 23:59:00, time_to=2025-04-14 23:59:00
+[2025-05-12 15:29:47] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:29:47] [TokenpriceFetcher][fetch_price_history]: query address=0x56c7675fAB25228A49c666A374A3c7BB94434444, chain=bsc, time_type=1m, time_from=2025-04-15 23:59:00, time_to=2025-04-15 23:59:00
+[2025-05-12 15:29:47] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:29:47] [TokenpriceFetcher][fetch_price_history]: query address=0x56c7675fAB25228A49c666A374A3c7BB94434444, chain=bsc, time_type=1m, time_from=2025-04-16 23:59:00, time_to=2025-04-16 23:59:00
+[2025-05-12 15:29:48] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:29:48] [TokenpriceFetcher][fetch_price_history]: query address=0x56c7675fAB25228A49c666A374A3c7BB94434444, chain=bsc, time_type=1m, time_from=2025-04-21 23:59:00, time_to=2025-04-21 23:59:00
+[2025-05-12 15:29:48] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:29:48] [TokenpriceFetcher][fetch_price_history]: query address=0x36fdebeb2bb7538d5559f1d2968307e86eb04444, chain=bsc, time_type=1m, time_from=2025-04-15 23:59:00, time_to=2025-04-15 23:59:00
+[2025-05-12 15:29:49] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:29:49] [TokenpriceFetcher][fetch_price_history]: query address=0x36fdebeb2bb7538d5559f1d2968307e86eb04444, chain=bsc, time_type=1m, time_from=2025-04-16 23:59:00, time_to=2025-04-16 23:59:00
+[2025-05-12 15:29:49] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:29:49] [TokenpriceFetcher][fetch_price_history]: query address=0x36fdebeb2bb7538d5559f1d2968307e86eb04444, chain=bsc, time_type=1m, time_from=2025-04-17 23:59:00, time_to=2025-04-17 23:59:00
+[2025-05-12 15:29:50] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:29:50] [TokenpriceFetcher][fetch_price_history]: query address=0x36fdebeb2bb7538d5559f1d2968307e86eb04444, chain=bsc, time_type=1m, time_from=2025-04-22 23:59:00, time_to=2025-04-22 23:59:00
+[2025-05-12 15:29:51] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:29:51] [TokenpriceFetcher][fetch_price_history]: query address=E4qzn7o7P5SR13Sd1X1JKiw6yBGXVPat6JNUuX7ypump, chain=solana, time_type=1m, time_from=2025-04-15 23:59:00, time_to=2025-04-15 23:59:00
+[2025-05-12 15:29:52] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:29:52] [TokenpriceFetcher][fetch_price_history]: query address=E4qzn7o7P5SR13Sd1X1JKiw6yBGXVPat6JNUuX7ypump, chain=solana, time_type=1m, time_from=2025-04-16 23:59:00, time_to=2025-04-16 23:59:00
+[2025-05-12 15:29:52] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:29:52] [TokenpriceFetcher][fetch_price_history]: query address=E4qzn7o7P5SR13Sd1X1JKiw6yBGXVPat6JNUuX7ypump, chain=solana, time_type=1m, time_from=2025-04-17 23:59:00, time_to=2025-04-17 23:59:00
+[2025-05-12 15:29:52] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:29:52] [TokenpriceFetcher][fetch_price_history]: query address=E4qzn7o7P5SR13Sd1X1JKiw6yBGXVPat6JNUuX7ypump, chain=solana, time_type=1m, time_from=2025-04-22 23:59:00, time_to=2025-04-22 23:59:00
+[2025-05-12 15:29:53] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:29:53] [TokenpriceFetcher][fetch_price_history]: query address=0x005e13c67f1d9d341194d902ec6f9e3c4b8b4444, chain=bsc, time_type=1m, time_from=2025-04-15 23:59:00, time_to=2025-04-15 23:59:00
+[2025-05-12 15:29:54] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:29:54] [TokenpriceFetcher][fetch_price_history]: query address=0x005e13c67f1d9d341194d902ec6f9e3c4b8b4444, chain=bsc, time_type=1m, time_from=2025-04-16 23:59:00, time_to=2025-04-16 23:59:00
+[2025-05-12 15:29:54] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:29:54] [TokenpriceFetcher][fetch_price_history]: query address=0x005e13c67f1d9d341194d902ec6f9e3c4b8b4444, chain=bsc, time_type=1m, time_from=2025-04-17 23:59:00, time_to=2025-04-17 23:59:00
+[2025-05-12 15:29:54] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:29:54] [TokenpriceFetcher][fetch_price_history]: query address=0x005e13c67f1d9d341194d902ec6f9e3c4b8b4444, chain=bsc, time_type=1m, time_from=2025-04-22 23:59:00, time_to=2025-04-22 23:59:00
+[2025-05-12 15:29:55] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:29:55] [TokenpriceFetcher][fetch_price_history]: query address=Fiq8K21K62zLFP6q6Wrh7nc4AZJmqoavyTxEX6Bkpump, chain=solana, time_type=1m, time_from=2025-04-15 23:59:00, time_to=2025-04-15 23:59:00
+[2025-05-12 15:29:55] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:29:55] [TokenpriceFetcher][fetch_price_history]: query address=Fiq8K21K62zLFP6q6Wrh7nc4AZJmqoavyTxEX6Bkpump, chain=solana, time_type=1m, time_from=2025-04-16 23:59:00, time_to=2025-04-16 23:59:00
+[2025-05-12 15:29:56] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:29:56] [TokenpriceFetcher][fetch_price_history]: query address=Fiq8K21K62zLFP6q6Wrh7nc4AZJmqoavyTxEX6Bkpump, chain=solana, time_type=1m, time_from=2025-04-17 23:59:00, time_to=2025-04-17 23:59:00
+[2025-05-12 15:29:56] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:29:56] [TokenpriceFetcher][fetch_price_history]: query address=Fiq8K21K62zLFP6q6Wrh7nc4AZJmqoavyTxEX6Bkpump, chain=solana, time_type=1m, time_from=2025-04-22 23:59:00, time_to=2025-04-22 23:59:00
+[2025-05-12 15:29:57] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:29:57] [TokenpriceFetcher][fetch_price_history]: query address=Eqpvgps4py3nDkgvRnVGv7JsSwBF3oa3i1Zvaszqpump, chain=solana, time_type=1m, time_from=2025-04-16 23:59:00, time_to=2025-04-16 23:59:00
+[2025-05-12 15:29:57] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:29:57] [TokenpriceFetcher][fetch_price_history]: query address=Eqpvgps4py3nDkgvRnVGv7JsSwBF3oa3i1Zvaszqpump, chain=solana, time_type=1m, time_from=2025-04-17 23:59:00, time_to=2025-04-17 23:59:00
+[2025-05-12 15:29:58] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:29:58] [TokenpriceFetcher][fetch_price_history]: query address=Eqpvgps4py3nDkgvRnVGv7JsSwBF3oa3i1Zvaszqpump, chain=solana, time_type=1m, time_from=2025-04-18 23:59:00, time_to=2025-04-18 23:59:00
+[2025-05-12 15:29:58] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:29:58] [TokenpriceFetcher][fetch_price_history]: query address=Eqpvgps4py3nDkgvRnVGv7JsSwBF3oa3i1Zvaszqpump, chain=solana, time_type=1m, time_from=2025-04-23 23:59:00, time_to=2025-04-23 23:59:00
+[2025-05-12 15:29:58] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:29:58] [TokenpriceFetcher][fetch_price_history]: query address=AyrQpt5xsVYiN4BqgZdd2tZJAWswT9yLUZmP1jKqpump, chain=solana, time_type=1m, time_from=2025-04-16 23:59:00, time_to=2025-04-16 23:59:00
+[2025-05-12 15:29:59] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:29:59] [TokenpriceFetcher][fetch_price_history]: query address=AyrQpt5xsVYiN4BqgZdd2tZJAWswT9yLUZmP1jKqpump, chain=solana, time_type=1m, time_from=2025-04-17 23:59:00, time_to=2025-04-17 23:59:00
+[2025-05-12 15:30:00] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:30:00] [TokenpriceFetcher][fetch_price_history]: query address=AyrQpt5xsVYiN4BqgZdd2tZJAWswT9yLUZmP1jKqpump, chain=solana, time_type=1m, time_from=2025-04-18 23:59:00, time_to=2025-04-18 23:59:00
+[2025-05-12 15:30:00] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:30:00] [TokenpriceFetcher][fetch_price_history]: query address=AyrQpt5xsVYiN4BqgZdd2tZJAWswT9yLUZmP1jKqpump, chain=solana, time_type=1m, time_from=2025-04-23 23:59:00, time_to=2025-04-23 23:59:00
+[2025-05-12 15:30:02] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:30:02] [TokenpriceFetcher][fetch_price_history]: query address=13TVvChoA7S2qdB7GhP8sDret3aPBetBjvWHtL3Ymeme, chain=solana, time_type=1m, time_from=2025-04-18 23:59:00, time_to=2025-04-18 23:59:00
+[2025-05-12 15:30:02] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:30:02] [TokenpriceFetcher][fetch_price_history]: query address=13TVvChoA7S2qdB7GhP8sDret3aPBetBjvWHtL3Ymeme, chain=solana, time_type=1m, time_from=2025-04-19 23:59:00, time_to=2025-04-19 23:59:00
+[2025-05-12 15:30:03] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:30:03] [TokenpriceFetcher][fetch_price_history]: query address=13TVvChoA7S2qdB7GhP8sDret3aPBetBjvWHtL3Ymeme, chain=solana, time_type=1m, time_from=2025-04-20 23:59:00, time_to=2025-04-20 23:59:00
+[2025-05-12 15:30:04] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:30:04] [TokenpriceFetcher][fetch_price_history]: query address=13TVvChoA7S2qdB7GhP8sDret3aPBetBjvWHtL3Ymeme, chain=solana, time_type=1m, time_from=2025-04-25 23:59:00, time_to=2025-04-25 23:59:00
+[2025-05-12 15:30:05] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:30:05] [TokenpriceFetcher][fetch_price_history]: query address=DPTP4fUfWuwVTgCmttWBu6Sy5B9TeCTBjc2YKgpDpump, chain=solana, time_type=1m, time_from=2025-04-18 23:59:00, time_to=2025-04-18 23:59:00
+[2025-05-12 15:30:05] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:30:05] [TokenpriceFetcher][fetch_price_history]: query address=DPTP4fUfWuwVTgCmttWBu6Sy5B9TeCTBjc2YKgpDpump, chain=solana, time_type=1m, time_from=2025-04-19 23:59:00, time_to=2025-04-19 23:59:00
+[2025-05-12 15:30:06] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:30:06] [TokenpriceFetcher][fetch_price_history]: query address=DPTP4fUfWuwVTgCmttWBu6Sy5B9TeCTBjc2YKgpDpump, chain=solana, time_type=1m, time_from=2025-04-20 23:59:00, time_to=2025-04-20 23:59:00
+[2025-05-12 15:30:06] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:30:06] [TokenpriceFetcher][fetch_price_history]: query address=DPTP4fUfWuwVTgCmttWBu6Sy5B9TeCTBjc2YKgpDpump, chain=solana, time_type=1m, time_from=2025-04-25 23:59:00, time_to=2025-04-25 23:59:00
+[2025-05-12 15:30:07] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:30:07] [TokenpriceFetcher][fetch_price_history]: query address=0xd8002d4bd1d50136A731c141e3206D516E6D3b3d, chain=bsc, time_type=1m, time_from=2025-04-18 23:59:00, time_to=2025-04-18 23:59:00
+[2025-05-12 15:30:07] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:30:07] [TokenpriceFetcher][fetch_price_history]: query address=0xd8002d4bd1d50136A731c141e3206D516E6D3b3d, chain=bsc, time_type=1m, time_from=2025-04-19 23:59:00, time_to=2025-04-19 23:59:00
+[2025-05-12 15:30:07] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:30:07] [TokenpriceFetcher][fetch_price_history]: query address=0xd8002d4bd1d50136A731c141e3206D516E6D3b3d, chain=bsc, time_type=1m, time_from=2025-04-20 23:59:00, time_to=2025-04-20 23:59:00
+[2025-05-12 15:30:08] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:30:08] [TokenpriceFetcher][fetch_price_history]: query address=0xd8002d4bd1d50136A731c141e3206D516E6D3b3d, chain=bsc, time_type=1m, time_from=2025-04-25 23:59:00, time_to=2025-04-25 23:59:00
+[2025-05-12 15:30:08] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:30:08] [TokenpriceFetcher][fetch_price_history]: query address=0x541EEC85ef7452D16814D32aB555dF33F0E4cEAD, chain=bsc, time_type=1m, time_from=2025-04-18 23:59:00, time_to=2025-04-18 23:59:00
+[2025-05-12 15:30:09] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:30:09] [TokenpriceFetcher][fetch_price_history]: query address=0x541EEC85ef7452D16814D32aB555dF33F0E4cEAD, chain=bsc, time_type=1m, time_from=2025-04-19 23:59:00, time_to=2025-04-19 23:59:00
+[2025-05-12 15:30:09] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:30:09] [TokenpriceFetcher][fetch_price_history]: query address=0x541EEC85ef7452D16814D32aB555dF33F0E4cEAD, chain=bsc, time_type=1m, time_from=2025-04-20 23:59:00, time_to=2025-04-20 23:59:00
+[2025-05-12 15:30:10] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:30:10] [TokenpriceFetcher][fetch_price_history]: query address=0x541EEC85ef7452D16814D32aB555dF33F0E4cEAD, chain=bsc, time_type=1m, time_from=2025-04-25 23:59:00, time_to=2025-04-25 23:59:00
+[2025-05-12 15:30:11] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:30:11] [TokenpriceFetcher][fetch_price_history]: query address=BQX1cjcRHXmrqNtoFWwmE5bZj7RPneTmqXB979b2pump, chain=solana, time_type=1m, time_from=2025-04-18 23:59:00, time_to=2025-04-18 23:59:00
+[2025-05-12 15:30:11] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:30:11] [TokenpriceFetcher][fetch_price_history]: query address=BQX1cjcRHXmrqNtoFWwmE5bZj7RPneTmqXB979b2pump, chain=solana, time_type=1m, time_from=2025-04-19 23:59:00, time_to=2025-04-19 23:59:00
+[2025-05-12 15:30:12] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:30:12] [TokenpriceFetcher][fetch_price_history]: query address=BQX1cjcRHXmrqNtoFWwmE5bZj7RPneTmqXB979b2pump, chain=solana, time_type=1m, time_from=2025-04-20 23:59:00, time_to=2025-04-20 23:59:00
+[2025-05-12 15:30:12] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:30:12] [TokenpriceFetcher][fetch_price_history]: query address=BQX1cjcRHXmrqNtoFWwmE5bZj7RPneTmqXB979b2pump, chain=solana, time_type=1m, time_from=2025-04-25 23:59:00, time_to=2025-04-25 23:59:00
+[2025-05-12 15:30:12] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:30:12] [TokenpriceFetcher][fetch_price_history]: query address=0x3AeE7602b612de36088F3ffEd8c8f10E86EbF2bF, chain=bsc, time_type=1m, time_from=2025-04-18 23:59:00, time_to=2025-04-18 23:59:00
+[2025-05-12 15:30:13] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:30:13] [TokenpriceFetcher][fetch_price_history]: query address=0x3AeE7602b612de36088F3ffEd8c8f10E86EbF2bF, chain=bsc, time_type=1m, time_from=2025-04-19 23:59:00, time_to=2025-04-19 23:59:00
+[2025-05-12 15:30:14] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:30:14] [TokenpriceFetcher][fetch_price_history]: query address=0x3AeE7602b612de36088F3ffEd8c8f10E86EbF2bF, chain=bsc, time_type=1m, time_from=2025-04-20 23:59:00, time_to=2025-04-20 23:59:00
+[2025-05-12 15:30:15] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:30:15] [TokenpriceFetcher][fetch_price_history]: query address=0x3AeE7602b612de36088F3ffEd8c8f10E86EbF2bF, chain=bsc, time_type=1m, time_from=2025-04-25 23:59:00, time_to=2025-04-25 23:59:00
+[2025-05-12 15:30:15] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:30:15] [TokenpriceFetcher][fetch_price_history]: query address=2tbHkvuJnaG1X2U4VXvKTFsvaoW2cZ2W4iM9ZmdYmoon, chain=solana, time_type=1m, time_from=2025-04-19 23:59:00, time_to=2025-04-19 23:59:00
+[2025-05-12 15:30:15] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:30:15] [TokenpriceFetcher][fetch_price_history]: query address=2tbHkvuJnaG1X2U4VXvKTFsvaoW2cZ2W4iM9ZmdYmoon, chain=solana, time_type=1m, time_from=2025-04-20 23:59:00, time_to=2025-04-20 23:59:00
+[2025-05-12 15:30:16] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:30:16] [TokenpriceFetcher][fetch_price_history]: query address=2tbHkvuJnaG1X2U4VXvKTFsvaoW2cZ2W4iM9ZmdYmoon, chain=solana, time_type=1m, time_from=2025-04-21 23:59:00, time_to=2025-04-21 23:59:00
+[2025-05-12 15:30:17] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:30:17] [TokenpriceFetcher][fetch_price_history]: query address=2tbHkvuJnaG1X2U4VXvKTFsvaoW2cZ2W4iM9ZmdYmoon, chain=solana, time_type=1m, time_from=2025-04-26 23:59:00, time_to=2025-04-26 23:59:00
+[2025-05-12 15:30:17] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:30:17] [TokenpriceFetcher][fetch_price_history]: query address=BdQR2zt6eJ5vJNWBHbE9wnjc6iDBYyQbfoSwCRX6pump, chain=solana, time_type=1m, time_from=2025-04-19 23:59:00, time_to=2025-04-19 23:59:00
+[2025-05-12 15:30:18] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:30:18] [TokenpriceFetcher][fetch_price_history]: query address=BdQR2zt6eJ5vJNWBHbE9wnjc6iDBYyQbfoSwCRX6pump, chain=solana, time_type=1m, time_from=2025-04-20 23:59:00, time_to=2025-04-20 23:59:00
+[2025-05-12 15:30:18] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:30:18] [TokenpriceFetcher][fetch_price_history]: query address=BdQR2zt6eJ5vJNWBHbE9wnjc6iDBYyQbfoSwCRX6pump, chain=solana, time_type=1m, time_from=2025-04-21 23:59:00, time_to=2025-04-21 23:59:00
+[2025-05-12 15:30:19] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:30:19] [TokenpriceFetcher][fetch_price_history]: query address=BdQR2zt6eJ5vJNWBHbE9wnjc6iDBYyQbfoSwCRX6pump, chain=solana, time_type=1m, time_from=2025-04-26 23:59:00, time_to=2025-04-26 23:59:00
+[2025-05-12 15:30:19] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:30:19] [TokenpriceFetcher][fetch_price_history]: query address=0xE215f9575e2fAFff8D0D3F9C6866ac656bD25BD9, chain=bsc, time_type=1m, time_from=2025-04-19 23:59:00, time_to=2025-04-19 23:59:00
+[2025-05-12 15:30:20] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:30:20] [TokenpriceFetcher][fetch_price_history]: query address=0xE215f9575e2fAFff8D0D3F9C6866ac656bD25BD9, chain=bsc, time_type=1m, time_from=2025-04-20 23:59:00, time_to=2025-04-20 23:59:00
+[2025-05-12 15:30:20] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:30:20] [TokenpriceFetcher][fetch_price_history]: query address=0xE215f9575e2fAFff8D0D3F9C6866ac656bD25BD9, chain=bsc, time_type=1m, time_from=2025-04-21 23:59:00, time_to=2025-04-21 23:59:00
+[2025-05-12 15:30:20] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:30:20] [TokenpriceFetcher][fetch_price_history]: query address=0xE215f9575e2fAFff8D0D3F9C6866ac656bD25BD9, chain=bsc, time_type=1m, time_from=2025-04-26 23:59:00, time_to=2025-04-26 23:59:00
+[2025-05-12 15:30:21] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:30:21] [TokenpriceFetcher][fetch_price_history]: query address=8oosbx7jJrZxm5m4ThKhBpvwwG4QpoAe6i4GiG19pump, chain=solana, time_type=1m, time_from=2025-04-19 23:59:00, time_to=2025-04-19 23:59:00
+[2025-05-12 15:30:22] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:30:22] [TokenpriceFetcher][fetch_price_history]: query address=8oosbx7jJrZxm5m4ThKhBpvwwG4QpoAe6i4GiG19pump, chain=solana, time_type=1m, time_from=2025-04-20 23:59:00, time_to=2025-04-20 23:59:00
+[2025-05-12 15:30:22] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:30:22] [TokenpriceFetcher][fetch_price_history]: query address=8oosbx7jJrZxm5m4ThKhBpvwwG4QpoAe6i4GiG19pump, chain=solana, time_type=1m, time_from=2025-04-21 23:59:00, time_to=2025-04-21 23:59:00
+[2025-05-12 15:30:23] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:30:23] [TokenpriceFetcher][fetch_price_history]: query address=8oosbx7jJrZxm5m4ThKhBpvwwG4QpoAe6i4GiG19pump, chain=solana, time_type=1m, time_from=2025-04-26 23:59:00, time_to=2025-04-26 23:59:00
+[2025-05-12 15:30:23] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:30:23] [TokenpriceFetcher][fetch_price_history]: query address=88KKUzT9B5sHRopVgRNn3VEfKh7g4ykLXqqjPT7Hpump, chain=solana, time_type=1m, time_from=2025-04-19 23:59:00, time_to=2025-04-19 23:59:00
+[2025-05-12 15:30:24] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:30:24] [TokenpriceFetcher][fetch_price_history]: query address=88KKUzT9B5sHRopVgRNn3VEfKh7g4ykLXqqjPT7Hpump, chain=solana, time_type=1m, time_from=2025-04-20 23:59:00, time_to=2025-04-20 23:59:00
+[2025-05-12 15:30:25] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:30:25] [TokenpriceFetcher][fetch_price_history]: query address=88KKUzT9B5sHRopVgRNn3VEfKh7g4ykLXqqjPT7Hpump, chain=solana, time_type=1m, time_from=2025-04-21 23:59:00, time_to=2025-04-21 23:59:00
+[2025-05-12 15:30:25] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:30:25] [TokenpriceFetcher][fetch_price_history]: query address=88KKUzT9B5sHRopVgRNn3VEfKh7g4ykLXqqjPT7Hpump, chain=solana, time_type=1m, time_from=2025-04-26 23:59:00, time_to=2025-04-26 23:59:00
+[2025-05-12 15:30:26] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:30:26] [TokenpriceFetcher][fetch_price_history]: query address=0x92aa03137385F18539301349dcfC9EbC923fFb10, chain=bsc, time_type=1m, time_from=2025-04-20 23:59:00, time_to=2025-04-20 23:59:00
+[2025-05-12 15:30:26] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:30:26] [TokenpriceFetcher][fetch_price_history]: query address=0x92aa03137385F18539301349dcfC9EbC923fFb10, chain=bsc, time_type=1m, time_from=2025-04-21 23:59:00, time_to=2025-04-21 23:59:00
+[2025-05-12 15:30:27] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:30:27] [TokenpriceFetcher][fetch_price_history]: query address=0x92aa03137385F18539301349dcfC9EbC923fFb10, chain=bsc, time_type=1m, time_from=2025-04-22 23:59:00, time_to=2025-04-22 23:59:00
+[2025-05-12 15:30:27] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:30:27] [TokenpriceFetcher][fetch_price_history]: query address=0x92aa03137385F18539301349dcfC9EbC923fFb10, chain=bsc, time_type=1m, time_from=2025-04-27 23:59:00, time_to=2025-04-27 23:59:00
+[2025-05-12 15:30:28] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:30:28] [TokenpriceFetcher][fetch_price_history]: query address=CBdCxKo9QavR9hfShgpEBG3zekorAeD7W1jfq2o3pump, chain=solana, time_type=1m, time_from=2025-04-21 23:59:00, time_to=2025-04-21 23:59:00
+[2025-05-12 15:30:28] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:30:28] [TokenpriceFetcher][fetch_price_history]: query address=CBdCxKo9QavR9hfShgpEBG3zekorAeD7W1jfq2o3pump, chain=solana, time_type=1m, time_from=2025-04-22 23:59:00, time_to=2025-04-22 23:59:00
+[2025-05-12 15:30:29] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:30:29] [TokenpriceFetcher][fetch_price_history]: query address=CBdCxKo9QavR9hfShgpEBG3zekorAeD7W1jfq2o3pump, chain=solana, time_type=1m, time_from=2025-04-23 23:59:00, time_to=2025-04-23 23:59:00
+[2025-05-12 15:30:29] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:30:29] [TokenpriceFetcher][fetch_price_history]: query address=CBdCxKo9QavR9hfShgpEBG3zekorAeD7W1jfq2o3pump, chain=solana, time_type=1m, time_from=2025-04-28 23:59:00, time_to=2025-04-28 23:59:00
+[2025-05-12 15:30:30] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:30:30] [TokenpriceFetcher][fetch_price_history]: query address=9kvTPjemayUL7XKPyjhqavbcLtY5VP2ha1G5vPuppump, chain=solana, time_type=1m, time_from=2025-04-21 23:59:00, time_to=2025-04-21 23:59:00
+[2025-05-12 15:30:30] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:30:30] [TokenpriceFetcher][fetch_price_history]: query address=9kvTPjemayUL7XKPyjhqavbcLtY5VP2ha1G5vPuppump, chain=solana, time_type=1m, time_from=2025-04-22 23:59:00, time_to=2025-04-22 23:59:00
+[2025-05-12 15:30:31] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:30:31] [TokenpriceFetcher][fetch_price_history]: query address=9kvTPjemayUL7XKPyjhqavbcLtY5VP2ha1G5vPuppump, chain=solana, time_type=1m, time_from=2025-04-23 23:59:00, time_to=2025-04-23 23:59:00
+[2025-05-12 15:30:31] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:30:31] [TokenpriceFetcher][fetch_price_history]: query address=9kvTPjemayUL7XKPyjhqavbcLtY5VP2ha1G5vPuppump, chain=solana, time_type=1m, time_from=2025-04-28 23:59:00, time_to=2025-04-28 23:59:00
+[2025-05-12 15:30:32] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:30:32] [TokenpriceFetcher][fetch_price_history]: query address=5UUH9RTDiSpq6HKS6bp4NdU9PNJpXRXuiw6ShBTBhgH2, chain=solana, time_type=1m, time_from=2025-04-21 23:59:00, time_to=2025-04-21 23:59:00
+[2025-05-12 15:30:32] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:30:32] [TokenpriceFetcher][fetch_price_history]: query address=5UUH9RTDiSpq6HKS6bp4NdU9PNJpXRXuiw6ShBTBhgH2, chain=solana, time_type=1m, time_from=2025-04-22 23:59:00, time_to=2025-04-22 23:59:00
+[2025-05-12 15:30:33] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:30:33] [TokenpriceFetcher][fetch_price_history]: query address=5UUH9RTDiSpq6HKS6bp4NdU9PNJpXRXuiw6ShBTBhgH2, chain=solana, time_type=1m, time_from=2025-04-23 23:59:00, time_to=2025-04-23 23:59:00
+[2025-05-12 15:30:33] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:30:33] [TokenpriceFetcher][fetch_price_history]: query address=5UUH9RTDiSpq6HKS6bp4NdU9PNJpXRXuiw6ShBTBhgH2, chain=solana, time_type=1m, time_from=2025-04-28 23:59:00, time_to=2025-04-28 23:59:00
+[2025-05-12 15:30:34] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:30:34] [TokenpriceFetcher][fetch_price_history]: query address=4FkNq8RcCYg4ZGDWh14scJ7ej3m5vMjYTcWoJVkupump, chain=solana, time_type=1m, time_from=2025-04-21 23:59:00, time_to=2025-04-21 23:59:00
+[2025-05-12 15:30:34] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:30:34] [TokenpriceFetcher][fetch_price_history]: query address=4FkNq8RcCYg4ZGDWh14scJ7ej3m5vMjYTcWoJVkupump, chain=solana, time_type=1m, time_from=2025-04-22 23:59:00, time_to=2025-04-22 23:59:00
+[2025-05-12 15:30:35] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:30:35] [TokenpriceFetcher][fetch_price_history]: query address=4FkNq8RcCYg4ZGDWh14scJ7ej3m5vMjYTcWoJVkupump, chain=solana, time_type=1m, time_from=2025-04-23 23:59:00, time_to=2025-04-23 23:59:00
+[2025-05-12 15:30:35] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:30:35] [TokenpriceFetcher][fetch_price_history]: query address=4FkNq8RcCYg4ZGDWh14scJ7ej3m5vMjYTcWoJVkupump, chain=solana, time_type=1m, time_from=2025-04-28 23:59:00, time_to=2025-04-28 23:59:00
+[2025-05-12 15:30:36] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:30:36] [TokenpriceFetcher][fetch_price_history]: query address=0x3Dc8e2d80b6215a1BCcAe4d38715C3520581E77c, chain=bsc, time_type=1m, time_from=2025-04-22 23:59:00, time_to=2025-04-22 23:59:00
+[2025-05-12 15:30:36] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:30:36] [TokenpriceFetcher][fetch_price_history]: query address=0x3Dc8e2d80b6215a1BCcAe4d38715C3520581E77c, chain=bsc, time_type=1m, time_from=2025-04-23 23:59:00, time_to=2025-04-23 23:59:00
+[2025-05-12 15:30:37] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:30:37] [TokenpriceFetcher][fetch_price_history]: query address=0x3Dc8e2d80b6215a1BCcAe4d38715C3520581E77c, chain=bsc, time_type=1m, time_from=2025-04-24 23:59:00, time_to=2025-04-24 23:59:00
+[2025-05-12 15:30:38] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:30:38] [TokenpriceFetcher][fetch_price_history]: query address=0x3Dc8e2d80b6215a1BCcAe4d38715C3520581E77c, chain=bsc, time_type=1m, time_from=2025-04-29 23:59:00, time_to=2025-04-29 23:59:00
+[2025-05-12 15:30:38] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:30:38] [TokenpriceFetcher][fetch_price_history]: query address=JCV8BB8Zde8ukroWKTjLSENSWEj42kBkENjjws2Rh6vP, chain=solana, time_type=1m, time_from=2025-04-22 23:59:00, time_to=2025-04-22 23:59:00
+[2025-05-12 15:30:38] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:30:38] [TokenpriceFetcher][fetch_price_history]: query address=JCV8BB8Zde8ukroWKTjLSENSWEj42kBkENjjws2Rh6vP, chain=solana, time_type=1m, time_from=2025-04-23 23:59:00, time_to=2025-04-23 23:59:00
+[2025-05-12 15:30:39] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:30:39] [TokenpriceFetcher][fetch_price_history]: query address=JCV8BB8Zde8ukroWKTjLSENSWEj42kBkENjjws2Rh6vP, chain=solana, time_type=1m, time_from=2025-04-24 23:59:00, time_to=2025-04-24 23:59:00
+[2025-05-12 15:30:39] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:30:39] [TokenpriceFetcher][fetch_price_history]: query address=JCV8BB8Zde8ukroWKTjLSENSWEj42kBkENjjws2Rh6vP, chain=solana, time_type=1m, time_from=2025-04-29 23:59:00, time_to=2025-04-29 23:59:00
+[2025-05-12 15:30:40] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:30:40] [TokenpriceFetcher][fetch_price_history]: query address=0xC9d23ED2ADB0f551369946BD377f8644cE1ca5c4, chain=bsc, time_type=1m, time_from=2025-04-22 23:59:00, time_to=2025-04-22 23:59:00
+[2025-05-12 15:30:41] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:30:41] [TokenpriceFetcher][fetch_price_history]: query address=0xC9d23ED2ADB0f551369946BD377f8644cE1ca5c4, chain=bsc, time_type=1m, time_from=2025-04-23 23:59:00, time_to=2025-04-23 23:59:00
+[2025-05-12 15:30:41] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:30:41] [TokenpriceFetcher][fetch_price_history]: query address=0xC9d23ED2ADB0f551369946BD377f8644cE1ca5c4, chain=bsc, time_type=1m, time_from=2025-04-24 23:59:00, time_to=2025-04-24 23:59:00
+[2025-05-12 15:30:42] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:30:42] [TokenpriceFetcher][fetch_price_history]: query address=0xC9d23ED2ADB0f551369946BD377f8644cE1ca5c4, chain=bsc, time_type=1m, time_from=2025-04-29 23:59:00, time_to=2025-04-29 23:59:00
+[2025-05-12 15:30:43] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:30:43] [TokenpriceFetcher][fetch_price_history]: query address=3SQSwa5PXDWoBjCGi5uXCgNZ7FDCD8gG8Ai5UkLppump, chain=solana, time_type=1m, time_from=2025-04-23 23:59:00, time_to=2025-04-23 23:59:00
+[2025-05-12 15:30:43] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:30:43] [TokenpriceFetcher][fetch_price_history]: query address=3SQSwa5PXDWoBjCGi5uXCgNZ7FDCD8gG8Ai5UkLppump, chain=solana, time_type=1m, time_from=2025-04-24 23:59:00, time_to=2025-04-24 23:59:00
+[2025-05-12 15:30:44] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:30:44] [TokenpriceFetcher][fetch_price_history]: query address=3SQSwa5PXDWoBjCGi5uXCgNZ7FDCD8gG8Ai5UkLppump, chain=solana, time_type=1m, time_from=2025-04-25 23:59:00, time_to=2025-04-25 23:59:00
+[2025-05-12 15:30:44] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:30:44] [TokenpriceFetcher][fetch_price_history]: query address=3SQSwa5PXDWoBjCGi5uXCgNZ7FDCD8gG8Ai5UkLppump, chain=solana, time_type=1m, time_from=2025-04-30 23:59:00, time_to=2025-04-30 23:59:00
+[2025-05-12 15:30:44] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:30:44] [TokenpriceFetcher][fetch_price_history]: query address=8x5VqbHA8D7NkD52uNuS5nnt3PwA8pLD34ymskeSo2Wn, chain=solana, time_type=1m, time_from=2025-04-23 23:59:00, time_to=2025-04-23 23:59:00
+[2025-05-12 15:30:45] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:30:45] [TokenpriceFetcher][fetch_price_history]: query address=8x5VqbHA8D7NkD52uNuS5nnt3PwA8pLD34ymskeSo2Wn, chain=solana, time_type=1m, time_from=2025-04-24 23:59:00, time_to=2025-04-24 23:59:00
+[2025-05-12 15:30:45] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:30:45] [TokenpriceFetcher][fetch_price_history]: query address=8x5VqbHA8D7NkD52uNuS5nnt3PwA8pLD34ymskeSo2Wn, chain=solana, time_type=1m, time_from=2025-04-25 23:59:00, time_to=2025-04-25 23:59:00
+[2025-05-12 15:30:46] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:30:46] [TokenpriceFetcher][fetch_price_history]: query address=8x5VqbHA8D7NkD52uNuS5nnt3PwA8pLD34ymskeSo2Wn, chain=solana, time_type=1m, time_from=2025-04-30 23:59:00, time_to=2025-04-30 23:59:00
+[2025-05-12 15:30:46] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:30:46] [TokenpriceFetcher][fetch_price_history]: query address=7JcJLMzqaZNrtc3E2YCp7L1txL2kkYHv5soRTsU4pump, chain=solana, time_type=1m, time_from=2025-04-23 23:59:00, time_to=2025-04-23 23:59:00
+[2025-05-12 15:30:47] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:30:47] [TokenpriceFetcher][fetch_price_history]: query address=7JcJLMzqaZNrtc3E2YCp7L1txL2kkYHv5soRTsU4pump, chain=solana, time_type=1m, time_from=2025-04-24 23:59:00, time_to=2025-04-24 23:59:00
+[2025-05-12 15:30:48] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:30:48] [TokenpriceFetcher][fetch_price_history]: query address=7JcJLMzqaZNrtc3E2YCp7L1txL2kkYHv5soRTsU4pump, chain=solana, time_type=1m, time_from=2025-04-25 23:59:00, time_to=2025-04-25 23:59:00
+[2025-05-12 15:30:48] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:30:48] [TokenpriceFetcher][fetch_price_history]: query address=7JcJLMzqaZNrtc3E2YCp7L1txL2kkYHv5soRTsU4pump, chain=solana, time_type=1m, time_from=2025-04-30 23:59:00, time_to=2025-04-30 23:59:00
+[2025-05-12 15:30:49] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:30:49] [TokenpriceFetcher][fetch_price_history]: query address=4HuSTfcJruukNbhrF9sc5iKrMeGxNBs6XpQ1L2hUpump, chain=solana, time_type=1m, time_from=2025-04-23 23:59:00, time_to=2025-04-23 23:59:00
+[2025-05-12 15:30:50] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:30:50] [TokenpriceFetcher][fetch_price_history]: query address=4HuSTfcJruukNbhrF9sc5iKrMeGxNBs6XpQ1L2hUpump, chain=solana, time_type=1m, time_from=2025-04-24 23:59:00, time_to=2025-04-24 23:59:00
+[2025-05-12 15:30:50] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:30:50] [TokenpriceFetcher][fetch_price_history]: query address=4HuSTfcJruukNbhrF9sc5iKrMeGxNBs6XpQ1L2hUpump, chain=solana, time_type=1m, time_from=2025-04-25 23:59:00, time_to=2025-04-25 23:59:00
+[2025-05-12 15:30:51] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:30:51] [TokenpriceFetcher][fetch_price_history]: query address=4HuSTfcJruukNbhrF9sc5iKrMeGxNBs6XpQ1L2hUpump, chain=solana, time_type=1m, time_from=2025-04-30 23:59:00, time_to=2025-04-30 23:59:00
+[2025-05-12 15:30:51] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:30:51] [TokenpriceFetcher][fetch_price_history]: query address=0x1111111111166b7FE7bd91427724B487980aFc69, chain=base, time_type=1m, time_from=2025-04-23 23:59:00, time_to=2025-04-23 23:59:00
+[2025-05-12 15:30:52] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:30:52] [TokenpriceFetcher][fetch_price_history]: query address=0x1111111111166b7FE7bd91427724B487980aFc69, chain=base, time_type=1m, time_from=2025-04-24 23:59:00, time_to=2025-04-24 23:59:00
+[2025-05-12 15:30:53] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:30:53] [TokenpriceFetcher][fetch_price_history]: query address=0x1111111111166b7FE7bd91427724B487980aFc69, chain=base, time_type=1m, time_from=2025-04-25 23:59:00, time_to=2025-04-25 23:59:00
+[2025-05-12 15:30:53] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:30:53] [TokenpriceFetcher][fetch_price_history]: query address=0x1111111111166b7FE7bd91427724B487980aFc69, chain=base, time_type=1m, time_from=2025-04-30 23:59:00, time_to=2025-04-30 23:59:00
+[2025-05-12 15:30:54] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:30:54] [TokenpriceFetcher][fetch_price_history]: query address=0x1bc0c42215582d5A085795f4baDbaC3ff36d1Bcb, chain=base, time_type=1m, time_from=2025-04-23 23:59:00, time_to=2025-04-23 23:59:00
+[2025-05-12 15:30:55] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:30:55] [TokenpriceFetcher][fetch_price_history]: query address=0x1bc0c42215582d5A085795f4baDbaC3ff36d1Bcb, chain=base, time_type=1m, time_from=2025-04-24 23:59:00, time_to=2025-04-24 23:59:00
+[2025-05-12 15:30:55] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:30:55] [TokenpriceFetcher][fetch_price_history]: query address=0x1bc0c42215582d5A085795f4baDbaC3ff36d1Bcb, chain=base, time_type=1m, time_from=2025-04-25 23:59:00, time_to=2025-04-25 23:59:00
+[2025-05-12 15:30:55] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:30:55] [TokenpriceFetcher][fetch_price_history]: query address=0x1bc0c42215582d5A085795f4baDbaC3ff36d1Bcb, chain=base, time_type=1m, time_from=2025-04-30 23:59:00, time_to=2025-04-30 23:59:00
+[2025-05-12 15:30:56] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:30:56] [TokenpriceFetcher][fetch_price_history]: query address=JosjEXh69RckgSs2AWsN1xN8zmiSHxBuJjHLURJnHhg, chain=solana, time_type=1m, time_from=2025-04-24 23:59:00, time_to=2025-04-24 23:59:00
+[2025-05-12 15:30:57] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:30:57] [TokenpriceFetcher][fetch_price_history]: query address=JosjEXh69RckgSs2AWsN1xN8zmiSHxBuJjHLURJnHhg, chain=solana, time_type=1m, time_from=2025-04-25 23:59:00, time_to=2025-04-25 23:59:00
+[2025-05-12 15:30:57] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:30:57] [TokenpriceFetcher][fetch_price_history]: query address=JosjEXh69RckgSs2AWsN1xN8zmiSHxBuJjHLURJnHhg, chain=solana, time_type=1m, time_from=2025-04-26 23:59:00, time_to=2025-04-26 23:59:00
+[2025-05-12 15:30:58] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:30:58] [TokenpriceFetcher][fetch_price_history]: query address=JosjEXh69RckgSs2AWsN1xN8zmiSHxBuJjHLURJnHhg, chain=solana, time_type=1m, time_from=2025-05-01 23:59:00, time_to=2025-05-01 23:59:00
+[2025-05-12 15:30:58] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:30:58] [TokenpriceFetcher][fetch_price_history]: query address=81YHAzq9yfptVbNTHiYuMVKVQ6ZNs3XeQFFENnNUpump, chain=solana, time_type=1m, time_from=2025-04-25 23:59:00, time_to=2025-04-25 23:59:00
+[2025-05-12 15:30:59] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:30:59] [TokenpriceFetcher][fetch_price_history]: query address=81YHAzq9yfptVbNTHiYuMVKVQ6ZNs3XeQFFENnNUpump, chain=solana, time_type=1m, time_from=2025-04-26 23:59:00, time_to=2025-04-26 23:59:00
+[2025-05-12 15:30:59] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:30:59] [TokenpriceFetcher][fetch_price_history]: query address=81YHAzq9yfptVbNTHiYuMVKVQ6ZNs3XeQFFENnNUpump, chain=solana, time_type=1m, time_from=2025-04-27 23:59:00, time_to=2025-04-27 23:59:00
+[2025-05-12 15:31:00] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:31:00] [TokenpriceFetcher][fetch_price_history]: query address=81YHAzq9yfptVbNTHiYuMVKVQ6ZNs3XeQFFENnNUpump, chain=solana, time_type=1m, time_from=2025-05-02 23:59:00, time_to=2025-05-02 23:59:00
+[2025-05-12 15:31:00] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:31:00] [TokenpriceFetcher][fetch_price_history]: query address=C29ebrgYjYoJPMGPnPSGY1q3mMGk4iDSqnQeQQA7moon, chain=solana, time_type=1m, time_from=2025-04-25 23:59:00, time_to=2025-04-25 23:59:00
+[2025-05-12 15:31:01] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:31:01] [TokenpriceFetcher][fetch_price_history]: query address=C29ebrgYjYoJPMGPnPSGY1q3mMGk4iDSqnQeQQA7moon, chain=solana, time_type=1m, time_from=2025-04-26 23:59:00, time_to=2025-04-26 23:59:00
+[2025-05-12 15:31:01] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:31:01] [TokenpriceFetcher][fetch_price_history]: query address=C29ebrgYjYoJPMGPnPSGY1q3mMGk4iDSqnQeQQA7moon, chain=solana, time_type=1m, time_from=2025-04-27 23:59:00, time_to=2025-04-27 23:59:00
+[2025-05-12 15:31:01] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:31:01] [TokenpriceFetcher][fetch_price_history]: query address=C29ebrgYjYoJPMGPnPSGY1q3mMGk4iDSqnQeQQA7moon, chain=solana, time_type=1m, time_from=2025-05-02 23:59:00, time_to=2025-05-02 23:59:00
+[2025-05-12 15:31:02] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:31:02] [TokenpriceFetcher][fetch_price_history]: query address=3qVpCnqdaJtARzE2dYuCy5pm8X2NgF5hx9q9GosPpump, chain=solana, time_type=1m, time_from=2025-04-25 23:59:00, time_to=2025-04-25 23:59:00
+[2025-05-12 15:31:02] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:31:02] [TokenpriceFetcher][fetch_price_history]: query address=3qVpCnqdaJtARzE2dYuCy5pm8X2NgF5hx9q9GosPpump, chain=solana, time_type=1m, time_from=2025-04-26 23:59:00, time_to=2025-04-26 23:59:00
+[2025-05-12 15:31:03] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:31:03] [TokenpriceFetcher][fetch_price_history]: query address=3qVpCnqdaJtARzE2dYuCy5pm8X2NgF5hx9q9GosPpump, chain=solana, time_type=1m, time_from=2025-04-27 23:59:00, time_to=2025-04-27 23:59:00
+[2025-05-12 15:31:03] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:31:03] [TokenpriceFetcher][fetch_price_history]: query address=3qVpCnqdaJtARzE2dYuCy5pm8X2NgF5hx9q9GosPpump, chain=solana, time_type=1m, time_from=2025-05-02 23:59:00, time_to=2025-05-02 23:59:00
+[2025-05-12 15:31:04] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:31:04] [TokenpriceFetcher][fetch_price_history]: query address=8ncucXv6U6epZKHPbgaEBcEK399TpHGKCquSt4RnmX4f, chain=solana, time_type=1m, time_from=2025-04-25 23:59:00, time_to=2025-04-25 23:59:00
+[2025-05-12 15:31:04] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:31:04] [TokenpriceFetcher][fetch_price_history]: query address=8ncucXv6U6epZKHPbgaEBcEK399TpHGKCquSt4RnmX4f, chain=solana, time_type=1m, time_from=2025-04-26 23:59:00, time_to=2025-04-26 23:59:00
+[2025-05-12 15:31:05] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:31:05] [TokenpriceFetcher][fetch_price_history]: query address=8ncucXv6U6epZKHPbgaEBcEK399TpHGKCquSt4RnmX4f, chain=solana, time_type=1m, time_from=2025-04-27 23:59:00, time_to=2025-04-27 23:59:00
+[2025-05-12 15:31:05] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:31:05] [TokenpriceFetcher][fetch_price_history]: query address=8ncucXv6U6epZKHPbgaEBcEK399TpHGKCquSt4RnmX4f, chain=solana, time_type=1m, time_from=2025-05-02 23:59:00, time_to=2025-05-02 23:59:00
+[2025-05-12 15:31:06] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:31:06] [TokenpriceFetcher][fetch_price_history]: query address=0x55ad16Bd573B3365f43A9dAeB0Cc66A73821b4a5, chain=bsc, time_type=1m, time_from=2025-04-25 23:59:00, time_to=2025-04-25 23:59:00
+[2025-05-12 15:31:07] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:31:07] [TokenpriceFetcher][fetch_price_history]: query address=0x55ad16Bd573B3365f43A9dAeB0Cc66A73821b4a5, chain=bsc, time_type=1m, time_from=2025-04-26 23:59:00, time_to=2025-04-26 23:59:00
+[2025-05-12 15:31:07] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:31:07] [TokenpriceFetcher][fetch_price_history]: query address=0x55ad16Bd573B3365f43A9dAeB0Cc66A73821b4a5, chain=bsc, time_type=1m, time_from=2025-04-27 23:59:00, time_to=2025-04-27 23:59:00
+[2025-05-12 15:31:08] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:31:08] [TokenpriceFetcher][fetch_price_history]: query address=0x55ad16Bd573B3365f43A9dAeB0Cc66A73821b4a5, chain=bsc, time_type=1m, time_from=2025-05-02 23:59:00, time_to=2025-05-02 23:59:00
+[2025-05-12 15:31:08] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:31:08] [TokenpriceFetcher][fetch_price_history]: query address=CDBdbNqmrLu1PcgjrFG52yxg71QnFhBZcUE6PSFdbonk, chain=solana, time_type=1m, time_from=2025-04-26 23:59:00, time_to=2025-04-26 23:59:00
+[2025-05-12 15:31:09] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:31:09] [TokenpriceFetcher][fetch_price_history]: query address=CDBdbNqmrLu1PcgjrFG52yxg71QnFhBZcUE6PSFdbonk, chain=solana, time_type=1m, time_from=2025-04-27 23:59:00, time_to=2025-04-27 23:59:00
+[2025-05-12 15:31:09] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:31:09] [TokenpriceFetcher][fetch_price_history]: query address=CDBdbNqmrLu1PcgjrFG52yxg71QnFhBZcUE6PSFdbonk, chain=solana, time_type=1m, time_from=2025-04-28 23:59:00, time_to=2025-04-28 23:59:00
+[2025-05-12 15:31:09] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:31:09] [TokenpriceFetcher][fetch_price_history]: query address=CDBdbNqmrLu1PcgjrFG52yxg71QnFhBZcUE6PSFdbonk, chain=solana, time_type=1m, time_from=2025-05-03 23:59:00, time_to=2025-05-03 23:59:00
+[2025-05-12 15:31:10] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:31:10] [TokenpriceFetcher][fetch_price_history]: query address=9wK8yN6iz1ie5kEJkvZCTxyN1x5sTdNfx8yeMY8Ebonk, chain=solana, time_type=1m, time_from=2025-04-26 23:59:00, time_to=2025-04-26 23:59:00
+[2025-05-12 15:31:11] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:31:11] [TokenpriceFetcher][fetch_price_history]: query address=9wK8yN6iz1ie5kEJkvZCTxyN1x5sTdNfx8yeMY8Ebonk, chain=solana, time_type=1m, time_from=2025-04-27 23:59:00, time_to=2025-04-27 23:59:00
+[2025-05-12 15:31:11] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:31:11] [TokenpriceFetcher][fetch_price_history]: query address=9wK8yN6iz1ie5kEJkvZCTxyN1x5sTdNfx8yeMY8Ebonk, chain=solana, time_type=1m, time_from=2025-04-28 23:59:00, time_to=2025-04-28 23:59:00
+[2025-05-12 15:31:12] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:31:12] [TokenpriceFetcher][fetch_price_history]: query address=9wK8yN6iz1ie5kEJkvZCTxyN1x5sTdNfx8yeMY8Ebonk, chain=solana, time_type=1m, time_from=2025-05-03 23:59:00, time_to=2025-05-03 23:59:00
+[2025-05-12 15:31:13] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:31:13] [TokenpriceFetcher][fetch_price_history]: query address=DLLBw7Ecw8pQ8TBxRkY45P6wX9U6PsxpRgzKR7EDpump, chain=solana, time_type=1m, time_from=2025-04-26 23:59:00, time_to=2025-04-26 23:59:00
+[2025-05-12 15:31:13] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:31:13] [TokenpriceFetcher][fetch_price_history]: query address=DLLBw7Ecw8pQ8TBxRkY45P6wX9U6PsxpRgzKR7EDpump, chain=solana, time_type=1m, time_from=2025-04-27 23:59:00, time_to=2025-04-27 23:59:00
+[2025-05-12 15:31:13] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:31:13] [TokenpriceFetcher][fetch_price_history]: query address=DLLBw7Ecw8pQ8TBxRkY45P6wX9U6PsxpRgzKR7EDpump, chain=solana, time_type=1m, time_from=2025-04-28 23:59:00, time_to=2025-04-28 23:59:00
+[2025-05-12 15:31:14] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:31:14] [TokenpriceFetcher][fetch_price_history]: query address=DLLBw7Ecw8pQ8TBxRkY45P6wX9U6PsxpRgzKR7EDpump, chain=solana, time_type=1m, time_from=2025-05-03 23:59:00, time_to=2025-05-03 23:59:00
+[2025-05-12 15:31:14] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:31:14] [TokenpriceFetcher][fetch_price_history]: query address=RhFVq1Zt81VvcoSEMSyCGZZv5SwBdA8MV7w4HEMpump, chain=solana, time_type=1m, time_from=2025-04-26 23:59:00, time_to=2025-04-26 23:59:00
+[2025-05-12 15:31:15] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:31:15] [TokenpriceFetcher][fetch_price_history]: query address=RhFVq1Zt81VvcoSEMSyCGZZv5SwBdA8MV7w4HEMpump, chain=solana, time_type=1m, time_from=2025-04-27 23:59:00, time_to=2025-04-27 23:59:00
+[2025-05-12 15:31:15] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:31:15] [TokenpriceFetcher][fetch_price_history]: query address=RhFVq1Zt81VvcoSEMSyCGZZv5SwBdA8MV7w4HEMpump, chain=solana, time_type=1m, time_from=2025-04-28 23:59:00, time_to=2025-04-28 23:59:00
+[2025-05-12 15:31:16] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:31:16] [TokenpriceFetcher][fetch_price_history]: query address=RhFVq1Zt81VvcoSEMSyCGZZv5SwBdA8MV7w4HEMpump, chain=solana, time_type=1m, time_from=2025-05-03 23:59:00, time_to=2025-05-03 23:59:00
+[2025-05-12 15:31:16] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:31:16] [TokenpriceFetcher][fetch_price_history]: query address=0x42fE1937E1db4F11509e9f7FdD97048BD8d04444, chain=bsc, time_type=1m, time_from=2025-04-27 23:59:00, time_to=2025-04-27 23:59:00
+[2025-05-12 15:31:17] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:31:17] [TokenpriceFetcher][fetch_price_history]: query address=0x42fE1937E1db4F11509e9f7FdD97048BD8d04444, chain=bsc, time_type=1m, time_from=2025-04-28 23:59:00, time_to=2025-04-28 23:59:00
+[2025-05-12 15:31:17] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:31:17] [TokenpriceFetcher][fetch_price_history]: query address=0x42fE1937E1db4F11509e9f7FdD97048BD8d04444, chain=bsc, time_type=1m, time_from=2025-04-29 23:59:00, time_to=2025-04-29 23:59:00
+[2025-05-12 15:31:18] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:31:18] [TokenpriceFetcher][fetch_price_history]: query address=0x42fE1937E1db4F11509e9f7FdD97048BD8d04444, chain=bsc, time_type=1m, time_from=2025-05-04 23:59:00, time_to=2025-05-04 23:59:00
+[2025-05-12 15:31:18] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:31:19] [TokenpriceFetcher][fetch_price_history]: query address=Cy7rUZ5rK2ukitsAVVfK5Kn8t35TR417RRuURPWoRBAF, chain=solana, time_type=1m, time_from=2025-04-27 23:59:00, time_to=2025-04-27 23:59:00
+[2025-05-12 15:31:19] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:31:19] [TokenpriceFetcher][fetch_price_history]: query address=Cy7rUZ5rK2ukitsAVVfK5Kn8t35TR417RRuURPWoRBAF, chain=solana, time_type=1m, time_from=2025-04-28 23:59:00, time_to=2025-04-28 23:59:00
+[2025-05-12 15:31:19] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:31:19] [TokenpriceFetcher][fetch_price_history]: query address=Cy7rUZ5rK2ukitsAVVfK5Kn8t35TR417RRuURPWoRBAF, chain=solana, time_type=1m, time_from=2025-04-29 23:59:00, time_to=2025-04-29 23:59:00
+[2025-05-12 15:31:20] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:31:20] [TokenpriceFetcher][fetch_price_history]: query address=Cy7rUZ5rK2ukitsAVVfK5Kn8t35TR417RRuURPWoRBAF, chain=solana, time_type=1m, time_from=2025-05-04 23:59:00, time_to=2025-05-04 23:59:00
+[2025-05-12 15:31:20] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:31:20] [TokenpriceFetcher][fetch_price_history]: query address=qRUZaCpgxaRH1s5V6opjPA6Hnpv5BM37LqkDBw7pump, chain=solana, time_type=1m, time_from=2025-04-28 23:59:00, time_to=2025-04-28 23:59:00
+[2025-05-12 15:31:21] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:31:21] [TokenpriceFetcher][fetch_price_history]: query address=qRUZaCpgxaRH1s5V6opjPA6Hnpv5BM37LqkDBw7pump, chain=solana, time_type=1m, time_from=2025-04-29 23:59:00, time_to=2025-04-29 23:59:00
+[2025-05-12 15:31:21] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:31:21] [TokenpriceFetcher][fetch_price_history]: query address=qRUZaCpgxaRH1s5V6opjPA6Hnpv5BM37LqkDBw7pump, chain=solana, time_type=1m, time_from=2025-04-30 23:59:00, time_to=2025-04-30 23:59:00
+[2025-05-12 15:31:22] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:31:22] [TokenpriceFetcher][fetch_price_history]: query address=qRUZaCpgxaRH1s5V6opjPA6Hnpv5BM37LqkDBw7pump, chain=solana, time_type=1m, time_from=2025-05-05 23:59:00, time_to=2025-05-05 23:59:00
+[2025-05-12 15:31:22] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:31:22] [TokenpriceFetcher][fetch_price_history]: query address=GkeUTuaFB4oZADaqiCo3yauHNx9SxUNn8euHptEEbonk, chain=solana, time_type=1m, time_from=2025-04-29 23:59:00, time_to=2025-04-29 23:59:00
+[2025-05-12 15:31:23] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:31:23] [TokenpriceFetcher][fetch_price_history]: query address=GkeUTuaFB4oZADaqiCo3yauHNx9SxUNn8euHptEEbonk, chain=solana, time_type=1m, time_from=2025-04-30 23:59:00, time_to=2025-04-30 23:59:00
+[2025-05-12 15:31:23] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:31:23] [TokenpriceFetcher][fetch_price_history]: query address=GkeUTuaFB4oZADaqiCo3yauHNx9SxUNn8euHptEEbonk, chain=solana, time_type=1m, time_from=2025-05-01 23:59:00, time_to=2025-05-01 23:59:00
+[2025-05-12 15:31:24] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:31:24] [TokenpriceFetcher][fetch_price_history]: query address=GkeUTuaFB4oZADaqiCo3yauHNx9SxUNn8euHptEEbonk, chain=solana, time_type=1m, time_from=2025-05-06 23:59:00, time_to=2025-05-06 23:59:00
+[2025-05-12 15:31:24] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:31:24] [TokenpriceFetcher][fetch_price_history]: query address=Ce2gx9KGXJ6C9Mp5b5x1sn9Mg87JwEbrQby4Zqo3pump, chain=solana, time_type=1m, time_from=2025-04-29 23:59:00, time_to=2025-04-29 23:59:00
+[2025-05-12 15:31:25] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:31:25] [TokenpriceFetcher][fetch_price_history]: query address=Ce2gx9KGXJ6C9Mp5b5x1sn9Mg87JwEbrQby4Zqo3pump, chain=solana, time_type=1m, time_from=2025-04-30 23:59:00, time_to=2025-04-30 23:59:00
+[2025-05-12 15:31:25] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:31:25] [TokenpriceFetcher][fetch_price_history]: query address=Ce2gx9KGXJ6C9Mp5b5x1sn9Mg87JwEbrQby4Zqo3pump, chain=solana, time_type=1m, time_from=2025-05-01 23:59:00, time_to=2025-05-01 23:59:00
+[2025-05-12 15:31:26] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:31:26] [TokenpriceFetcher][fetch_price_history]: query address=Ce2gx9KGXJ6C9Mp5b5x1sn9Mg87JwEbrQby4Zqo3pump, chain=solana, time_type=1m, time_from=2025-05-06 23:59:00, time_to=2025-05-06 23:59:00
+[2025-05-12 15:31:26] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:31:26] [TokenpriceFetcher][fetch_price_history]: query address=fRfKGCriduzDwSudCwpL7ySCEiboNuryhZDVJtr1a1C, chain=solana, time_type=1m, time_from=2025-04-29 23:59:00, time_to=2025-04-29 23:59:00
+[2025-05-12 15:31:27] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:31:27] [TokenpriceFetcher][fetch_price_history]: query address=fRfKGCriduzDwSudCwpL7ySCEiboNuryhZDVJtr1a1C, chain=solana, time_type=1m, time_from=2025-04-30 23:59:00, time_to=2025-04-30 23:59:00
+[2025-05-12 15:31:27] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:31:27] [TokenpriceFetcher][fetch_price_history]: query address=fRfKGCriduzDwSudCwpL7ySCEiboNuryhZDVJtr1a1C, chain=solana, time_type=1m, time_from=2025-05-01 23:59:00, time_to=2025-05-01 23:59:00
+[2025-05-12 15:31:28] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:31:28] [TokenpriceFetcher][fetch_price_history]: query address=fRfKGCriduzDwSudCwpL7ySCEiboNuryhZDVJtr1a1C, chain=solana, time_type=1m, time_from=2025-05-06 23:59:00, time_to=2025-05-06 23:59:00
+[2025-05-12 15:31:28] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:31:28] [TokenpriceFetcher][fetch_price_history]: query address=Ey59PH7Z4BFU4HjyKnyMdWt5GGN76KazTAwQihoUXRnk, chain=solana, time_type=1m, time_from=2025-04-29 23:59:00, time_to=2025-04-29 23:59:00
+[2025-05-12 15:31:29] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:31:29] [TokenpriceFetcher][fetch_price_history]: query address=Ey59PH7Z4BFU4HjyKnyMdWt5GGN76KazTAwQihoUXRnk, chain=solana, time_type=1m, time_from=2025-04-30 23:59:00, time_to=2025-04-30 23:59:00
+[2025-05-12 15:31:29] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:31:29] [TokenpriceFetcher][fetch_price_history]: query address=Ey59PH7Z4BFU4HjyKnyMdWt5GGN76KazTAwQihoUXRnk, chain=solana, time_type=1m, time_from=2025-05-01 23:59:00, time_to=2025-05-01 23:59:00
+[2025-05-12 15:31:30] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:31:30] [TokenpriceFetcher][fetch_price_history]: query address=Ey59PH7Z4BFU4HjyKnyMdWt5GGN76KazTAwQihoUXRnk, chain=solana, time_type=1m, time_from=2025-05-06 23:59:00, time_to=2025-05-06 23:59:00
+[2025-05-12 15:31:30] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:31:30] [TokenpriceFetcher][fetch_price_history]: query address=0x7b4Bf9fEcCfF207eF2CB7101Ceb15b8516021AcD, chain=bsc, time_type=1m, time_from=2025-04-29 23:59:00, time_to=2025-04-29 23:59:00
+[2025-05-12 15:31:31] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:31:31] [TokenpriceFetcher][fetch_price_history]: query address=0x7b4Bf9fEcCfF207eF2CB7101Ceb15b8516021AcD, chain=bsc, time_type=1m, time_from=2025-04-30 23:59:00, time_to=2025-04-30 23:59:00
+[2025-05-12 15:31:31] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:31:31] [TokenpriceFetcher][fetch_price_history]: query address=0x7b4Bf9fEcCfF207eF2CB7101Ceb15b8516021AcD, chain=bsc, time_type=1m, time_from=2025-05-01 23:59:00, time_to=2025-05-01 23:59:00
+[2025-05-12 15:31:31] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:31:31] [TokenpriceFetcher][fetch_price_history]: query address=0x7b4Bf9fEcCfF207eF2CB7101Ceb15b8516021AcD, chain=bsc, time_type=1m, time_from=2025-05-06 23:59:00, time_to=2025-05-06 23:59:00
+[2025-05-12 15:31:32] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:31:32] [TokenpriceFetcher][fetch_price_history]: query address=0x3D9bE0aC1001cd81c32464276D863d2FFdCa4967, chain=bsc, time_type=1m, time_from=2025-04-29 23:59:00, time_to=2025-04-29 23:59:00
+[2025-05-12 15:31:33] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:31:33] [TokenpriceFetcher][fetch_price_history]: query address=0x3D9bE0aC1001cd81c32464276D863d2FFdCa4967, chain=bsc, time_type=1m, time_from=2025-04-30 23:59:00, time_to=2025-04-30 23:59:00
+[2025-05-12 15:31:33] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:31:33] [TokenpriceFetcher][fetch_price_history]: query address=0x3D9bE0aC1001cd81c32464276D863d2FFdCa4967, chain=bsc, time_type=1m, time_from=2025-05-01 23:59:00, time_to=2025-05-01 23:59:00
+[2025-05-12 15:31:33] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:31:33] [TokenpriceFetcher][fetch_price_history]: query address=0x3D9bE0aC1001cd81c32464276D863d2FFdCa4967, chain=bsc, time_type=1m, time_from=2025-05-06 23:59:00, time_to=2025-05-06 23:59:00
+[2025-05-12 15:31:34] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:31:34] [TokenpriceFetcher][fetch_price_history]: query address=CjqxraDuTMEcfhdqY8qEaMY43icdBrkt3EXciNVpump, chain=solana, time_type=1m, time_from=2025-04-30 23:59:00, time_to=2025-04-30 23:59:00
+[2025-05-12 15:31:34] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:31:34] [TokenpriceFetcher][fetch_price_history]: query address=CjqxraDuTMEcfhdqY8qEaMY43icdBrkt3EXciNVpump, chain=solana, time_type=1m, time_from=2025-05-01 23:59:00, time_to=2025-05-01 23:59:00
+[2025-05-12 15:31:35] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:31:35] [TokenpriceFetcher][fetch_price_history]: query address=CjqxraDuTMEcfhdqY8qEaMY43icdBrkt3EXciNVpump, chain=solana, time_type=1m, time_from=2025-05-02 23:59:00, time_to=2025-05-02 23:59:00
+[2025-05-12 15:31:36] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:31:36] [TokenpriceFetcher][fetch_price_history]: query address=CjqxraDuTMEcfhdqY8qEaMY43icdBrkt3EXciNVpump, chain=solana, time_type=1m, time_from=2025-05-07 23:59:00, time_to=2025-05-07 23:59:00
+[2025-05-12 15:31:36] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:31:36] [TokenpriceFetcher][fetch_price_history]: query address=9jUb38tuMqsCe328tM7kxFEm3wRpbo3MbXPJoFiTpump, chain=solana, time_type=1m, time_from=2025-04-30 23:59:00, time_to=2025-04-30 23:59:00
+[2025-05-12 15:31:36] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:31:36] [TokenpriceFetcher][fetch_price_history]: query address=9jUb38tuMqsCe328tM7kxFEm3wRpbo3MbXPJoFiTpump, chain=solana, time_type=1m, time_from=2025-05-01 23:59:00, time_to=2025-05-01 23:59:00
+[2025-05-12 15:31:37] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:31:37] [TokenpriceFetcher][fetch_price_history]: query address=9jUb38tuMqsCe328tM7kxFEm3wRpbo3MbXPJoFiTpump, chain=solana, time_type=1m, time_from=2025-05-02 23:59:00, time_to=2025-05-02 23:59:00
+[2025-05-12 15:31:37] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:31:37] [TokenpriceFetcher][fetch_price_history]: query address=9jUb38tuMqsCe328tM7kxFEm3wRpbo3MbXPJoFiTpump, chain=solana, time_type=1m, time_from=2025-05-07 23:59:00, time_to=2025-05-07 23:59:00
+[2025-05-12 15:31:38] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:31:38] [TokenpriceFetcher][fetch_price_history]: query address=5i3WMss2Ldnkw3CnrBoGrkPiVwpAKuGoHULPdbaxpump, chain=solana, time_type=1m, time_from=2025-04-30 23:59:00, time_to=2025-04-30 23:59:00
+[2025-05-12 15:31:38] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:31:38] [TokenpriceFetcher][fetch_price_history]: query address=5i3WMss2Ldnkw3CnrBoGrkPiVwpAKuGoHULPdbaxpump, chain=solana, time_type=1m, time_from=2025-05-01 23:59:00, time_to=2025-05-01 23:59:00
+[2025-05-12 15:31:39] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:31:39] [TokenpriceFetcher][fetch_price_history]: query address=5i3WMss2Ldnkw3CnrBoGrkPiVwpAKuGoHULPdbaxpump, chain=solana, time_type=1m, time_from=2025-05-02 23:59:00, time_to=2025-05-02 23:59:00
+[2025-05-12 15:31:39] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:31:39] [TokenpriceFetcher][fetch_price_history]: query address=5i3WMss2Ldnkw3CnrBoGrkPiVwpAKuGoHULPdbaxpump, chain=solana, time_type=1m, time_from=2025-05-07 23:59:00, time_to=2025-05-07 23:59:00
+[2025-05-12 15:31:40] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:31:40] [TokenpriceFetcher][fetch_price_history]: query address=HN8GGgzBFvuePPL3DGPg7uuq2dVgLApnNcW4pxY9a11o, chain=solana, time_type=1m, time_from=2025-04-30 23:59:00, time_to=2025-04-30 23:59:00
+[2025-05-12 15:31:41] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:31:41] [TokenpriceFetcher][fetch_price_history]: query address=HN8GGgzBFvuePPL3DGPg7uuq2dVgLApnNcW4pxY9a11o, chain=solana, time_type=1m, time_from=2025-05-01 23:59:00, time_to=2025-05-01 23:59:00
+[2025-05-12 15:31:41] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:31:41] [TokenpriceFetcher][fetch_price_history]: query address=HN8GGgzBFvuePPL3DGPg7uuq2dVgLApnNcW4pxY9a11o, chain=solana, time_type=1m, time_from=2025-05-02 23:59:00, time_to=2025-05-02 23:59:00
+[2025-05-12 15:31:42] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:31:42] [TokenpriceFetcher][fetch_price_history]: query address=HN8GGgzBFvuePPL3DGPg7uuq2dVgLApnNcW4pxY9a11o, chain=solana, time_type=1m, time_from=2025-05-07 23:59:00, time_to=2025-05-07 23:59:00
+[2025-05-12 15:31:42] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:31:42] [TokenpriceFetcher][fetch_price_history]: query address=0x783c3f003f172c6ac5ac700218a357d2d66ee2a2, chain=bsc, time_type=1m, time_from=2025-04-30 23:59:00, time_to=2025-04-30 23:59:00
+[2025-05-12 15:31:43] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:31:43] [TokenpriceFetcher][fetch_price_history]: query address=0x783c3f003f172c6ac5ac700218a357d2d66ee2a2, chain=bsc, time_type=1m, time_from=2025-05-01 23:59:00, time_to=2025-05-01 23:59:00
+[2025-05-12 15:31:44] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:31:44] [TokenpriceFetcher][fetch_price_history]: query address=0x783c3f003f172c6ac5ac700218a357d2d66ee2a2, chain=bsc, time_type=1m, time_from=2025-05-02 23:59:00, time_to=2025-05-02 23:59:00
+[2025-05-12 15:31:44] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:31:44] [TokenpriceFetcher][fetch_price_history]: query address=0x783c3f003f172c6ac5ac700218a357d2d66ee2a2, chain=bsc, time_type=1m, time_from=2025-05-07 23:59:00, time_to=2025-05-07 23:59:00
+[2025-05-12 15:31:45] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:31:45] [TokenpriceFetcher][fetch_price_history]: query address=Cz75ZtjwgZmr5J1VDBRTm5ZybZvEFR5DEdb8hEy59pWq, chain=solana, time_type=1m, time_from=2025-05-01 23:59:00, time_to=2025-05-01 23:59:00
+[2025-05-12 15:31:45] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:31:45] [TokenpriceFetcher][fetch_price_history]: query address=Cz75ZtjwgZmr5J1VDBRTm5ZybZvEFR5DEdb8hEy59pWq, chain=solana, time_type=1m, time_from=2025-05-02 23:59:00, time_to=2025-05-02 23:59:00
+[2025-05-12 15:31:45] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:31:45] [TokenpriceFetcher][fetch_price_history]: query address=Cz75ZtjwgZmr5J1VDBRTm5ZybZvEFR5DEdb8hEy59pWq, chain=solana, time_type=1m, time_from=2025-05-03 23:59:00, time_to=2025-05-03 23:59:00
+[2025-05-12 15:31:46] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:31:46] [TokenpriceFetcher][fetch_price_history]: query address=Cz75ZtjwgZmr5J1VDBRTm5ZybZvEFR5DEdb8hEy59pWq, chain=solana, time_type=1m, time_from=2025-05-08 23:59:00, time_to=2025-05-08 23:59:00
+[2025-05-12 15:31:47] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:31:47] [TokenpriceFetcher][fetch_price_history]: query address=38PgzpJYu2HkiYvV8qePFakB8tuobPdGm2FFEn7Dpump, chain=solana, time_type=1m, time_from=2025-05-01 23:59:00, time_to=2025-05-01 23:59:00
+[2025-05-12 15:31:47] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:31:47] [TokenpriceFetcher][fetch_price_history]: query address=38PgzpJYu2HkiYvV8qePFakB8tuobPdGm2FFEn7Dpump, chain=solana, time_type=1m, time_from=2025-05-02 23:59:00, time_to=2025-05-02 23:59:00
+[2025-05-12 15:31:48] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:31:48] [TokenpriceFetcher][fetch_price_history]: query address=38PgzpJYu2HkiYvV8qePFakB8tuobPdGm2FFEn7Dpump, chain=solana, time_type=1m, time_from=2025-05-03 23:59:00, time_to=2025-05-03 23:59:00
+[2025-05-12 15:31:48] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:31:48] [TokenpriceFetcher][fetch_price_history]: query address=38PgzpJYu2HkiYvV8qePFakB8tuobPdGm2FFEn7Dpump, chain=solana, time_type=1m, time_from=2025-05-08 23:59:00, time_to=2025-05-08 23:59:00
+[2025-05-12 15:31:48] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:31:48] [TokenpriceFetcher][fetch_price_history]: query address=6N7CrWe6qNt27G4sHXcjQMMy6btKRb7i9n4RYkKboop, chain=solana, time_type=1m, time_from=2025-05-02 23:59:00, time_to=2025-05-02 23:59:00
+[2025-05-12 15:31:49] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:31:49] [TokenpriceFetcher][fetch_price_history]: query address=6N7CrWe6qNt27G4sHXcjQMMy6btKRb7i9n4RYkKboop, chain=solana, time_type=1m, time_from=2025-05-03 23:59:00, time_to=2025-05-03 23:59:00
+[2025-05-12 15:31:49] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:31:49] [TokenpriceFetcher][fetch_price_history]: query address=6N7CrWe6qNt27G4sHXcjQMMy6btKRb7i9n4RYkKboop, chain=solana, time_type=1m, time_from=2025-05-04 23:59:00, time_to=2025-05-04 23:59:00
+[2025-05-12 15:31:50] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:31:50] [TokenpriceFetcher][fetch_price_history]: query address=6N7CrWe6qNt27G4sHXcjQMMy6btKRb7i9n4RYkKboop, chain=solana, time_type=1m, time_from=2025-05-09 23:59:00, time_to=2025-05-09 23:59:00
+[2025-05-12 15:31:50] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:31:50] [TokenpriceFetcher][fetch_price_history]: query address=JmMRbLcKgNCu17yHZDAn4strE5NjmWJ4pCeJ7s7boop, chain=solana, time_type=1m, time_from=2025-05-02 23:59:00, time_to=2025-05-02 23:59:00
+[2025-05-12 15:31:51] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:31:51] [TokenpriceFetcher][fetch_price_history]: query address=JmMRbLcKgNCu17yHZDAn4strE5NjmWJ4pCeJ7s7boop, chain=solana, time_type=1m, time_from=2025-05-03 23:59:00, time_to=2025-05-03 23:59:00
+[2025-05-12 15:31:52] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:31:52] [TokenpriceFetcher][fetch_price_history]: query address=JmMRbLcKgNCu17yHZDAn4strE5NjmWJ4pCeJ7s7boop, chain=solana, time_type=1m, time_from=2025-05-04 23:59:00, time_to=2025-05-04 23:59:00
+[2025-05-12 15:31:52] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:31:52] [TokenpriceFetcher][fetch_price_history]: query address=JmMRbLcKgNCu17yHZDAn4strE5NjmWJ4pCeJ7s7boop, chain=solana, time_type=1m, time_from=2025-05-09 23:59:00, time_to=2025-05-09 23:59:00
+[2025-05-12 15:31:53] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:31:53] [TokenpriceFetcher][fetch_price_history]: query address=0x73Cb479f2ccf77BAd90BcDA91e3987358437240A, chain=base, time_type=1m, time_from=2025-05-02 23:59:00, time_to=2025-05-02 23:59:00
+[2025-05-12 15:31:53] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:31:53] [TokenpriceFetcher][fetch_price_history]: query address=0x73Cb479f2ccf77BAd90BcDA91e3987358437240A, chain=base, time_type=1m, time_from=2025-05-03 23:59:00, time_to=2025-05-03 23:59:00
+[2025-05-12 15:31:54] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:31:54] [TokenpriceFetcher][fetch_price_history]: query address=0x73Cb479f2ccf77BAd90BcDA91e3987358437240A, chain=base, time_type=1m, time_from=2025-05-04 23:59:00, time_to=2025-05-04 23:59:00
+[2025-05-12 15:31:54] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:31:54] [TokenpriceFetcher][fetch_price_history]: query address=0x73Cb479f2ccf77BAd90BcDA91e3987358437240A, chain=base, time_type=1m, time_from=2025-05-09 23:59:00, time_to=2025-05-09 23:59:00
+[2025-05-12 15:31:55] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:31:55] [TokenpriceFetcher][fetch_price_history]: query address=0x1C4CcA7C5DB003824208aDDA61Bd749e55F463a3, chain=base, time_type=1m, time_from=2025-05-02 23:59:00, time_to=2025-05-02 23:59:00
+[2025-05-12 15:31:55] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:31:55] [TokenpriceFetcher][fetch_price_history]: query address=0x1C4CcA7C5DB003824208aDDA61Bd749e55F463a3, chain=base, time_type=1m, time_from=2025-05-03 23:59:00, time_to=2025-05-03 23:59:00
+[2025-05-12 15:31:56] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:31:56] [TokenpriceFetcher][fetch_price_history]: query address=0x1C4CcA7C5DB003824208aDDA61Bd749e55F463a3, chain=base, time_type=1m, time_from=2025-05-04 23:59:00, time_to=2025-05-04 23:59:00
+[2025-05-12 15:31:56] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:31:56] [TokenpriceFetcher][fetch_price_history]: query address=0x1C4CcA7C5DB003824208aDDA61Bd749e55F463a3, chain=base, time_type=1m, time_from=2025-05-09 23:59:00, time_to=2025-05-09 23:59:00
+[2025-05-12 15:31:57] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:31:57] [TokenpriceFetcher][fetch_price_history]: query address=0x5A70bE406ce7471A44F0183B8D7091F4Ad751db5, chain=base, time_type=1m, time_from=2025-05-02 23:59:00, time_to=2025-05-02 23:59:00
+[2025-05-12 15:31:57] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:31:57] [TokenpriceFetcher][fetch_price_history]: query address=0x5A70bE406ce7471A44F0183B8D7091F4Ad751db5, chain=base, time_type=1m, time_from=2025-05-03 23:59:00, time_to=2025-05-03 23:59:00
+[2025-05-12 15:31:58] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:31:58] [TokenpriceFetcher][fetch_price_history]: query address=0x5A70bE406ce7471A44F0183B8D7091F4Ad751db5, chain=base, time_type=1m, time_from=2025-05-04 23:59:00, time_to=2025-05-04 23:59:00
+[2025-05-12 15:31:58] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:31:58] [TokenpriceFetcher][fetch_price_history]: query address=0x5A70bE406ce7471A44F0183B8D7091F4Ad751db5, chain=base, time_type=1m, time_from=2025-05-09 23:59:00, time_to=2025-05-09 23:59:00
+[2025-05-12 15:31:59] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:31:59] [TokenpriceFetcher][fetch_price_history]: query address=9u8PP725K2GUf4p5bhKebrzHTGgvHp6KDeQPf7jc1F1W, chain=solana, time_type=1m, time_from=2025-05-03 23:59:00, time_to=2025-05-03 23:59:00
+[2025-05-12 15:31:59] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:31:59] [TokenpriceFetcher][fetch_price_history]: query address=9u8PP725K2GUf4p5bhKebrzHTGgvHp6KDeQPf7jc1F1W, chain=solana, time_type=1m, time_from=2025-05-04 23:59:00, time_to=2025-05-04 23:59:00
+[2025-05-12 15:32:00] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:32:00] [TokenpriceFetcher][fetch_price_history]: query address=9u8PP725K2GUf4p5bhKebrzHTGgvHp6KDeQPf7jc1F1W, chain=solana, time_type=1m, time_from=2025-05-05 23:59:00, time_to=2025-05-05 23:59:00
+[2025-05-12 15:32:00] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:32:00] [TokenpriceFetcher][fetch_price_history]: query address=9u8PP725K2GUf4p5bhKebrzHTGgvHp6KDeQPf7jc1F1W, chain=solana, time_type=1m, time_from=2025-05-10 23:59:00, time_to=2025-05-10 23:59:00
+[2025-05-12 15:32:01] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:32:01] [TokenpriceFetcher][fetch_price_history]: query address=FkT2JJHDLL5eyBeeX7RjFevXSP5UDwRkiMCusg3ypump, chain=solana, time_type=1m, time_from=2025-05-03 23:59:00, time_to=2025-05-03 23:59:00
+[2025-05-12 15:32:01] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:32:01] [TokenpriceFetcher][fetch_price_history]: query address=FkT2JJHDLL5eyBeeX7RjFevXSP5UDwRkiMCusg3ypump, chain=solana, time_type=1m, time_from=2025-05-04 23:59:00, time_to=2025-05-04 23:59:00
+[2025-05-12 15:32:02] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:32:02] [TokenpriceFetcher][fetch_price_history]: query address=FkT2JJHDLL5eyBeeX7RjFevXSP5UDwRkiMCusg3ypump, chain=solana, time_type=1m, time_from=2025-05-05 23:59:00, time_to=2025-05-05 23:59:00
+[2025-05-12 15:32:02] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:32:02] [TokenpriceFetcher][fetch_price_history]: query address=FkT2JJHDLL5eyBeeX7RjFevXSP5UDwRkiMCusg3ypump, chain=solana, time_type=1m, time_from=2025-05-10 23:59:00, time_to=2025-05-10 23:59:00
+[2025-05-12 15:32:03] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:32:03] [TokenpriceFetcher][fetch_price_history]: query address=8h3jsXbvBRPKGGRPhoYRHr7ca8qH3tBeaE2S93X1pump, chain=solana, time_type=1m, time_from=2025-05-04 23:59:00, time_to=2025-05-04 23:59:00
+[2025-05-12 15:32:03] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:32:03] [TokenpriceFetcher][fetch_price_history]: query address=8h3jsXbvBRPKGGRPhoYRHr7ca8qH3tBeaE2S93X1pump, chain=solana, time_type=1m, time_from=2025-05-05 23:59:00, time_to=2025-05-05 23:59:00
+[2025-05-12 15:32:04] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:32:04] [TokenpriceFetcher][fetch_price_history]: query address=8h3jsXbvBRPKGGRPhoYRHr7ca8qH3tBeaE2S93X1pump, chain=solana, time_type=1m, time_from=2025-05-06 23:59:00, time_to=2025-05-06 23:59:00
+[2025-05-12 15:32:04] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:32:04] [TokenpriceFetcher][fetch_price_history]: query address=8h3jsXbvBRPKGGRPhoYRHr7ca8qH3tBeaE2S93X1pump, chain=solana, time_type=1m, time_from=2025-05-11 23:59:00, time_to=2025-05-11 23:59:00
+[2025-05-12 15:32:05] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:32:05] [TokenpriceFetcher][fetch_price_history]: query address=2t7SanEtAjf35FERcfzzSTo8rajgV6YZWZYVVoRZpump, chain=solana, time_type=1m, time_from=2025-05-04 23:59:00, time_to=2025-05-04 23:59:00
+[2025-05-12 15:32:05] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:32:05] [TokenpriceFetcher][fetch_price_history]: query address=2t7SanEtAjf35FERcfzzSTo8rajgV6YZWZYVVoRZpump, chain=solana, time_type=1m, time_from=2025-05-05 23:59:00, time_to=2025-05-05 23:59:00
+[2025-05-12 15:32:06] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:32:06] [TokenpriceFetcher][fetch_price_history]: query address=2t7SanEtAjf35FERcfzzSTo8rajgV6YZWZYVVoRZpump, chain=solana, time_type=1m, time_from=2025-05-06 23:59:00, time_to=2025-05-06 23:59:00
+[2025-05-12 15:32:06] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:32:06] [TokenpriceFetcher][fetch_price_history]: query address=2t7SanEtAjf35FERcfzzSTo8rajgV6YZWZYVVoRZpump, chain=solana, time_type=1m, time_from=2025-05-11 23:59:00, time_to=2025-05-11 23:59:00
+[2025-05-12 15:32:07] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:32:07] [TokenpriceFetcher][fetch_price_history]: query address=R6Res6qfWxgDGom5CpUEvxt7DNJu62bWvbgj7Vkboop, chain=solana, time_type=1m, time_from=2025-05-05 23:59:00, time_to=2025-05-05 23:59:00
+[2025-05-12 15:32:07] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:32:07] [TokenpriceFetcher][fetch_price_history]: query address=R6Res6qfWxgDGom5CpUEvxt7DNJu62bWvbgj7Vkboop, chain=solana, time_type=1m, time_from=2025-05-06 23:59:00, time_to=2025-05-06 23:59:00
+[2025-05-12 15:32:08] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:32:08] [TokenpriceFetcher][fetch_price_history]: query address=R6Res6qfWxgDGom5CpUEvxt7DNJu62bWvbgj7Vkboop, chain=solana, time_type=1m, time_from=2025-05-07 23:59:00, time_to=2025-05-07 23:59:00
+[2025-05-12 15:32:09] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:32:09] [TokenpriceFetcher][fetch_price_history]: query address=R6Res6qfWxgDGom5CpUEvxt7DNJu62bWvbgj7Vkboop, chain=solana, time_type=1m, time_from=2025-05-12 23:59:00, time_to=2025-05-12 23:59:00
+[2025-05-12 15:32:09] [TokenpriceFetcher][fetch_price_history]: query address=0xA49fA5E8106E2d6d6a69E78df9B6A20AaB9c4444, chain=bsc, time_type=1m, time_from=2025-05-05 23:59:00, time_to=2025-05-05 23:59:00
+[2025-05-12 15:32:09] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:32:09] [TokenpriceFetcher][fetch_price_history]: query address=0xA49fA5E8106E2d6d6a69E78df9B6A20AaB9c4444, chain=bsc, time_type=1m, time_from=2025-05-06 23:59:00, time_to=2025-05-06 23:59:00
+[2025-05-12 15:32:10] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:32:10] [TokenpriceFetcher][fetch_price_history]: query address=0xA49fA5E8106E2d6d6a69E78df9B6A20AaB9c4444, chain=bsc, time_type=1m, time_from=2025-05-07 23:59:00, time_to=2025-05-07 23:59:00
+[2025-05-12 15:32:10] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:32:10] [TokenpriceFetcher][fetch_price_history]: query address=0xA49fA5E8106E2d6d6a69E78df9B6A20AaB9c4444, chain=bsc, time_type=1m, time_from=2025-05-12 23:59:00, time_to=2025-05-12 23:59:00
+[2025-05-12 15:32:11] [TokenpriceFetcher][fetch_price_history]: query address=0x74836cC0E821A6bE18e407E6388E430B689C66e9, chain=bsc, time_type=1m, time_from=2025-05-05 23:59:00, time_to=2025-05-05 23:59:00
+[2025-05-12 15:32:11] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:32:11] [TokenpriceFetcher][fetch_price_history]: query address=0x74836cC0E821A6bE18e407E6388E430B689C66e9, chain=bsc, time_type=1m, time_from=2025-05-06 23:59:00, time_to=2025-05-06 23:59:00
+[2025-05-12 15:32:12] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:32:12] [TokenpriceFetcher][fetch_price_history]: query address=0x74836cC0E821A6bE18e407E6388E430B689C66e9, chain=bsc, time_type=1m, time_from=2025-05-07 23:59:00, time_to=2025-05-07 23:59:00
+[2025-05-12 15:32:12] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:32:12] [TokenpriceFetcher][fetch_price_history]: query address=0x74836cC0E821A6bE18e407E6388E430B689C66e9, chain=bsc, time_type=1m, time_from=2025-05-12 23:59:00, time_to=2025-05-12 23:59:00
+[2025-05-12 15:32:13] [TokenpriceFetcher][fetch_price_history]: query address=GkyPYa7NnCFbduLknCfBfP7p8564X1VZhwZYJ6CZpump, chain=solana, time_type=1m, time_from=2025-05-06 23:59:00, time_to=2025-05-06 23:59:00
+[2025-05-12 15:32:14] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:32:14] [TokenpriceFetcher][fetch_price_history]: query address=GkyPYa7NnCFbduLknCfBfP7p8564X1VZhwZYJ6CZpump, chain=solana, time_type=1m, time_from=2025-05-07 23:59:00, time_to=2025-05-07 23:59:00
+[2025-05-12 15:32:14] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:32:14] [TokenpriceFetcher][fetch_price_history]: query address=GkyPYa7NnCFbduLknCfBfP7p8564X1VZhwZYJ6CZpump, chain=solana, time_type=1m, time_from=2025-05-08 23:59:00, time_to=2025-05-08 23:59:00
+[2025-05-12 15:32:14] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:32:14] [TokenpriceFetcher][fetch_price_history]: query address=GkyPYa7NnCFbduLknCfBfP7p8564X1VZhwZYJ6CZpump, chain=solana, time_type=1m, time_from=2025-05-13 23:59:00, time_to=2025-05-13 23:59:00
+[2025-05-12 15:32:15] [TokenpriceFetcher][fetch_price_history]: query address=83mCRQJzvKMeQd9wJbZDUCTPgRbZMDoPdMSx5Sf1pump, chain=solana, time_type=1m, time_from=2025-05-06 23:59:00, time_to=2025-05-06 23:59:00
+[2025-05-12 15:32:15] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:32:15] [TokenpriceFetcher][fetch_price_history]: query address=83mCRQJzvKMeQd9wJbZDUCTPgRbZMDoPdMSx5Sf1pump, chain=solana, time_type=1m, time_from=2025-05-07 23:59:00, time_to=2025-05-07 23:59:00
+[2025-05-12 15:32:16] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:32:16] [TokenpriceFetcher][fetch_price_history]: query address=83mCRQJzvKMeQd9wJbZDUCTPgRbZMDoPdMSx5Sf1pump, chain=solana, time_type=1m, time_from=2025-05-08 23:59:00, time_to=2025-05-08 23:59:00
+[2025-05-12 15:32:16] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:32:16] [TokenpriceFetcher][fetch_price_history]: query address=83mCRQJzvKMeQd9wJbZDUCTPgRbZMDoPdMSx5Sf1pump, chain=solana, time_type=1m, time_from=2025-05-13 23:59:00, time_to=2025-05-13 23:59:00
+[2025-05-12 15:32:17] [TokenpriceFetcher][fetch_price_history]: query address=0xd82544bf0dfe8385ef8fa34d67e6e4940cc63e16, chain=bsc, time_type=1m, time_from=2025-05-06 23:59:00, time_to=2025-05-06 23:59:00
+[2025-05-12 15:32:17] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:32:17] [TokenpriceFetcher][fetch_price_history]: query address=0xd82544bf0dfe8385ef8fa34d67e6e4940cc63e16, chain=bsc, time_type=1m, time_from=2025-05-07 23:59:00, time_to=2025-05-07 23:59:00
+[2025-05-12 15:32:18] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:32:18] [TokenpriceFetcher][fetch_price_history]: query address=0xd82544bf0dfe8385ef8fa34d67e6e4940cc63e16, chain=bsc, time_type=1m, time_from=2025-05-08 23:59:00, time_to=2025-05-08 23:59:00
+[2025-05-12 15:32:18] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:32:18] [TokenpriceFetcher][fetch_price_history]: query address=0xd82544bf0dfe8385ef8fa34d67e6e4940cc63e16, chain=bsc, time_type=1m, time_from=2025-05-13 23:59:00, time_to=2025-05-13 23:59:00
+[2025-05-12 15:32:19] [TokenpriceFetcher][fetch_price_history]: query address=FZRh6uAar3gEJb53ruHNjHibCPqiGHghfGiSRVeFpump, chain=solana, time_type=1m, time_from=2025-05-07 23:59:00, time_to=2025-05-07 23:59:00
+[2025-05-12 15:32:19] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:32:19] [TokenpriceFetcher][fetch_price_history]: query address=FZRh6uAar3gEJb53ruHNjHibCPqiGHghfGiSRVeFpump, chain=solana, time_type=1m, time_from=2025-05-08 23:59:00, time_to=2025-05-08 23:59:00
+[2025-05-12 15:32:20] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:32:20] [TokenpriceFetcher][fetch_price_history]: query address=FZRh6uAar3gEJb53ruHNjHibCPqiGHghfGiSRVeFpump, chain=solana, time_type=1m, time_from=2025-05-09 23:59:00, time_to=2025-05-09 23:59:00
+[2025-05-12 15:32:20] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:32:20] [TokenpriceFetcher][fetch_price_history]: query address=FZRh6uAar3gEJb53ruHNjHibCPqiGHghfGiSRVeFpump, chain=solana, time_type=1m, time_from=2025-05-14 23:59:00, time_to=2025-05-14 23:59:00
+[2025-05-12 15:32:21] [TokenpriceFetcher][fetch_price_history]: query address=9BqPvc9vPBdcVtez6UYiFEeqTSYqxypF4f1CmtaZpump, chain=solana, time_type=1m, time_from=2025-05-07 23:59:00, time_to=2025-05-07 23:59:00
+[2025-05-12 15:32:21] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:32:21] [TokenpriceFetcher][fetch_price_history]: query address=9BqPvc9vPBdcVtez6UYiFEeqTSYqxypF4f1CmtaZpump, chain=solana, time_type=1m, time_from=2025-05-08 23:59:00, time_to=2025-05-08 23:59:00
+[2025-05-12 15:32:22] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:32:22] [TokenpriceFetcher][fetch_price_history]: query address=9BqPvc9vPBdcVtez6UYiFEeqTSYqxypF4f1CmtaZpump, chain=solana, time_type=1m, time_from=2025-05-09 23:59:00, time_to=2025-05-09 23:59:00
+[2025-05-12 15:32:23] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:32:23] [TokenpriceFetcher][fetch_price_history]: query address=9BqPvc9vPBdcVtez6UYiFEeqTSYqxypF4f1CmtaZpump, chain=solana, time_type=1m, time_from=2025-05-14 23:59:00, time_to=2025-05-14 23:59:00
+[2025-05-12 15:32:24] [TokenpriceFetcher][fetch_price_history]: query address=G1jydhghPMLBXRFPR3wyJ9HbpKPR3Rv7M8Yakfo5pump, chain=solana, time_type=1m, time_from=2025-05-07 23:59:00, time_to=2025-05-07 23:59:00
+[2025-05-12 15:32:25] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:32:25] [TokenpriceFetcher][fetch_price_history]: query address=G1jydhghPMLBXRFPR3wyJ9HbpKPR3Rv7M8Yakfo5pump, chain=solana, time_type=1m, time_from=2025-05-08 23:59:00, time_to=2025-05-08 23:59:00
+[2025-05-12 15:32:25] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:32:25] [TokenpriceFetcher][fetch_price_history]: query address=G1jydhghPMLBXRFPR3wyJ9HbpKPR3Rv7M8Yakfo5pump, chain=solana, time_type=1m, time_from=2025-05-09 23:59:00, time_to=2025-05-09 23:59:00
+[2025-05-12 15:32:25] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:32:25] [TokenpriceFetcher][fetch_price_history]: query address=G1jydhghPMLBXRFPR3wyJ9HbpKPR3Rv7M8Yakfo5pump, chain=solana, time_type=1m, time_from=2025-05-14 23:59:00, time_to=2025-05-14 23:59:00
+[2025-05-12 15:32:26] [TokenpriceFetcher][fetch_price_history]: query address=0xcf640fdf9b3d9e45cbd69fda91d7e22579c14444, chain=bsc, time_type=1m, time_from=2025-05-07 23:59:00, time_to=2025-05-07 23:59:00
+[2025-05-12 15:32:26] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:32:26] [TokenpriceFetcher][fetch_price_history]: query address=0xcf640fdf9b3d9e45cbd69fda91d7e22579c14444, chain=bsc, time_type=1m, time_from=2025-05-08 23:59:00, time_to=2025-05-08 23:59:00
+[2025-05-12 15:32:27] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:32:27] [TokenpriceFetcher][fetch_price_history]: query address=0xcf640fdf9b3d9e45cbd69fda91d7e22579c14444, chain=bsc, time_type=1m, time_from=2025-05-09 23:59:00, time_to=2025-05-09 23:59:00
+[2025-05-12 15:32:28] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:32:28] [TokenpriceFetcher][fetch_price_history]: query address=0xcf640fdf9b3d9e45cbd69fda91d7e22579c14444, chain=bsc, time_type=1m, time_from=2025-05-14 23:59:00, time_to=2025-05-14 23:59:00
+[2025-05-12 15:32:28] [TokenpriceFetcher][fetch_price_history]: query address=76EDL5qNcte2ZH29quTaFzagXjWAEY83CATEjyA6pump, chain=solana, time_type=1m, time_from=2025-05-07 23:59:00, time_to=2025-05-07 23:59:00
+[2025-05-12 15:32:29] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:32:29] [TokenpriceFetcher][fetch_price_history]: query address=76EDL5qNcte2ZH29quTaFzagXjWAEY83CATEjyA6pump, chain=solana, time_type=1m, time_from=2025-05-08 23:59:00, time_to=2025-05-08 23:59:00
+[2025-05-12 15:32:29] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:32:29] [TokenpriceFetcher][fetch_price_history]: query address=76EDL5qNcte2ZH29quTaFzagXjWAEY83CATEjyA6pump, chain=solana, time_type=1m, time_from=2025-05-09 23:59:00, time_to=2025-05-09 23:59:00
+[2025-05-12 15:32:30] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:32:30] [TokenpriceFetcher][fetch_price_history]: query address=76EDL5qNcte2ZH29quTaFzagXjWAEY83CATEjyA6pump, chain=solana, time_type=1m, time_from=2025-05-14 23:59:00, time_to=2025-05-14 23:59:00
+[2025-05-12 15:32:30] [TokenpriceFetcher][fetch_price_history]: query address=0x1Ae85D523cab90558311c3d08fDB68fD28757516, chain=bsc, time_type=1m, time_from=2025-05-07 23:59:00, time_to=2025-05-07 23:59:00
+[2025-05-12 15:32:31] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:32:31] [TokenpriceFetcher][fetch_price_history]: query address=0x1Ae85D523cab90558311c3d08fDB68fD28757516, chain=bsc, time_type=1m, time_from=2025-05-08 23:59:00, time_to=2025-05-08 23:59:00
+[2025-05-12 15:32:31] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:32:31] [TokenpriceFetcher][fetch_price_history]: query address=0x1Ae85D523cab90558311c3d08fDB68fD28757516, chain=bsc, time_type=1m, time_from=2025-05-09 23:59:00, time_to=2025-05-09 23:59:00
+[2025-05-12 15:32:32] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:32:32] [TokenpriceFetcher][fetch_price_history]: query address=0x1Ae85D523cab90558311c3d08fDB68fD28757516, chain=bsc, time_type=1m, time_from=2025-05-14 23:59:00, time_to=2025-05-14 23:59:00
+[2025-05-12 15:32:32] [TokenpriceFetcher][fetch_price_history]: query address=0x9a574ea719B5E69df7C783D15C9514A26F3FaF53, chain=base, time_type=1m, time_from=2025-05-07 23:59:00, time_to=2025-05-07 23:59:00
+[2025-05-12 15:32:33] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:32:33] [TokenpriceFetcher][fetch_price_history]: query address=0x9a574ea719B5E69df7C783D15C9514A26F3FaF53, chain=base, time_type=1m, time_from=2025-05-08 23:59:00, time_to=2025-05-08 23:59:00
+[2025-05-12 15:32:33] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:32:33] [TokenpriceFetcher][fetch_price_history]: query address=0x9a574ea719B5E69df7C783D15C9514A26F3FaF53, chain=base, time_type=1m, time_from=2025-05-09 23:59:00, time_to=2025-05-09 23:59:00
+[2025-05-12 15:32:34] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:32:34] [TokenpriceFetcher][fetch_price_history]: query address=0x9a574ea719B5E69df7C783D15C9514A26F3FaF53, chain=base, time_type=1m, time_from=2025-05-14 23:59:00, time_to=2025-05-14 23:59:00
+[2025-05-12 15:32:35] [TokenpriceFetcher][fetch_price_history]: query address=CL2bvqdTtYQqhwQC1Ad5GZ7cedW9RrbtUK4AZs9Bpump, chain=solana, time_type=1m, time_from=2025-05-08 23:59:00, time_to=2025-05-08 23:59:00
+[2025-05-12 15:32:35] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:32:35] [TokenpriceFetcher][fetch_price_history]: query address=CL2bvqdTtYQqhwQC1Ad5GZ7cedW9RrbtUK4AZs9Bpump, chain=solana, time_type=1m, time_from=2025-05-09 23:59:00, time_to=2025-05-09 23:59:00
+[2025-05-12 15:32:36] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:32:36] [TokenpriceFetcher][fetch_price_history]: query address=CL2bvqdTtYQqhwQC1Ad5GZ7cedW9RrbtUK4AZs9Bpump, chain=solana, time_type=1m, time_from=2025-05-10 23:59:00, time_to=2025-05-10 23:59:00
+[2025-05-12 15:32:36] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:32:36] [TokenpriceFetcher][fetch_price_history]: query address=CL2bvqdTtYQqhwQC1Ad5GZ7cedW9RrbtUK4AZs9Bpump, chain=solana, time_type=1m, time_from=2025-05-15 23:59:00, time_to=2025-05-15 23:59:00
+[2025-05-12 15:32:37] [TokenpriceFetcher][fetch_price_history]: query address=4Uf883orBx89VQZiV4EoRpNqUWYN5ZuEvC4PCpQ9moon, chain=solana, time_type=1m, time_from=2025-05-08 23:59:00, time_to=2025-05-08 23:59:00
+[2025-05-12 15:32:37] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:32:37] [TokenpriceFetcher][fetch_price_history]: query address=4Uf883orBx89VQZiV4EoRpNqUWYN5ZuEvC4PCpQ9moon, chain=solana, time_type=1m, time_from=2025-05-09 23:59:00, time_to=2025-05-09 23:59:00
+[2025-05-12 15:32:38] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:32:38] [TokenpriceFetcher][fetch_price_history]: query address=4Uf883orBx89VQZiV4EoRpNqUWYN5ZuEvC4PCpQ9moon, chain=solana, time_type=1m, time_from=2025-05-10 23:59:00, time_to=2025-05-10 23:59:00
+[2025-05-12 15:32:38] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:32:38] [TokenpriceFetcher][fetch_price_history]: query address=4Uf883orBx89VQZiV4EoRpNqUWYN5ZuEvC4PCpQ9moon, chain=solana, time_type=1m, time_from=2025-05-15 23:59:00, time_to=2025-05-15 23:59:00
+[2025-05-12 15:32:39] [TokenpriceFetcher][fetch_price_history]: query address=HMRh9ksQTe2SXWLxaNTd2u8PTX9mcodUgzedDMaLbonk, chain=solana, time_type=1m, time_from=2025-05-08 23:59:00, time_to=2025-05-08 23:59:00
+[2025-05-12 15:32:39] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:32:39] [TokenpriceFetcher][fetch_price_history]: query address=HMRh9ksQTe2SXWLxaNTd2u8PTX9mcodUgzedDMaLbonk, chain=solana, time_type=1m, time_from=2025-05-09 23:59:00, time_to=2025-05-09 23:59:00
+[2025-05-12 15:32:40] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:32:40] [TokenpriceFetcher][fetch_price_history]: query address=HMRh9ksQTe2SXWLxaNTd2u8PTX9mcodUgzedDMaLbonk, chain=solana, time_type=1m, time_from=2025-05-10 23:59:00, time_to=2025-05-10 23:59:00
+[2025-05-12 15:32:40] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:32:40] [TokenpriceFetcher][fetch_price_history]: query address=HMRh9ksQTe2SXWLxaNTd2u8PTX9mcodUgzedDMaLbonk, chain=solana, time_type=1m, time_from=2025-05-15 23:59:00, time_to=2025-05-15 23:59:00
+[2025-05-12 15:32:41] [TokenpriceFetcher][fetch_price_history]: query address=0xA2c22252cDc8b7cDdEe1B0b2E242818509fCf7b8, chain=base, time_type=1m, time_from=2025-05-08 23:59:00, time_to=2025-05-08 23:59:00
+[2025-05-12 15:32:42] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:32:42] [TokenpriceFetcher][fetch_price_history]: query address=0xA2c22252cDc8b7cDdEe1B0b2E242818509fCf7b8, chain=base, time_type=1m, time_from=2025-05-09 23:59:00, time_to=2025-05-09 23:59:00
+[2025-05-12 15:32:42] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:32:42] [TokenpriceFetcher][fetch_price_history]: query address=0xA2c22252cDc8b7cDdEe1B0b2E242818509fCf7b8, chain=base, time_type=1m, time_from=2025-05-10 23:59:00, time_to=2025-05-10 23:59:00
+[2025-05-12 15:32:42] [TokenpriceFetcher][fetch_price_history]: 成功获取 1 条价格记录
+[2025-05-12 15:32:42] [TokenpriceFetcher][fetch_price_history]: query address=0xA2c22252cDc8b7cDdEe1B0b2E242818509fCf7b8, chain=base, time_type=1m, time_from=2025-05-15 23:59:00, time_to=2025-05-15 23:59:00

@@ -14,6 +14,7 @@ def fetch_birdeye_price_history(
     time_from_str: str,
     time_to_str: str,
     time_type: str,
+    chain: str,
     address_type: str = "token",
     api_key: str = "1417024180f241ac91e88350dc2a1058",
     output_csv: str = "price_history.csv"
@@ -32,7 +33,7 @@ def fetch_birdeye_price_history(
 
     headers = {
         "accept": "application/json",
-        "x-chain": "solana",
+        "x-chain": chain,
         "X-API-KEY": api_key
     }
 
@@ -66,5 +67,6 @@ if __name__ == "__main__":
         address="So11111111111111111111111111111111111111112",
         time_from_str="2024-05-01 00:00:00",
         time_to_str="2024-05-01 00:00:00",
-        time_type = "1m"
+        time_type = "1m",
+        chain = "solana"
     )
