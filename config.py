@@ -9,6 +9,6 @@ CONFIG = {
     "log_enabled": True,
     "HELIU_APIKEY":"9ab6766f-ff7d-4256-92d1-beb442440800",
     "BIRDEYE_APIKEY": "1417024180f241ac91e88350dc2a1058",
-    "telegram_token": "8021447065:AAE5Bze4RSCxTMeJf9O51u-zZ3vr4OJE_Hw",
+    "telegram_token": "8021447065:AAHijTlLzx2vPMaGFb4j5ECmKJbgStHdE2U",
 
 }

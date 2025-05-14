@@ -15,8 +15,12 @@ class SubscriberManager:
 
     def _load(self):
         if os.path.exists(self.filepath):
-            with open(self.filepath, "r") as f:
-                self.subscribers = set(json.load(f))
+            try:
+                with open(self.filepath, "r") as f:
+                    self.subscribers = set(json.load(f))
+            except (json.JSONDecodeError, ValueError) as e:
+                print(f"⚠️ 订阅者文件解析失败，已重置为空列表: {e}")
+                self.subscribers = set()
         else:
             self.subscribers = set()
 

@@ -189,6 +189,9 @@ def format_alpha_table_html(df, max_rows=20) -> list[tuple[str, InlineKeyboardMa
                 chain_raw = str(row["chain"])
 
                 # 超链接
+                if chain_raw == "solana":
+                    chain_raw = "sol"
+                
                 url = f"https://www.gmgn.ai/{chain_raw}/token/{address_raw}"
                 symbol_link = f"<a href='{url}'>{symbol_raw}</a>"
 
